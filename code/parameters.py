@@ -175,11 +175,9 @@ globals().update(NOMINAL_PARAMS)
 # -----------------------------------------------------------------------------
 
 CORRIDOR_REGIONS = { # Named municipality groups defining the modeled corridor.
+    "Zürich": ["Zürich"],
     "Limmattal": [
-        "Zürich",
-        "Schlieren",
-        "Dietikon",
-        "Unterengstringen",
+        "Schlieren", "Dietikon", "Unterengstringen", # "Oberengstringen", Urdorf, Weiningen und Geroldswil hinzuefüege?
     ]
 }
 
@@ -191,7 +189,7 @@ CORRIDOR_MUNICIPALITIES = [  # Derived flat list used by corridor selection and 
 # Optional project-relative or absolute detailed road-network cache path.
 # Notebook 02 prepares a missing cache; later notebooks require it to exist.
 # None uses the existing default cache. For a new project, select a new filename.
-DETAILED_NETWORK_FILE = "data/processed/limmattal_altstetten_detailed_network.pkl"
+DETAILED_NETWORK_FILE = "data/processed/limmattal_zurich_detailed_network.pkl"
 
 # -----------------------------------------------------------------------------
 # OPTION B: Define by Explicit Zone IDs
@@ -222,34 +220,6 @@ DETAILED_NETWORK_FILE = "data/processed/limmattal_altstetten_detailed_network.pk
 # Flat list of active corridor zone IDs:
 # CORRIDOR_ZONE_IDS = [z for zone_list in PROJECT_ZONES.values() for z in zone_list]
 # -----------------------------------------------------------------------------
-
-CORRIDOR_DEFINITION_MODE = "zones"
-
-PROJECT_ZONES = {
-    "Altstetten": [
-        "26101001", "26101002", "26101003", "26101004",
-        "26101006", "26101008", "26101009", "26101010",
-        "26101012", "26101013", "26101015", "26101016",
-        "26101017", "26101018", "26101019", "26101020",
-        "26101021", "26101023", "26101028", "26101029",
-        "26101030", "26101032", "26101033", "26101034",
-        "26101037", "26101039", "26101041", "26101046",
-        "26103306",
-    ],
-    "Schlieren": [
-        f"247010{i:02d}" for i in range(1, 21)
-    ],
-    "Dietikon": [
-        f"243010{i:02d}" for i in range(1, 28)
-    ],
-    "Unterengstringen": [
-        "24901001", "24901002", "24901003"
-    ],
-}
-
-CORRIDOR_ZONE_IDS = [
-    z for zone_list in PROJECT_ZONES.values() for z in zone_list
-]
 # Optional route coverage, including trips with endpoints outside the corridor.
 # Coverage is regenerated from the shared routing inputs when settings change.
 # PT approaches use service connectivity, not physical railway geometries.
