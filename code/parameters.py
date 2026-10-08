@@ -157,7 +157,7 @@ NOMINAL_PARAMS = {
     # -------------------------------------------------------------------------
     "MAX_AVG_TT": 15.0,  # Acceptability ceiling for peak car/PT in-vehicle time plus car delay (min/trip).
     "PT_SHARE_TARGET": 0.35,  # Teaching minimum for PT share of strategic passenger-km; baseline is about 31.9%.
-    "MIN_STRATEGIC_PKM_DISTANCE": 5.0,  # Minimum OD distance for strategic mode-share indicators (km); not an appraisal cutoff.
+    "MIN_STRATEGIC_PKM_DISTANCE": 2.0,  # Minimum OD distance for strategic mode-share indicators (km); not an appraisal cutoff.
 
     # Internal shared keys for appraisal and uncertainties; edit values in stages.py.
     **package_parameter_defaults(),
@@ -174,11 +174,19 @@ globals().update(NOMINAL_PARAMS)
 # OPTION A: Define by Municipalities / Regions (Empty when in "zones" mode)
 # -----------------------------------------------------------------------------
 
+
+
 CORRIDOR_REGIONS = { # Named municipality groups defining the modeled corridor.
-    "Zürich": ["Zürich"],
     "Limmattal": [
-        "Schlieren", "Dietikon", "Unterengstringen", # "Oberengstringen", Urdorf, Weiningen und Geroldswil hinzuefüege?
-    ]
+        "Schlieren",
+        "Dietikon",
+        "Unterengstringen",
+        "Oberengstringen",
+        "Urdorf",
+        "Weiningen (ZH)",
+        "Geroldswil"
+    ] , 
+    "Zürich" : ["Zürich"],   
 }
 
 # Flat list of all corridor municipalities
@@ -189,7 +197,7 @@ CORRIDOR_MUNICIPALITIES = [  # Derived flat list used by corridor selection and 
 # Optional project-relative or absolute detailed road-network cache path.
 # Notebook 02 prepares a missing cache; later notebooks require it to exist.
 # None uses the existing default cache. For a new project, select a new filename.
-DETAILED_NETWORK_FILE = "data/processed/limmattal_zurich_detailed_network.pkl"
+DETAILED_NETWORK_FILE = "data/processed/limmattal_erweitert_detailed_network.pkl"
 
 # -----------------------------------------------------------------------------
 # OPTION B: Define by Explicit Zone IDs
