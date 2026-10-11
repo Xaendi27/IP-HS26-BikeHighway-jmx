@@ -171,52 +171,58 @@ PACKAGES = {
 
 
     "stations": {
-        "name": "Stage 1 – Local Stations & Access Package",
+        "name": "Stage 1 – Eastern Section",
 
-        # Railway improvements
-        # Section minutes follow parameters.SECTION route coverage, including
-        # through travelers. Shorter headways reduce initial and transfer waiting
-        # between different CORRIDOR_MUNICIPALITIES, in both directions.
-        "railway_expansions": [
+        "bike_highways": [
             {
-                "section_time_saving_min": 1.0,  # In-vehicle minutes saved relative to baseline.
-                "headway_reduction_min": 1.0,  # Minutes removed from the baseline service interval.
-                "capacity_increase": 0.10,  # Fraction of baseline peak-hour comfort capacity (+10%).
+                "name": "Eastern section: Zurich–Schlieren",
+                "area_pairs": [
+                    {
+                        "origin": {"municipality_name": "Zürich"},
+                        "destination": {"municipality_name": "Schlieren"},
+                    },
+                ],
+                "both_directions": True,
+                "effects": {
+                    # Provisional improvement for fully affected journeys.
+                    # Replace with an evidence-based estimate.
+                    "speed_increase_pct": 20.0,
+                },
+            },
+            {
+                "name": "Eastern-section benefit on Zurich–Dietikon journeys",
+                "area_pairs": [
+                    {
+                        "origin": {"municipality_name": "Zürich"},
+                        "destination": {"municipality_name": "Dietikon"},
+                    },
+                ],
+                "both_directions": True,
+                "effects": {
+                    # Provisional whole-journey equivalent:
+                    # 20% higher speed affects 50% of baseline journey time.
+                    # 100 * (1 / (0.5 + 0.5 / 1.2) - 1) = 9.0909%.
+                    "speed_increase_pct": 9.0909090909,
+                },
             },
         ],
 
-        # Hub & Node Interventions
-        "mobility_hubs": [
-            {
-                "name": "Station Upgrades (Dietlikon, Bassersdorf, Wallisellen)",
-                "zones": [
-                    {"municipality_name": "Dietlikon"},
-                    {"municipality_name": "Bassersdorf"},
-                    {"municipality_name": "Wallisellen"}
-                ],
-                "effects": {
-                    "access_time_reduction_pct": 25.0,  # Improved pedestrian ramps & bus loop access
-                    "transfer_time_reduction_pct": 15.0, # Shorter platform transfer paths
-                    # Frequency savings belong to the railway package only.
-                    "egress_time_reduction_pct": 20.0,
-                }
-            }
-        ],
+        "railway_expansions": [],
+        "mobility_hubs": [],
+        "road_capacity": [],
 
-        # Appraisal considerations
-        # CAPEX is the base construction cost, before CAPEX_MULTIPLIER.
-        # Only capital_share retains residual value; the rest has none.
-        # At horizon H, opening in year y means H - y + 1 operated years.
-        # The remaining eligible value decreases linearly to zero over lifetime_years.
-        # Set capital_share to 0 to disable residual valuation (lifetime may then be None).
-        # No asset replacement is assumed.
         "appraisal": {
-            "capital_cost_chf": 925_000_000,  # Station-package CAPEX (CHF).
-            "lifetime_years": 80,  # Service life of the share valued below (years).
-            "capital_share": 0.60,  # Fraction of actual capital paid eligible for residual value.
-            # Total construction emissions (tonnes CO2e), spread over construction years.
-            # Pre-horizon emissions are charged at time zero; omitted entries mean zero.
-            # "construction_co2_tonnes": 0.0,  # Add a project-specific total when available.
+            # Provisional 50% allocation of total project investment.
+            # Replace with an eastern-section cost estimate.
+            "capital_cost_chf": 16_895_996,
+
+            # Residual value is temporarily excluded.
+            "lifetime_years": None,
+            "capital_share": 0.0,
+
+            # Construction emissions are not estimated yet.
+            # Omission is treated as zero by the model.
+            # Document this exclusion and add an estimate later.
         },
     },
 
@@ -242,39 +248,58 @@ PACKAGES = {
     #       Provides 17-minute service and the Winterthur hub improvements;
     #       both packages together provide 15-minute service.
     "tunnel": {
-        "name": "Stage 2 - Tunnel & Winterthur Hub only",
+        "name": "Stage 2 – Western Section",
 
-        # Railway improvements: the same section and service OD scope as above.
-        "railway_expansions": [
+        "bike_highways": [
             {
-                "section_time_saving_min": 4.0,  # In-vehicle minutes saved relative to baseline.
-                "headway_reduction_min": 3.0,  # Minutes removed from the baseline service interval.
-                "capacity_increase": 0.15,  # Fraction of baseline peak-hour comfort capacity (+15%).
+                "name": "Western section: Schlieren–Dietikon",
+                "area_pairs": [
+                    {
+                        "origin": {"municipality_name": "Schlieren"},
+                        "destination": {"municipality_name": "Dietikon"},
+                    },
+                ],
+                "both_directions": True,
+                "effects": {
+                    # Provisional improvement for fully affected journeys.
+                    # Replace with an evidence-based estimate.
+                    "speed_increase_pct": 20.0,
+                },
+            },
+            {
+                "name": "Western-section benefit on Zurich–Dietikon journeys",
+                "area_pairs": [
+                    {
+                        "origin": {"municipality_name": "Zürich"},
+                        "destination": {"municipality_name": "Dietikon"},
+                    },
+                ],
+                "both_directions": True,
+                "effects": {
+                    # Provisional whole-journey equivalent:
+                    # 20% higher speed affects 50% of baseline journey time.
+                    # 100 * (1 / (0.5 + 0.5 / 1.2) - 1) = 9.0909%.
+                    "speed_increase_pct": 9.0909090909,
+                },
             },
         ],
 
-        # Hub & Node Interventions
-        "mobility_hubs": [
-            {
-                "name": "Winterthur Multimodal Hub (A1)",
-                "zones": [
-                    {"municipality_name": "Winterthur"}
-                ],
-                "effects": {
-                    "access_time_reduction_pct": 25.0,
-                    "transfer_time_reduction_pct": 15.0, # Optimized platform connections at Winterthur HB
-                    # Frequency savings belong to the railway package only.
-                    "egress_time_reduction_pct": 20.0,
-                }
-            }
-        ],
+        "railway_expansions": [],
+        "mobility_hubs": [],
+        "road_capacity": [],
 
-        # Appraisal considerations: the same valuation and construction conventions.
         "appraisal": {
-            "capital_cost_chf": 2_302_600_000,  # Tunnel/Winterthur package CAPEX (CHF).
-            "lifetime_years": 80,  # Service life of the share valued below (years).
-            "capital_share": 0.60,  # Fraction of actual capital paid eligible for residual value.
-            "construction_co2_tonnes": 300_000.0,  # Total construction emissions (tonnes CO2e).
+            # Provisional 50% allocation of total project investment.
+            # Replace with a western-section cost estimate.
+            "capital_cost_chf": 16_895_996,
+
+            # Residual value is temporarily excluded.
+            "lifetime_years": None,
+            "capital_share": 0.0,
+
+            # Construction emissions are not estimated yet.
+            # Omission is treated as zero by the model.
+            # Document this exclusion and add an estimate later.
         },
     },
 }
@@ -286,23 +311,7 @@ PACKAGES = {
 # are added to the package values: 6 minutes of section saving and 5 minutes
 # of headway reduction in total (20-minute baseline -> 15-minute service).
 COMBINED_EFFECTS = {
-    "railway_expansions": [
-        {
-            "section_time_saving_min": 1.0,
-            "headway_reduction_min": 1.0,
-            "capacity_increase": 0.05,  # Extra fraction of baseline capacity, only when both packages operate.
-        },
-    ],
-    # Capacity increases are additive: +10% stations +15% tunnel +5% combined = +30% of baseline.
-    # Additional physical interventions can use the same dictionaries as above:
-    # "mobility_hubs": [{
-    #     "name": "Shared interchange improvement",
-    #     "zones": [{"municipality_name": "Dietlikon"}],
-    #     "effects": {"transfer_time_reduction_pct": 10.0},
-    # }],
-    # Add OD-specific PT effects as further railway_expansions entries.
-    # Other supported keys: bike_highways, road_capacity.
-    # Specify frequency changes above, to apply their waiting benefit only once.
+    
 }
 
 
