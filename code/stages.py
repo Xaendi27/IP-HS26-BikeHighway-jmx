@@ -147,171 +147,101 @@ from math import isfinite
 # 1. PACKAGES: RAILWAY IMPROVEMENTS, MOBILITY HUBS AND APPRAISAL
 # =============================================================================
 PACKAGES = {
-    # --- Station package ---
-    # ⚠️ STUDENT INSTRUCTION:
-    # The station and tunnel packages are SBB MehrSpur-specific examples.
-    # For your own project, replace these blocks completely with your own interventions.
-    # For example, use the "bike_highways" key (see Cheat Sheet above) to model a new cycle path.
-
-    # SBB MehrSpur station scope:
-
-    #       A3 Dietlikon: 4-track expansion & grade-separated flyover (Entflechtung),
-    #       eliminating cross-track bottlenecks towards the airport and Winterthur.
-
-    #       A4 Bassersdorf: Station modernization, portal approach tracks, and multimodal
-    #       hub integration (Velostation & P+R).
-
-    #       A5 Wallisellen: Grade-separated junction towards Zurich HB/Airport,
-    #       barrier-free platform access, and improved bus feeder connectivity.
-
-    # Transport & Economic Impact:
-    #       Relieves surface bottlenecks before tunnel completion, stabilizing network timetables.
-    #       Reduces station access/egress and physical transfer walking.
-    #       Shortens service headway and raises the section comfort threshold.
-
-
+    # --- Package 1: east section Zürich-Altstetten -> end of Schlieren ---
+    # 3.5 km, 4.8 m wide, 3 underpasses, 1 Limmat bridge. Usable on its own.
     "stations": {
-        "name": "Stage 1 – Eastern Section",
-
+        "name": "Stage 1 – Bike highway east: Altstetten–Schlieren (3.5 km, 3 underpasses)",
+        "railway_expansions": [
+            {"section_time_saving_min": 0.0, "headway_reduction_min": 0.0, "capacity_increase": 0.0},
+        ],
         "bike_highways": [
             {
-                "name": "Eastern section: Zurich–Schlieren",
-                "area_pairs": [
-                    {
-                        "origin": {"municipality_name": "Zürich"},
-                        "destination": {"municipality_name": "Schlieren"},
-                    },
-                ],
+                "name": "Zürich–Schlieren (east section)",
+                "area_pairs": [{"origin": {"municipality_name": "Zürich"},
+                                "destination": {"municipality_name": "Schlieren"}}],
                 "both_directions": True,
-                "effects": {
-                    # Provisional improvement for fully affected journeys.
-                    # Replace with an evidence-based estimate.
-                    "speed_increase_pct": 20.0,
-                },
+                "effects": {"speed_increase_pct": 28.57, "distance_reduction_pct": 4.0},
             },
             {
-                "name": "Eastern-section benefit on Zurich–Dietikon journeys",
-                "area_pairs": [
-                    {
-                        "origin": {"municipality_name": "Zürich"},
-                        "destination": {"municipality_name": "Dietikon"},
-                    },
-                ],
+                "name": "Zürich–Dietikon (east section)",
+                "area_pairs": [{"origin": {"municipality_name": "Zürich"},
+                                "destination": {"municipality_name": "Dietikon"}}],
                 "both_directions": True,
-                "effects": {
-                    # Provisional whole-journey equivalent:
-                    # 20% higher speed affects 50% of baseline journey time.
-                    # 100 * (1 / (0.5 + 0.5 / 1.2) - 1) = 9.0909%.
-                    "speed_increase_pct": 9.0909090909,
-                },
+                "effects": {"speed_increase_pct": 10.77, "distance_reduction_pct": 1.75},
+            },
+            {
+                "name": "Schlieren–Dietikon (east section)",
+                "area_pairs": [{"origin": {"municipality_name": "Schlieren"},
+                                "destination": {"municipality_name": "Dietikon"}}],
+                "both_directions": True,
+                "effects": {"speed_increase_pct": 9.09, "distance_reduction_pct": 1.5},
             },
         ],
-
-        "railway_expansions": [],
-        "mobility_hubs": [],
-        "road_capacity": [],
-
         "appraisal": {
-            # Provisional 50% allocation of total project investment.
-            # Replace with an eastern-section cost estimate.
-            "capital_cost_chf": 16_895_996,
-
-            # Residual value is temporarily excluded.
-            "lifetime_years": None,
-            "capital_share": 0.0,
-
-            # Construction emissions are not estimated yet.
-            # Omission is treated as zero by the model.
-            # Document this exclusion and add an estimate later.
+            "capital_cost_chf": 14_689_936,  # Path + 1 bridge + land + 3 underpasses (CHF 2025).
+            "lifetime_years": 40,            # Assumption, source to add.
+            "capital_share": 0.92,           # Construction share of CAPEX (land excluded).
+            # "construction_co2_tonnes": 0.0,  # Add when a source is available.
         },
     },
-
-    # --- Tunnel package ---
-    # Core Tunnel & Winterthur Hub Package (A0 Gesamt, A1 Winterthur, A2 Tunnel)
-    #
-    # ⚠️ STUDENT INSTRUCTION:
-    # Replace this package with your own long-term or secondary interventions.
-    #
-    # SBB MehrSpur tunnel scope (opening dates are configured in adaptive_planning.py):
-    #
-    #       A0 Gesamtprojekt: System-wide technical integration,
-    #       ETCS Level 2 signaling, traction power supply, and overall project management.
-    #
-    #       A1 Winterthur: Major track layout reconfiguration at Winterthur HB,
-    #       adding grade-separated flyovers, extended platforms, and conflict-free routing.
-    #
-    #       A2 Tunnel: 8.3 km twin-tube Brüttenertunnel cutting directly between
-    #       Dietlikon/Bassersdorf and Winterthur, bypassing the curvy Effretikon bottleneck.
-    #
-    # Transport & Economic Impact:
-    #       Saves 4 minutes on covered routes and raises the comfort threshold by 15%.
-    #       Provides 17-minute service and the Winterthur hub improvements;
-    #       both packages together provide 15-minute service.
+ 
+    # --- Package 2: west section end of Schlieren -> Dietikon (cantonal border AG) ---
+    # 4.5 km, 4.8 m wide, 5 underpasses, 1 Limmat bridge. Usable on its own.
     "tunnel": {
-        "name": "Stage 2 – Western Section",
-
+        "name": "Stage 2 – Bike highway west: Schlieren–Dietikon (4.5 km, 5 underpasses)",
+        "railway_expansions": [
+            {"section_time_saving_min": 0.0, "headway_reduction_min": 0.0, "capacity_increase": 0.0},
+        ],
         "bike_highways": [
             {
-                "name": "Western section: Schlieren–Dietikon",
-                "area_pairs": [
-                    {
-                        "origin": {"municipality_name": "Schlieren"},
-                        "destination": {"municipality_name": "Dietikon"},
-                    },
-                ],
+                "name": "Zürich–Dietikon (west section)",
+                "area_pairs": [{"origin": {"municipality_name": "Zürich"},
+                                "destination": {"municipality_name": "Dietikon"}}],
                 "both_directions": True,
-                "effects": {
-                    # Provisional improvement for fully affected journeys.
-                    # Replace with an evidence-based estimate.
-                    "speed_increase_pct": 20.0,
-                },
+                "effects": {"speed_increase_pct": 14.29, "distance_reduction_pct": 2.25},
             },
             {
-                "name": "Western-section benefit on Zurich–Dietikon journeys",
-                "area_pairs": [
-                    {
-                        "origin": {"municipality_name": "Zürich"},
-                        "destination": {"municipality_name": "Dietikon"},
-                    },
-                ],
+                "name": "Schlieren–Dietikon (west section)",
+                "area_pairs": [{"origin": {"municipality_name": "Schlieren"},
+                                "destination": {"municipality_name": "Dietikon"}}],
                 "both_directions": True,
-                "effects": {
-                    # Provisional whole-journey equivalent:
-                    # 20% higher speed affects 50% of baseline journey time.
-                    # 100 * (1 / (0.5 + 0.5 / 1.2) - 1) = 9.0909%.
-                    "speed_increase_pct": 9.0909090909,
-                },
+                "effects": {"speed_increase_pct": 16.13, "distance_reduction_pct": 2.5},
             },
         ],
-
-        "railway_expansions": [],
-        "mobility_hubs": [],
-        "road_capacity": [],
-
         "appraisal": {
-            # Provisional 50% allocation of total project investment.
-            # Replace with a western-section cost estimate.
-            "capital_cost_chf": 16_895_996,
-
-            # Residual value is temporarily excluded.
-            "lifetime_years": None,
-            "capital_share": 0.0,
-
-            # Construction emissions are not estimated yet.
-            # Omission is treated as zero by the model.
-            # Document this exclusion and add an estimate later.
+            "capital_cost_chf": 19_106_808,  # Path + 1 bridge + land + 5 underpasses (CHF 2025).
+            "lifetime_years": 40,            # Assumption, source to add.
+            "capital_share": 0.92,           # Construction share of CAPEX (land excluded).
+            # "construction_co2_tonnes": 0.0,
         },
     },
 }
-
+ 
 # =============================================================================
-# 2. COMBINED-ONLY BENEFITS
+# 2. COMBINED-ONLY EFFECTS
 # =============================================================================
-# Extra effects available only when BOTH packages are operating. These minutes
-# are added to the package values: 6 minutes of section saving and 5 minutes
-# of headway reduction in total (20-minute baseline -> 15-minute service).
+# Arithmetic continuity correction (no extra benefit): both packages are applied one
+# after another, so this makes state 3 equal to one continuous 8 km highway.
 COMBINED_EFFECTS = {
-    
+    "railway_expansions": [
+        {"section_time_saving_min": 0.0, "headway_reduction_min": 0.0, "capacity_increase": 0.0},
+    ],
+    "bike_highways": [
+        {
+            "name": "Zürich–Dietikon (continuity correction)",
+            "area_pairs": [{"origin": {"municipality_name": "Zürich"},
+                            "destination": {"municipality_name": "Dietikon"}}],
+            "both_directions": True,
+            "effects": {"speed_increase_pct": 1.56, "distance_reduction_pct": 0.04},
+        },
+        {
+            "name": "Schlieren–Dietikon (continuity correction)",
+            "area_pairs": [{"origin": {"municipality_name": "Schlieren"},
+                            "destination": {"municipality_name": "Dietikon"}}],
+            "both_directions": True,
+            "effects": {"speed_increase_pct": 1.49, "distance_reduction_pct": 0.04},
+        },
+    ],
 }
 
 
@@ -319,7 +249,7 @@ COMBINED_EFFECTS = {
 # INTERNAL ASSEMBLY AND APPRAISAL HELPERS (normally leave unchanged)
 # =============================================================================
 STATE_IDS = (0, 1, 2, 3)
-STATE_LABELS = {0: "Baseline", 1: "Stations only", 2: "Tunnel only", 3: "Stations + tunnel"}
+STATE_LABELS = {0: "Baseline", 1: "East section only", 2: "West section only", 3: "Full bike highway"}
 STATE_COLORS = {0: "#9E9E9E", 1: "#FFC107", 2: "#2196F3", 3: "#4CAF50"}
 _STATE_COMPONENTS = {0: (False, False), 1: (True, False), 2: (False, True), 3: (True, True)}
 
