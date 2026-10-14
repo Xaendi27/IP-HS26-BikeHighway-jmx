@@ -112,16 +112,18 @@ DEFAULT_TRIGGERS = {
 # Costs come from parameters.py; physical effects and asset lives from stages.py.
 # Names and descriptions are generated below so timing edits need only one change.
 PLAN_DEFINITIONS = {
+    # Package "stations" = east section Altstetten–Schlieren (stages.py)
+    # Package "tunnel"   = west section Schlieren–Dietikon (stages.py)
     "baseline": {
-        "name": "Baseline",
+        "name": "Baseline (no bike highway)",
         "initial_packages": [], "stations": None, "tunnel": None,
     },
     "static1": {
-        "name": "Static 1",
+        "name": "Static 1 (east section only)",
         "initial_packages": ["stations"], "stations": None, "tunnel": None,
     },
     "static2": {
-        "name": "Static 2",
+        "name": "Static 2 (full bike highway)",
         "initial_packages": ["stations", "tunnel"], "stations": None, "tunnel": None,
     },
     "staged1": {

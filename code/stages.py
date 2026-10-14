@@ -160,14 +160,14 @@ PACKAGES = {
                 "area_pairs": [{"origin": {"municipality_name": "Zürich"},
                                 "destination": {"municipality_name": "Schlieren"}}],
                 "both_directions": True,
-                "effects": {"speed_increase_pct": 28.57, "distance_reduction_pct": 4.0},
+                "effects": {"speed_increase_pct": 12.5, "distance_reduction_pct": 2.0},
             },
             {
                 "name": "Zürich–Dietikon (east section)",
                 "area_pairs": [{"origin": {"municipality_name": "Zürich"},
                                 "destination": {"municipality_name": "Dietikon"}}],
                 "both_directions": True,
-                "effects": {"speed_increase_pct": 10.77, "distance_reduction_pct": 1.75},
+                "effects": {"speed_increase_pct": 5.11, "distance_reduction_pct": 0.875},  # s = 0.175
             },
             {
                 "name": "Schlieren–Dietikon (east section)",
@@ -198,7 +198,7 @@ PACKAGES = {
                 "area_pairs": [{"origin": {"municipality_name": "Zürich"},
                                 "destination": {"municipality_name": "Dietikon"}}],
                 "both_directions": True,
-                "effects": {"speed_increase_pct": 14.29, "distance_reduction_pct": 2.25},
+                 "effects": {"speed_increase_pct": 6.67, "distance_reduction_pct": 1.125},  # s = 0.225
             },
             {
                 "name": "Schlieren–Dietikon (west section)",
@@ -232,7 +232,7 @@ COMBINED_EFFECTS = {
             "area_pairs": [{"origin": {"municipality_name": "Zürich"},
                             "destination": {"municipality_name": "Dietikon"}}],
             "both_directions": True,
-            "effects": {"speed_increase_pct": 1.56, "distance_reduction_pct": 0.04},
+            "effects": {"speed_increase_pct": 0.34, "distance_reduction_pct": 0.01},  # s = 0.175 + 0.225
         },
         {
             "name": "Schlieren–Dietikon (continuity correction)",
@@ -452,7 +452,7 @@ def _assemble_stages(packages: dict, params: dict, service_od_pairs: list[dict],
         }
         stages[stage] = specification
     combined = deepcopy(stages[2])
-    combined["name"] = "Both stages - Tunnel and Hubs"
+    combined["name"] = "Both stages – Full bike highway Altstetten–Dietikon"
     combined["section_time_saving_min"] = minute_effect(3, "section_time_saving_min")
     for key in ("railway_expansions", "mobility_hubs", "bike_highways", "road_capacity"):
         if key in stages[1] or key in stages[2] or key in combined_effects:
