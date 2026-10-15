@@ -48,7 +48,7 @@ NOMINAL_PARAMS = {
     # Present-day values; *_Y40 values define the nominal endpoints.
     # -------------------------------------------------------------------------
     "PASSENGER_DEMAND_GROWTH": 0.0,  # Cumulative passenger OD growth relative to baseline; 0.20 means +20%.
-    "PASSENGER_DEMAND_GROWTH_Y40": 0.20,  # Nominal final passenger-demand growth.
+    "PASSENGER_DEMAND_GROWTH_Y40": 0.11,  # Nominal final passenger-demand growth.
     "PT_ASC_SHIFT": 0.0,  # Additive preference shift for both PT access modes (utility units, not percent).
     "PT_ASC_SHIFT_Y40": 0.10,  # Nominal final PT preference shift (utility units).
     "BIKE_ASC_SHIFT": 0.0,  # Additive preference shift for standalone cycling (utility units).
@@ -57,7 +57,7 @@ NOMINAL_PARAMS = {
     "EBIKE_SHARE_Y40": 0.50,  # Nominal final e-bike share.
     "EBIKE_SPEED_MULTIPLIER": 1.5,  # E-bike speed divided by conventional-bike speed; 1.5 means 50% faster.
     "ROAD_FREIGHT_GROWTH": 0.0,  # Growth in prepared commercial/freight vehicles and their synthetic uplift.
-    "ROAD_FREIGHT_GROWTH_Y40": 0.10,  # Nominal final growth of prepared background road vehicles.
+    "ROAD_FREIGHT_GROWTH_Y40": 0.1891,  # Nominal final growth of prepared background road vehicles.
 
     # -------------------------------------------------------------------------
     # Peak-hour to annual conversions
