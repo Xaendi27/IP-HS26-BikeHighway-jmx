@@ -94,7 +94,7 @@ import parameters as p
 from additional import uncertainty as uc
 import stages as stages_module
 import transport_model_interface as tmi
-from surrogate_model.transport_surrogate import (current_model_inputs, stable_fingerprint,
+from surrogate_model.transport_surrogate import (current_model_inputs, portable_model_inputs, stable_fingerprint,
     reference_equations, _input_changes)
 
 INPUT_NAMES = list(uc.TRANSPORT_SURROGATE_INPUTS)
@@ -509,6 +509,7 @@ def build_transport_surrogate(*, stages: Sequence[int] | None = None, n_train: i
     directory = Path(artifact_dir or PROJECT_ROOT / "data/processed/transport_surrogate").resolve()
     directory.mkdir(parents=True, exist_ok=True)
     model_inputs = current_model_inputs(specs)
+    portable_inputs = portable_model_inputs(specs)
     equations = reference_equations()
     physical_inputs = json.loads(json.dumps(dict(model_inputs, reference_equations=equations), default=_json_default))
     changes = _input_changes(physical_inputs, _physical_inputs_on_disk())
@@ -611,6 +612,10 @@ def build_transport_surrogate(*, stages: Sequence[int] | None = None, n_train: i
     bundle = {"model": model, "od_labels": labels, "input_names": list(INPUT_NAMES),
               "input_bounds": _bounds().tolist(), "stages": list(stage_ids),
               "source_fingerprint": fingerprint, "reachable": reachable}
+    changes = _input_changes(portable_inputs, portable_model_inputs(specs))
+    if changes:
+        raise RuntimeError("Prepared transport inputs changed during reference generation: "
+                           + ", ".join(changes) + ". Cached rows retain their original inputs.")
     # Invalidate the old publication before replacing any payload files.
     _write_json(directory / "manifest.json", {"format_version": 3,
                 "emulator_kind": "pooled_od_delay_gp", "validation_passed": False,
@@ -656,6 +661,7 @@ def build_transport_surrogate(*, stages: Sequence[int] | None = None, n_train: i
                 "training_counts_by_stage": {str(s): sum(row["stage"] == s for row in train_records) for s in stage_ids},
                 "seed": int(seed), "design": "continuous LHS with balanced stage labels; independent paired-stage LHS holdout",
                 "model_fingerprint": fingerprint, "cache_namespace": cache_namespace,
+                "portable_model_inputs": portable_inputs,
                 "reference_equations": equations,
                 "cache_contract": contract, "training_solver_settings": solver,
                 "source_fingerprint": stable_fingerprint(sources), "source_convergence_passed": source_converged,

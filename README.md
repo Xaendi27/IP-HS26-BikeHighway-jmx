@@ -49,10 +49,7 @@ Already comfortable with Python, Git and Jupyter? Go directly to the [course wor
 
 Install the following before the first exercise:
 
-- **[Python 3.11](https://www.python.org/downloads/release/python-3119/) (Required version: Python 3.11 or 3.12)**  
-  *(Windows quick install: `winget install Python.Python.3.11`)*
-  > [!WARNING]
-  > **Do not use Python 3.13+!**  Please stick to **Python 3.11** (or 3.12).
+- [Python 3.11](https://www.python.org/downloads/) (recommended version)
 - [Visual Studio Code](https://code.visualstudio.com/) or another Python IDE of your choice
 - If using VS Code, its **Python** and **Jupyter** extensions
 - [Git](https://git-scm.com/downloads/)
@@ -103,6 +100,8 @@ git lfs pull
 
 If you stashed unfinished work, restore it with `git stash pop` after updating and resolve any conflicts. Coordinate edits to the same notebook to reduce merge conflicts.
 
+> **Tip for new phase releases:** When pulling a newly released notebook (e.g., Notebook 03), see [Working with newly released notebooks](#newly-released-notebooks) for how to easily preview the reference notebook in a clean clone before adapting it to your group's customized backend.
+
 ### 3. Create and activate a Python environment
 
 A virtual environment keeps the course packages separate from your system Python. Run the following commands from the repository root.
@@ -115,12 +114,6 @@ py -3.11 -m venv .venv
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
-
-> [!TIP]
-> **Windows Troubleshooting:**
-> - If `py -3.11 -m venv .venv` outputs `No suitable Python runtime found`, check installed versions with `py --list`. Install Python 3.11 with `winget install Python.Python.3.11`.
-> - If `Activate.ps1` gives an execution policy error (`running scripts is disabled on this system`), run:  
->   `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and try activating again.
 
 **macOS / Linux:**
 
@@ -155,26 +148,61 @@ For each phase:
 1. Save your work and pull course updates into your fork using the [repository instructions](#group-repository).
 2. Open the released exercise sheet from the course channels or `docs/phase-*/`.
 3. Read the complete sheet; it defines the required tasks, deliverables and submission requirements.
-4. Work through the corresponding reference notebook.
-5. Adapt the methods to your group's case study.
+4. Familiarize yourself with the newly released reference notebook (see [Working with newly released notebooks](#newly-released-notebooks) below).
+5. Adapt the methods and configurations to your group's case study.
+6. Submit your group's repository on Moodle (see [Submitting your group's repository](#submitting-your-repository)).
 
+<a id="newly-released-notebooks"></a>
+### Working with newly released notebooks
+
+When the teaching team releases a new exercise phase (such as Phase 3 with `03_uncertainty_modeling.ipynb`), you will pull those updates into your repository.
+
+> **Why a new notebook might not run right away in your fork:**  
+> The reference notebook is built to run on the *original reference backend*. During Phase 2, your group customized backend files (such as `code/parameters.py`, `code/stages.py`, or transport settings) for your specific case study. Because of those changes, running the newly pulled notebook directly against your modified backend may lead to errors or unexpected behavior until you adapt it.
+
+To preview how the new reference notebook is intended to work and see what its outputs and widgets look like:
+
+- **Option 1 (Recommended & easiest): Clone a separate reference copy**  
+  Clone the original course repository directly into a separate, clean folder on your machine (a standard clone, **not** a fork):
+  ```bash
+  git clone https://github.com/InfrastructurePlanningREISETHZ/IP-HS26-MehrSpur-CaseStudy.git MehrSpur-Reference
+  ```
+  In this clean reference folder, the backend code remains in its default state. You can run the new reference notebook out of the box, inspect figures and tables, and understand the workflow before applying it to your own case study.
+
+- **Option 2 (Alternative): Add the reference backend to a separate folder in your fork**  
+  If you are comfortable managing Python import paths and file organization, you can copy our original reference backend code into a separate folder within your current fork (for example, `code_reference/`) to run and inspect the reference notebook there.
+
+Once you understand how the reference notebook behaves with the baseline setup, adapt the notebook cells and settings to work with your group's customized backend in your main repository.
+
+<a id="submitting-your-repository"></a>
 ### Submitting your group's repository
 
-For each submission, follow the released exercise sheet and include your group's repository URL, all members' names and the **full commit SHA** identifying the version to review. A repository URL alone can point to work that changes after submission.
+For each submission, follow the released exercise sheet and submit on **Moodle**:
 
-Commit all required files and push the submitted work to your fork's `main` branch. Once the group has agreed on the final version, run:
+1. **Commit and push your final work:**  
+   Make sure all deliverables and code changes are committed and pushed to your fork's `main` branch. Once your group agrees on the final version, run:
+   ```bash
+   git switch main
+   git push origin main
+   git rev-parse HEAD
+   ```
+   The last command prints your **full 40-character commit SHA** (e.g., `a1b2c3d4...`).
 
-```bash
-git switch main
-git push origin main
-git rev-parse HEAD
-```
+2. **Submit on Moodle:**  
+   On Moodle, submit:
+   - Your group's GitHub **repository URL**
+   - The **full commit SHA** (this identifies the exact snapshot for the teaching team to review, allowing your group to continue working on the next phase without affecting the version reviewed for feedback)
+   - All group members' names
 
-Only submit after the push succeeds. Submit the printed SHA and repository URL through the submission channel specified in the exercise sheet. Check on GitHub that the commit exists and contains all required deliverables; local, untracked or ignored files are not included. Keep the repository and submitted commit available until grading is complete, even if you continue working on later phases.
+3. **Request specific feedback (optional):**  
+   If your group would like feedback on particular aspects of your work (such as modeling choices, a specific calculation, or open questions you encountered), feel free to include these specific questions in the submission text box on Moodle. The teaching team will address them during review.
+
+4. **Verify on GitHub:**  
+   Check on GitHub that your commit was pushed and includes all required deliverables (untracked, local, or ignored files are not included automatically). Because the commit SHA pins this exact version, you can keep working on the project and push new commits as normal—the teaching team will review the exact commit you submitted.
 
 *(If you chose the alternative private repository setup, remember that you must invite the lecturer and teaching assistants as collaborators so they can access your submission. A URL alone does not grant access to a private repository.)*
 
-Pull requests to the official course repository are for corrections to course material; keep submissions and grading feedback in your fork or the course submission channel.
+Pull requests to the official course repository are for corrections to course material; keep submissions and feedback in your fork and on Moodle.
 
 ### Reference notebooks
 

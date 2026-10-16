@@ -1,0 +1,5311 @@
+{
+  "n_train_total": 100,
+  "validation_fraction_of_training": 0.2,
+  "n_validation_total": 20,
+  "adaptive_fill_in": {
+    "enabled": false,
+    "max_points": 20,
+    "batch_size": 4,
+    "targets": {
+      "weighted_rmse_min": 0.2
+    },
+    "points_added": 0,
+    "final_holdout_metrics": {
+      "weighted_rmse_min": 0.15477299270786535
+    },
+    "target_reached": true
+  },
+  "seed": 42,
+  "records": [
+    {
+      "id": "train_000",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.14941769233989174,
+        "PT_ASC_SHIFT": 0.0662444862409918,
+        "EBIKE_SHARE": 0.4707777114404874,
+        "ROAD_FREIGHT_GROWTH": 0.2461761214833672
+      }
+    },
+    {
+      "id": "train_001",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.17734075856478637,
+        "PT_ASC_SHIFT": 0.10409751059345296,
+        "EBIKE_SHARE": 0.37231373163905307,
+        "ROAD_FREIGHT_GROWTH": 0.1408341309754572
+      }
+    },
+    {
+      "id": "train_002",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.044103204571271176,
+        "PT_ASC_SHIFT": 0.026198456248417712,
+        "EBIKE_SHARE": 0.6604606108667208,
+        "ROAD_FREIGHT_GROWTH": 0.1280384039529129
+      }
+    },
+    {
+      "id": "train_003",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.029507055840564678,
+        "PT_ASC_SHIFT": 0.2847089535469167,
+        "EBIKE_SHARE": 0.7370612219064497,
+        "ROAD_FREIGHT_GROWTH": 0.09002708264222495
+      }
+    },
+    {
+      "id": "train_004",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.3771179064908891,
+        "PT_ASC_SHIFT": 0.1237447309755833,
+        "EBIKE_SHARE": 0.6964480285540409,
+        "ROAD_FREIGHT_GROWTH": 0.2062061409830504
+      }
+    },
+    {
+      "id": "train_005",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4946933858194024,
+        "PT_ASC_SHIFT": -0.0014181038725194772,
+        "EBIKE_SHARE": 0.387661160865828,
+        "ROAD_FREIGHT_GROWTH": 0.07251818980822683
+      }
+    },
+    {
+      "id": "train_006",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.2705513155204836,
+        "PT_ASC_SHIFT": -0.04477855483140787,
+        "EBIKE_SHARE": 0.4344330344795013,
+        "ROAD_FREIGHT_GROWTH": 0.08750370696316126
+      }
+    },
+    {
+      "id": "train_007",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.09291997355552717,
+        "PT_ASC_SHIFT": 0.049267804187030195,
+        "EBIKE_SHARE": 0.328403808142507,
+        "ROAD_FREIGHT_GROWTH": 0.20825853319034132
+      }
+    },
+    {
+      "id": "train_008",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.34371922249303294,
+        "PT_ASC_SHIFT": 0.12651816117586054,
+        "EBIKE_SHARE": 0.6874174430379831,
+        "ROAD_FREIGHT_GROWTH": 0.1179558833220711
+      }
+    },
+    {
+      "id": "train_009",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.47109054946265166,
+        "PT_ASC_SHIFT": 0.16209718029509632,
+        "EBIKE_SHARE": 0.45225199858022014,
+        "ROAD_FREIGHT_GROWTH": 0.1226519776038513
+      }
+    },
+    {
+      "id": "train_010",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.34993993656789363,
+        "PT_ASC_SHIFT": 0.004669287215768647,
+        "EBIKE_SHARE": 0.6696485419389877,
+        "ROAD_FREIGHT_GROWTH": 0.19792214831080213
+      }
+    },
+    {
+      "id": "train_011",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.07982581860976642,
+        "PT_ASC_SHIFT": -0.039219057429987214,
+        "EBIKE_SHARE": 0.7153688689153341,
+        "ROAD_FREIGHT_GROWTH": 0.2443499175683459
+      }
+    },
+    {
+      "id": "train_012",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4602225314721751,
+        "PT_ASC_SHIFT": 0.011440990065562762,
+        "EBIKE_SHARE": 0.3589005048863869,
+        "ROAD_FREIGHT_GROWTH": -0.002000417227369114
+      }
+    },
+    {
+      "id": "train_013",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.20049152935748504,
+        "PT_ASC_SHIFT": 0.06934059657363187,
+        "EBIKE_SHARE": 0.7411215904175552,
+        "ROAD_FREIGHT_GROWTH": 0.10685806284447624
+      }
+    },
+    {
+      "id": "train_014",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.39178758957123155,
+        "PT_ASC_SHIFT": 0.15372503521618844,
+        "EBIKE_SHARE": 0.5187311165102979,
+        "ROAD_FREIGHT_GROWTH": 0.23870652924428298
+      }
+    },
+    {
+      "id": "train_015",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.27832117926746663,
+        "PT_ASC_SHIFT": 0.2821156151754275,
+        "EBIKE_SHARE": 0.7033912014143535,
+        "ROAD_FREIGHT_GROWTH": 0.008019238937764961
+      }
+    },
+    {
+      "id": "train_016",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4255569717599958,
+        "PT_ASC_SHIFT": 0.21378568239736803,
+        "EBIKE_SHARE": 0.3404243606159002,
+        "ROAD_FREIGHT_GROWTH": 0.12069234973067872
+      }
+    },
+    {
+      "id": "train_017",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.24778427515802437,
+        "PT_ASC_SHIFT": 0.07425313044307055,
+        "EBIKE_SHARE": 0.5568197842994926,
+        "ROAD_FREIGHT_GROWTH": 0.1883542884660338
+      }
+    },
+    {
+      "id": "train_018",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.28402617848712275,
+        "PT_ASC_SHIFT": 0.23906424205653867,
+        "EBIKE_SHARE": 0.5741793349207102,
+        "ROAD_FREIGHT_GROWTH": 0.23510067987782218
+      }
+    },
+    {
+      "id": "train_019",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4839448436956331,
+        "PT_ASC_SHIFT": 0.2613523339410925,
+        "EBIKE_SHARE": 0.604436323162123,
+        "ROAD_FREIGHT_GROWTH": 0.16247245085899636
+      }
+    },
+    {
+      "id": "train_020",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.3063498052177082,
+        "PT_ASC_SHIFT": -0.06962554744576029,
+        "EBIKE_SHARE": 0.47652288788433683,
+        "ROAD_FREIGHT_GROWTH": -0.03030574197040211
+      }
+    },
+    {
+      "id": "train_021",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.16515898451193703,
+        "PT_ASC_SHIFT": 0.01963980855689744,
+        "EBIKE_SHARE": 0.7300270235717196,
+        "ROAD_FREIGHT_GROWTH": -0.03739752940978992
+      }
+    },
+    {
+      "id": "train_022",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4008710975467647,
+        "PT_ASC_SHIFT": 0.10999582089958657,
+        "EBIKE_SHARE": 0.2821622834350776,
+        "ROAD_FREIGHT_GROWTH": 0.10402867289382756
+      }
+    },
+    {
+      "id": "train_023",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.06287690607098173,
+        "PT_ASC_SHIFT": 0.08247591509561411,
+        "EBIKE_SHARE": 0.29784168350968665,
+        "ROAD_FREIGHT_GROWTH": 0.014616008102197833
+      }
+    },
+    {
+      "id": "train_024",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.18246731172612618,
+        "PT_ASC_SHIFT": -0.05235059967726441,
+        "EBIKE_SHARE": 0.5793509675383373,
+        "ROAD_FREIGHT_GROWTH": -0.0482134056281055
+      }
+    },
+    {
+      "id": "train_025",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.1436399351650467,
+        "PT_ASC_SHIFT": 0.273201171464757,
+        "EBIKE_SHARE": 0.4575377152119726,
+        "ROAD_FREIGHT_GROWTH": 0.18353152442104417
+      }
+    },
+    {
+      "id": "train_026",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.26354874367223935,
+        "PT_ASC_SHIFT": 0.233132439243364,
+        "EBIKE_SHARE": 0.2695285117382092,
+        "ROAD_FREIGHT_GROWTH": 0.021902902676309177
+      }
+    },
+    {
+      "id": "train_027",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.11667473673507452,
+        "PT_ASC_SHIFT": -0.015610409586175364,
+        "EBIKE_SHARE": 0.6159932304059152,
+        "ROAD_FREIGHT_GROWTH": 0.20135231629606276
+      }
+    },
+    {
+      "id": "train_028",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.014858303630945396,
+        "PT_ASC_SHIFT": -0.0063168782757675734,
+        "EBIKE_SHARE": 0.7715277496938342,
+        "ROAD_FREIGHT_GROWTH": 0.14679657976405797
+      }
+    },
+    {
+      "id": "train_029",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.1586903632911535,
+        "PT_ASC_SHIFT": -0.06287785182380375,
+        "EBIKE_SHARE": 0.3081234882812369,
+        "ROAD_FREIGHT_GROWTH": 0.224760994507397
+      }
+    },
+    {
+      "id": "train_030",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.18308868578238915,
+        "PT_ASC_SHIFT": 0.08940061359378071,
+        "EBIKE_SHARE": 0.5300355562337307,
+        "ROAD_FREIGHT_GROWTH": 0.055451806246319305
+      }
+    },
+    {
+      "id": "train_031",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4157087007829667,
+        "PT_ASC_SHIFT": 0.24202403672302195,
+        "EBIKE_SHARE": 0.4846857633321697,
+        "ROAD_FREIGHT_GROWTH": 0.1366361743565572
+      }
+    },
+    {
+      "id": "train_032",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.45727617922594216,
+        "PT_ASC_SHIFT": 0.11364942171128917,
+        "EBIKE_SHARE": 0.6395617386730472,
+        "ROAD_FREIGHT_GROWTH": -0.0511899867729488
+      }
+    },
+    {
+      "id": "train_033",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.3559325720220972,
+        "PT_ASC_SHIFT": -0.021387479218139355,
+        "EBIKE_SHARE": 0.5932499647968523,
+        "ROAD_FREIGHT_GROWTH": 0.15864394455822683
+      }
+    },
+    {
+      "id": "train_034",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.10829008550730984,
+        "PT_ASC_SHIFT": 0.054070786252228414,
+        "EBIKE_SHARE": 0.7846949562501234,
+        "ROAD_FREIGHT_GROWTH": 0.04102993126436198
+      }
+    },
+    {
+      "id": "train_035",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.12640660831586714,
+        "PT_ASC_SHIFT": 0.1580371720225819,
+        "EBIKE_SHARE": 0.5473419544976377,
+        "ROAD_FREIGHT_GROWTH": 0.132225782870051
+      }
+    },
+    {
+      "id": "train_036",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.0766855741926013,
+        "PT_ASC_SHIFT": 0.20693209734763243,
+        "EBIKE_SHARE": 0.27567637051461596,
+        "ROAD_FREIGHT_GROWTH": 0.17873704128131562
+      }
+    },
+    {
+      "id": "train_037",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.1259276197778646,
+        "PT_ASC_SHIFT": 0.21191355168047873,
+        "EBIKE_SHARE": 0.7899553944169312,
+        "ROAD_FREIGHT_GROWTH": 0.21774971497188522
+      }
+    },
+    {
+      "id": "train_038",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.05801825637700975,
+        "PT_ASC_SHIFT": 0.2537838554258438,
+        "EBIKE_SHARE": 0.5409028334237551,
+        "ROAD_FREIGHT_GROWTH": 0.03302774351746304
+      }
+    },
+    {
+      "id": "train_039",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.16903136351312692,
+        "PT_ASC_SHIFT": 0.1693623094612324,
+        "EBIKE_SHARE": 0.5100015296214222,
+        "ROAD_FREIGHT_GROWTH": 0.25213631599681186
+      }
+    },
+    {
+      "id": "train_040",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.44324581337830865,
+        "PT_ASC_SHIFT": 0.28833595261944966,
+        "EBIKE_SHARE": 0.5017338230500782,
+        "ROAD_FREIGHT_GROWTH": 0.24203507259396745
+      }
+    },
+    {
+      "id": "train_041",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.021883967285740435,
+        "PT_ASC_SHIFT": -0.09348368913544976,
+        "EBIKE_SHARE": 0.5424361564127718,
+        "ROAD_FREIGHT_GROWTH": 0.0696902244340089
+      }
+    },
+    {
+      "id": "train_042",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.07078002775024095,
+        "PT_ASC_SHIFT": 0.220188402419721,
+        "EBIKE_SHARE": 0.38589995189022935,
+        "ROAD_FREIGHT_GROWTH": 0.05205486922720892
+      }
+    },
+    {
+      "id": "train_043",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.10379175563397323,
+        "PT_ASC_SHIFT": -0.03174417428019585,
+        "EBIKE_SHARE": 0.3975946570032989,
+        "ROAD_FREIGHT_GROWTH": 0.05041749885437881
+      }
+    },
+    {
+      "id": "train_044",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.10495432057997872,
+        "PT_ASC_SHIFT": 0.03203049774377667,
+        "EBIKE_SHARE": 0.641095775035598,
+        "ROAD_FREIGHT_GROWTH": 0.02352105196559033
+      }
+    },
+    {
+      "id": "train_045",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.24876445256385032,
+        "PT_ASC_SHIFT": 0.056426213441208545,
+        "EBIKE_SHARE": 0.40114627901787453,
+        "ROAD_FREIGHT_GROWTH": 0.17009904887943525
+      }
+    },
+    {
+      "id": "train_046",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.04440408702477694,
+        "PT_ASC_SHIFT": 0.021353354947328956,
+        "EBIKE_SHARE": 0.6219448824911946,
+        "ROAD_FREIGHT_GROWTH": 0.06880575298882215
+      }
+    },
+    {
+      "id": "train_047",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.1562275272794432,
+        "PT_ASC_SHIFT": 0.2509501579363086,
+        "EBIKE_SHARE": 0.6243475276720643,
+        "ROAD_FREIGHT_GROWTH": 0.16105999106763785
+      }
+    },
+    {
+      "id": "train_048",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.1868593055268804,
+        "PT_ASC_SHIFT": 0.20067554931150042,
+        "EBIKE_SHARE": 0.5351569362585653,
+        "ROAD_FREIGHT_GROWTH": -0.02416327296405362
+      }
+    },
+    {
+      "id": "train_049",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.22980432045935406,
+        "PT_ASC_SHIFT": 0.2285017518366502,
+        "EBIKE_SHARE": 0.40841960933856986,
+        "ROAD_FREIGHT_GROWTH": -0.033838961404580495
+      }
+    },
+    {
+      "id": "train_050",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.13755816613231175,
+        "PT_ASC_SHIFT": -0.04388730570424387,
+        "EBIKE_SHARE": 0.46174592347588717,
+        "ROAD_FREIGHT_GROWTH": 0.1737208986368668
+      }
+    },
+    {
+      "id": "train_051",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4089024459860425,
+        "PT_ASC_SHIFT": 0.2590813758800047,
+        "EBIKE_SHARE": 0.3812749778021741,
+        "ROAD_FREIGHT_GROWTH": 0.011379372701547957
+      }
+    },
+    {
+      "id": "train_052",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.12114717246760026,
+        "PT_ASC_SHIFT": 0.2979746802735175,
+        "EBIKE_SHARE": 0.5596815566039641,
+        "ROAD_FREIGHT_GROWTH": -0.006863683729170775
+      }
+    },
+    {
+      "id": "train_053",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.050601570438379595,
+        "PT_ASC_SHIFT": 0.11678350189527095,
+        "EBIKE_SHARE": 0.7740652607871131,
+        "ROAD_FREIGHT_GROWTH": 0.15334054926837956
+      }
+    },
+    {
+      "id": "train_054",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.17291740426090121,
+        "PT_ASC_SHIFT": 0.015504984785398607,
+        "EBIKE_SHARE": 0.5858984059694642,
+        "ROAD_FREIGHT_GROWTH": 0.22238068326792687
+      }
+    },
+    {
+      "id": "train_055",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.38589335915753337,
+        "PT_ASC_SHIFT": 0.06204566381859389,
+        "EBIKE_SHARE": 0.49385424682980034,
+        "ROAD_FREIGHT_GROWTH": 0.19284410362975038
+      }
+    },
+    {
+      "id": "train_056",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.06200512358817439,
+        "PT_ASC_SHIFT": 0.13230076628275186,
+        "EBIKE_SHARE": 0.3488632727973756,
+        "ROAD_FREIGHT_GROWTH": 0.08283314754244148
+      }
+    },
+    {
+      "id": "train_057",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.3695621742182324,
+        "PT_ASC_SHIFT": 0.24757641038499698,
+        "EBIKE_SHARE": 0.6672281322161485,
+        "ROAD_FREIGHT_GROWTH": 0.10179507169663904
+      }
+    },
+    {
+      "id": "train_058",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.2972363766149977,
+        "PT_ASC_SHIFT": 0.26961582978706256,
+        "EBIKE_SHARE": 0.33286837228119887,
+        "ROAD_FREIGHT_GROWTH": 0.13768735789293568
+      }
+    },
+    {
+      "id": "train_059",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.020728328789112904,
+        "PT_ASC_SHIFT": -0.07913905379700875,
+        "EBIKE_SHARE": 0.32140189768812655,
+        "ROAD_FREIGHT_GROWTH": -0.03939773408238134
+      }
+    },
+    {
+      "id": "train_060",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.1931939996958208,
+        "PT_ASC_SHIFT": 0.1848127316466994,
+        "EBIKE_SHARE": 0.7272204759191846,
+        "ROAD_FREIGHT_GROWTH": 0.03655515254064308
+      }
+    },
+    {
+      "id": "train_061",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.3137578892550999,
+        "PT_ASC_SHIFT": -0.05947095581510405,
+        "EBIKE_SHARE": 0.582182910634637,
+        "ROAD_FREIGHT_GROWTH": 0.002927856516821911
+      }
+    },
+    {
+      "id": "train_062",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4343807116961496,
+        "PT_ASC_SHIFT": -0.033703528345494047,
+        "EBIKE_SHARE": 0.25741437935931016,
+        "ROAD_FREIGHT_GROWTH": 0.06023646475044728
+      }
+    },
+    {
+      "id": "train_063",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.15382272182546586,
+        "PT_ASC_SHIFT": 0.19500864174819457,
+        "EBIKE_SHARE": 0.2926983570035133,
+        "ROAD_FREIGHT_GROWTH": -0.013553720451712103
+      }
+    },
+    {
+      "id": "train_064",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.10071598134396739,
+        "PT_ASC_SHIFT": 0.2275788876805835,
+        "EBIKE_SHARE": 0.3706339262867465,
+        "ROAD_FREIGHT_GROWTH": 0.15069701109323896
+      }
+    },
+    {
+      "id": "train_065",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.04702321270934892,
+        "PT_ASC_SHIFT": -0.09129865676182537,
+        "EBIKE_SHARE": 0.49029315929341766,
+        "ROAD_FREIGHT_GROWTH": 0.21698422993915867
+      }
+    },
+    {
+      "id": "train_066",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.14344679330741217,
+        "PT_ASC_SHIFT": 0.2673378731090589,
+        "EBIKE_SHARE": 0.7104340395471413,
+        "ROAD_FREIGHT_GROWTH": 0.028449955881657663
+      }
+    },
+    {
+      "id": "train_067",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.24019156955434245,
+        "PT_ASC_SHIFT": 0.17591540793465424,
+        "EBIKE_SHARE": 0.6126953252495966,
+        "ROAD_FREIGHT_GROWTH": 0.09637008497834954
+      }
+    },
+    {
+      "id": "train_068",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.19337367352839024,
+        "PT_ASC_SHIFT": 0.17763542473555613,
+        "EBIKE_SHARE": 0.2627560701026027,
+        "ROAD_FREIGHT_GROWTH": 0.23166357961082207
+      }
+    },
+    {
+      "id": "train_069",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.3367740623213356,
+        "PT_ASC_SHIFT": -0.026018104948088913,
+        "EBIKE_SHARE": 0.43768747281770964,
+        "ROAD_FREIGHT_GROWTH": 0.017023765589629716
+      }
+    },
+    {
+      "id": "train_070",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.3316956745659105,
+        "PT_ASC_SHIFT": 0.039274006361613906,
+        "EBIKE_SHARE": 0.7601979032089259,
+        "ROAD_FREIGHT_GROWTH": 0.14558281904892362
+      }
+    },
+    {
+      "id": "train_071",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.29300137143780053,
+        "PT_ASC_SHIFT": 0.03033495029718722,
+        "EBIKE_SHARE": 0.3542291023403982,
+        "ROAD_FREIGHT_GROWTH": 0.09266498090695555
+      }
+    },
+    {
+      "id": "train_072",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.2233337293589765,
+        "PT_ASC_SHIFT": -0.06440668761161486,
+        "EBIKE_SHARE": 0.652415977954163,
+        "ROAD_FREIGHT_GROWTH": 0.0009519919641907404
+      }
+    },
+    {
+      "id": "train_073",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.03152610691687355,
+        "PT_ASC_SHIFT": 0.1836035474336805,
+        "EBIKE_SHARE": 0.32236033776621237,
+        "ROAD_FREIGHT_GROWTH": 0.04467664288851811
+      }
+    },
+    {
+      "id": "train_074",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.16485699476410615,
+        "PT_ASC_SHIFT": -0.09920810352109438,
+        "EBIKE_SHARE": 0.5207128735257577,
+        "ROAD_FREIGHT_GROWTH": 0.030029466688654124
+      }
+    },
+    {
+      "id": "train_075",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.09554702551795308,
+        "PT_ASC_SHIFT": -0.0725382088336526,
+        "EBIKE_SHARE": 0.362551625802288,
+        "ROAD_FREIGHT_GROWTH": -0.043739754209752166
+      }
+    },
+    {
+      "id": "train_076",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.01700300500885793,
+        "PT_ASC_SHIFT": 0.14214880253762593,
+        "EBIKE_SHARE": 0.46788200777144806,
+        "ROAD_FREIGHT_GROWTH": 0.18145987318391568
+      }
+    },
+    {
+      "id": "train_077",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.03386524322250595,
+        "PT_ASC_SHIFT": 0.19144092635618418,
+        "EBIKE_SHARE": 0.41787167499286937,
+        "ROAD_FREIGHT_GROWTH": 0.07708008886189549
+      }
+    },
+    {
+      "id": "train_078",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.0013720104162978641,
+        "PT_ASC_SHIFT": -0.08547004724046052,
+        "EBIKE_SHARE": 0.6934848415259556,
+        "ROAD_FREIGHT_GROWTH": -0.015350632701483402
+      }
+    },
+    {
+      "id": "train_079",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.21034375144191148,
+        "PT_ASC_SHIFT": -0.050742973381823785,
+        "EBIKE_SHARE": 0.7983671793898579,
+        "ROAD_FREIGHT_GROWTH": -0.011090322134972616
+      }
+    },
+    {
+      "id": "train_080",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4445855638632327,
+        "PT_ASC_SHIFT": -0.08192364171320032,
+        "EBIKE_SHARE": 0.2866940133724742,
+        "ROAD_FREIGHT_GROWTH": 0.11379654364546021
+      }
+    },
+    {
+      "id": "train_081",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.05893992342141541,
+        "PT_ASC_SHIFT": 0.0453896506377596,
+        "EBIKE_SHARE": 0.4270758449462911,
+        "ROAD_FREIGHT_GROWTH": -0.053067618589936444
+      }
+    },
+    {
+      "id": "train_082",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.00843042340487335,
+        "PT_ASC_SHIFT": 0.14684737754327015,
+        "EBIKE_SHARE": 0.6309580876072935,
+        "ROAD_FREIGHT_GROWTH": 0.2044424211971118
+      }
+    },
+    {
+      "id": "train_083",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4741364130982704,
+        "PT_ASC_SHIFT": -0.011442876273303579,
+        "EBIKE_SHARE": 0.3152734343948415,
+        "ROAD_FREIGHT_GROWTH": 0.00539445469248797
+      }
+    },
+    {
+      "id": "train_084",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.08866567023760956,
+        "PT_ASC_SHIFT": 0.13709713748691432,
+        "EBIKE_SHARE": 0.4255352872964706,
+        "ROAD_FREIGHT_GROWTH": -0.02032109911111535
+      }
+    },
+    {
+      "id": "train_085",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.030038144489735352,
+        "PT_ASC_SHIFT": 0.29216447901636367,
+        "EBIKE_SHARE": 0.597595137031532,
+        "ROAD_FREIGHT_GROWTH": 0.19087235387524198
+      }
+    },
+    {
+      "id": "train_086",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4175216312675932,
+        "PT_ASC_SHIFT": 0.09281954064406764,
+        "EBIKE_SHARE": 0.7452968511545047,
+        "ROAD_FREIGHT_GROWTH": 0.25063836957634383
+      }
+    },
+    {
+      "id": "train_087",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.07113053126750818,
+        "PT_ASC_SHIFT": 0.21961980320974236,
+        "EBIKE_SHARE": 0.4116110886498673,
+        "ROAD_FREIGHT_GROWTH": 0.16745578081401874
+      }
+    },
+    {
+      "id": "train_088",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.1320453457196929,
+        "PT_ASC_SHIFT": 0.09771027794386464,
+        "EBIKE_SHARE": 0.7204370816586032,
+        "ROAD_FREIGHT_GROWTH": -0.02831457814980084
+      }
+    },
+    {
+      "id": "train_089",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.00465253626995385,
+        "PT_ASC_SHIFT": 0.14880302113395177,
+        "EBIKE_SHARE": 0.5057931573143352,
+        "ROAD_FREIGHT_GROWTH": 0.04252293546541985
+      }
+    },
+    {
+      "id": "train_090",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.18548134635016927,
+        "PT_ASC_SHIFT": 0.1035210656459955,
+        "EBIKE_SHARE": 0.6838559303875494,
+        "ROAD_FREIGHT_GROWTH": 0.05955593879766971
+      }
+    },
+    {
+      "id": "train_091",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.1136050429952837,
+        "PT_ASC_SHIFT": 0.13032556679683846,
+        "EBIKE_SHARE": 0.30074123221121984,
+        "ROAD_FREIGHT_GROWTH": 0.09792573900167914
+      }
+    },
+    {
+      "id": "train_092",
+      "role": "train",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.36466453569170226,
+        "PT_ASC_SHIFT": 0.16440653381055384,
+        "EBIKE_SHARE": 0.4438060731911114,
+        "ROAD_FREIGHT_GROWTH": 0.1764197918398475
+      }
+    },
+    {
+      "id": "train_093",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.08445065587559558,
+        "PT_ASC_SHIFT": -0.017257759920817045,
+        "EBIKE_SHARE": 0.5681331359325625,
+        "ROAD_FREIGHT_GROWTH": 0.11190424427252693
+      }
+    },
+    {
+      "id": "train_094",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.1365528922436302,
+        "PT_ASC_SHIFT": 0.19824838385120505,
+        "EBIKE_SHARE": 0.7648917409747242,
+        "ROAD_FREIGHT_GROWTH": 0.12555719240520655
+      }
+    },
+    {
+      "id": "train_095",
+      "role": "train",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.3211290485432296,
+        "PT_ASC_SHIFT": 0.000255440052646147,
+        "EBIKE_SHARE": 0.7517083417834984,
+        "ROAD_FREIGHT_GROWTH": 0.0799772428493419
+      }
+    },
+    {
+      "id": "train_096",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.2593654836856341,
+        "PT_ASC_SHIFT": 0.07605347382030272,
+        "EBIKE_SHARE": 0.64755231870198,
+        "ROAD_FREIGHT_GROWTH": 0.21139918286041093
+      }
+    },
+    {
+      "id": "train_097",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4921706499594806,
+        "PT_ASC_SHIFT": 0.04059786528323689,
+        "EBIKE_SHARE": 0.25199609363804837,
+        "ROAD_FREIGHT_GROWTH": -0.02089582624975808
+      }
+    },
+    {
+      "id": "train_098",
+      "role": "train",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.08511780599978454,
+        "PT_ASC_SHIFT": 0.0852556145395782,
+        "EBIKE_SHARE": 0.6789323352276128,
+        "ROAD_FREIGHT_GROWTH": 0.2283858088160925
+      }
+    },
+    {
+      "id": "train_099",
+      "role": "train",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.21422220342162568,
+        "PT_ASC_SHIFT": 0.2788185638986237,
+        "EBIKE_SHARE": 0.780977985550108,
+        "ROAD_FREIGHT_GROWTH": 0.06464059122721444
+      }
+    },
+    {
+      "id": "test_000_stage0",
+      "role": "test",
+      "pair_id": "test_000",
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.12867810322187245,
+        "PT_ASC_SHIFT": 0.29649797410888035,
+        "EBIKE_SHARE": 0.7977967454438362,
+        "ROAD_FREIGHT_GROWTH": 0.017230440253959756
+      }
+    },
+    {
+      "id": "test_000_stage1",
+      "role": "test",
+      "pair_id": "test_000",
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.12867810322187245,
+        "PT_ASC_SHIFT": 0.29649797410888035,
+        "EBIKE_SHARE": 0.7977967454438362,
+        "ROAD_FREIGHT_GROWTH": 0.017230440253959756
+      }
+    },
+    {
+      "id": "test_000_stage2",
+      "role": "test",
+      "pair_id": "test_000",
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.12867810322187245,
+        "PT_ASC_SHIFT": 0.29649797410888035,
+        "EBIKE_SHARE": 0.7977967454438362,
+        "ROAD_FREIGHT_GROWTH": 0.017230440253959756
+      }
+    },
+    {
+      "id": "test_000_stage3",
+      "role": "test",
+      "pair_id": "test_000",
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.12867810322187245,
+        "PT_ASC_SHIFT": 0.29649797410888035,
+        "EBIKE_SHARE": 0.7977967454438362,
+        "ROAD_FREIGHT_GROWTH": 0.017230440253959756
+      }
+    },
+    {
+      "id": "test_001_stage0",
+      "role": "test",
+      "pair_id": "test_001",
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4177999733376719,
+        "PT_ASC_SHIFT": -0.03797641841628996,
+        "EBIKE_SHARE": 0.6073028500999522,
+        "ROAD_FREIGHT_GROWTH": -0.009004372135675516
+      }
+    },
+    {
+      "id": "test_001_stage1",
+      "role": "test",
+      "pair_id": "test_001",
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4177999733376719,
+        "PT_ASC_SHIFT": -0.03797641841628996,
+        "EBIKE_SHARE": 0.6073028500999522,
+        "ROAD_FREIGHT_GROWTH": -0.009004372135675516
+      }
+    },
+    {
+      "id": "test_001_stage2",
+      "role": "test",
+      "pair_id": "test_001",
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4177999733376719,
+        "PT_ASC_SHIFT": -0.03797641841628996,
+        "EBIKE_SHARE": 0.6073028500999522,
+        "ROAD_FREIGHT_GROWTH": -0.009004372135675516
+      }
+    },
+    {
+      "id": "test_001_stage3",
+      "role": "test",
+      "pair_id": "test_001",
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4177999733376719,
+        "PT_ASC_SHIFT": -0.03797641841628996,
+        "EBIKE_SHARE": 0.6073028500999522,
+        "ROAD_FREIGHT_GROWTH": -0.009004372135675516
+      }
+    },
+    {
+      "id": "test_002_stage0",
+      "role": "test",
+      "pair_id": "test_002",
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.02120309263972245,
+        "PT_ASC_SHIFT": 0.023917489039911283,
+        "EBIKE_SHARE": 0.25491539628566384,
+        "ROAD_FREIGHT_GROWTH": 0.1375833021443457
+      }
+    },
+    {
+      "id": "test_002_stage1",
+      "role": "test",
+      "pair_id": "test_002",
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.02120309263972245,
+        "PT_ASC_SHIFT": 0.023917489039911283,
+        "EBIKE_SHARE": 0.25491539628566384,
+        "ROAD_FREIGHT_GROWTH": 0.1375833021443457
+      }
+    },
+    {
+      "id": "test_002_stage2",
+      "role": "test",
+      "pair_id": "test_002",
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.02120309263972245,
+        "PT_ASC_SHIFT": 0.023917489039911283,
+        "EBIKE_SHARE": 0.25491539628566384,
+        "ROAD_FREIGHT_GROWTH": 0.1375833021443457
+      }
+    },
+    {
+      "id": "test_002_stage3",
+      "role": "test",
+      "pair_id": "test_002",
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.02120309263972245,
+        "PT_ASC_SHIFT": 0.023917489039911283,
+        "EBIKE_SHARE": 0.25491539628566384,
+        "ROAD_FREIGHT_GROWTH": 0.1375833021443457
+      }
+    },
+    {
+      "id": "test_003_stage0",
+      "role": "test",
+      "pair_id": "test_003",
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.09900862357265211,
+        "PT_ASC_SHIFT": 0.11771725617764991,
+        "EBIKE_SHARE": 0.533580046766801,
+        "ROAD_FREIGHT_GROWTH": 0.13065030071193073
+      }
+    },
+    {
+      "id": "test_003_stage1",
+      "role": "test",
+      "pair_id": "test_003",
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.09900862357265211,
+        "PT_ASC_SHIFT": 0.11771725617764991,
+        "EBIKE_SHARE": 0.533580046766801,
+        "ROAD_FREIGHT_GROWTH": 0.13065030071193073
+      }
+    },
+    {
+      "id": "test_003_stage2",
+      "role": "test",
+      "pair_id": "test_003",
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.09900862357265211,
+        "PT_ASC_SHIFT": 0.11771725617764991,
+        "EBIKE_SHARE": 0.533580046766801,
+        "ROAD_FREIGHT_GROWTH": 0.13065030071193073
+      }
+    },
+    {
+      "id": "test_003_stage3",
+      "role": "test",
+      "pair_id": "test_003",
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.09900862357265211,
+        "PT_ASC_SHIFT": 0.11771725617764991,
+        "EBIKE_SHARE": 0.533580046766801,
+        "ROAD_FREIGHT_GROWTH": 0.13065030071193073
+      }
+    },
+    {
+      "id": "test_004_stage0",
+      "role": "test",
+      "pair_id": "test_004",
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.3167506725156823,
+        "PT_ASC_SHIFT": 0.1438596786829108,
+        "EBIKE_SHARE": 0.3777974743904673,
+        "ROAD_FREIGHT_GROWTH": 0.22143820274786485
+      }
+    },
+    {
+      "id": "test_004_stage1",
+      "role": "test",
+      "pair_id": "test_004",
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.3167506725156823,
+        "PT_ASC_SHIFT": 0.1438596786829108,
+        "EBIKE_SHARE": 0.3777974743904673,
+        "ROAD_FREIGHT_GROWTH": 0.22143820274786485
+      }
+    },
+    {
+      "id": "test_004_stage2",
+      "role": "test",
+      "pair_id": "test_004",
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.3167506725156823,
+        "PT_ASC_SHIFT": 0.1438596786829108,
+        "EBIKE_SHARE": 0.3777974743904673,
+        "ROAD_FREIGHT_GROWTH": 0.22143820274786485
+      }
+    },
+    {
+      "id": "test_004_stage3",
+      "role": "test",
+      "pair_id": "test_004",
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.3167506725156823,
+        "PT_ASC_SHIFT": 0.1438596786829108,
+        "EBIKE_SHARE": 0.3777974743904673,
+        "ROAD_FREIGHT_GROWTH": 0.22143820274786485
+      }
+    }
+  ],
+  "cache_contract": {
+    "format_version": 3,
+    "model_fingerprint": "67e75e2afcf0d1be7ffa",
+    "reference_equations": "19783b770214fd1a0541",
+    "solver_settings": {
+      "stopping_rule": "road_relative_gap",
+      "min_iterations": 8,
+      "max_iterations": 64,
+      "check_every": 4,
+      "road_gap_threshold": 0.02,
+      "od_threshold": 0.0,
+      "drive_occupancy": 1.14
+    },
+    "route_loader": "native_predecessor_tree",
+    "target": "directional_internal_zone_gate_od_delay_minutes"
+  },
+  "reference_equations": {
+    "code/transport_model_interface.py:_corridor_shortest_time_table": "35336b26fbbc94b8b970c35160c3eb6fa2c63177c73be6a813187749ca38a533",
+    "code/transport_model_interface.py:_sparse_shortest_path_inputs": "137f477a654037df98ce5ca3bbbc0386becf23f84af25328898aea85c9e940c7",
+    "code/transport_model_interface.py:_bpr_link_times": "0ab54cdbfbc413a0c37290f60fa5dd7783f742520f3be37edd66ed3407612f2f",
+    "code/transport_model_interface.py:collapse_od_to_gates": "ad8c543fd63e5f6bd58d4eee926d5ecd17aebdb38e8f9b054c21db4e521c7609",
+    "code/transport_model_interface.py:CorridorContext": "4890f3f6bafc40c34e1fad51a873ac5d5de11f3ac51f2576ce2417a85e9f4612",
+    "code/transport_model_interface.py:TransportContext": "80530b81ffbf12ec8631e7156530659dc46e03d7251a709a185827ef13929ffa",
+    "code/transport_model_interface.py:DEFAULT_PASSTHROUGH_FRACTION": "48107cfe7237c6d213451d7833ce0ab8102b70c833493bdeca4f4f5a82d91711",
+    "code/transport_model_interface.py:run_coupled_corridor_assignment": "2ff21519f30a723141bc0068ab0a08d3a3f0b127443adfe2e69ebc9a502ea400",
+    "code/transport_model_interface.py:gate_totals": "f8a66350729fd663e4662c9edd199f9d3d3c787482fd6ee6a84e248e1e9ea326",
+    "code/transport_model_interface.py:_corridor_mode_summary": "443d47429a76bbfb868eada887127dd62010c074afaf0a6e3323278defe3a838",
+    "code/transport_model_interface.py:_synthetic_assignment_background": "cc7532e294b8724459a1a0d70553c1d0cfa202521d05ae8af4a52170dad3c2f3",
+    "code/transport_model_interface.py:_project_corridor_delay_to_full_od": "08d0d14eacebfe2d87ef130d1fcf0befc1f4323adffa46384adc9b04630b0f9a",
+    "code/transport_model_interface.py:_all_or_nothing_sparse": "eb46f5da329080fce594c83ccc204ec525e3f23a294da3a41957aa85164b5559",
+    "code/transport_model_interface.py:AssignmentResult": "56d2481127764b2a4fdc27843325237f2f848cb475f9e641779ce9930bcbdb7b",
+    "code/transport_model_interface.py:ModeChoiceResult": "c6e4c1dc2259fa1409b8bcbfad6ba88eb0f45e7b99e67cce08c388588d9bb700",
+    "code/transport_model_interface.py:_report_unserved_road_demand": "79fb146415520fc22ea83b4aff24321067093021a8a5ab016ecf4505fc73775c",
+    "code/transport_model_interface.py:resolve_assignment_settings": "4fad46305924815e12d3c6f9a8dea630b062ea3e4b9d11a78c86b14429b448d6",
+    "code/transport_model_interface.py:run_transport_mode_choice": "f50a251a2162187629027d13b29a6d01219106624a4f54c63943bb019897a80d",
+    "code/transport_model_interface.py:apply_road_capacity_stage": "72bab627fc2b76188b757ab5989c36efa0815c697ad96deab57e99fd7ab73510",
+    "code/transport_model_interface.py:_road_change_columns": "72fef994e8897dd6d61f5e71af4119623600735fe72dbd88d36b8ca7e04f1823",
+    "code/transport_model_interface.py:_prepare_road_edges": "47ddea68175ff334d8d11b1b6b57906fdbaccffe4451a6ffd90e72e4e5199b87",
+    "code/transport_model_interface.py:build_corridor_context": "ea57e230732b37e84260c45b52c5139db0217a601723b67ff606ef571c9d4880",
+    "code/transport_model_interface.py:_select_spaced_gates": "3097bd37ec6353e712f22a35f7217ba6a962d86c72d9d7e131d8eda5e8781403",
+    "code/transport_model_interface.py:_reachable_gate_candidates": "02bae839d741d03589a61e55413ee737fc5494f5b0cd6708a4d9507c725465d2",
+    "code/transport_model_interface.py:_retain_internal_road_connections": "cbd89718f6ba69995822c8519be461b1a2f3c4be1653ce0527c7e51f8681697f",
+    "code/transport_model_interface.py:_get_core_zones": "32d8a413ab5501a1f49e7321ace40681cb4c0451667f6fde7e2a560fe39e3e14",
+    "code/transport_model_interface.py:resolve_corridor_zone_ids": "7f6110ee39dbc6affa781738723e764625d08cba418760d9c843792818d2a116",
+    "code/transport_model_interface.py:DEFAULT_GATE_SEPARATION_M": "d525993c205d38203a6d7a35dbee9bb8d8ac27193c67b6688c10a7b4eebc6aec",
+    "code/transport_model_interface.py:DEFAULT_MAX_GATES": "2675fd702424da9df6e5e64dca98f0136fb8354991335d6d7700446981e4a8fa",
+    "code/transport_model_interface.py:DEFAULT_CORRIDOR_BUFFER_M": "da12853a5516bba19d5f5363006ce409852bea9b534ef24e9602bed82d609946",
+    "code/transport_model_interface.py:load_transport_context": "7d5dfde36d8291f94d39a25b95908cc3485b411329e18b660cfea68d213cf93c",
+    "code/transport_model_interface.py:_detailed_network_file_identity": "7bb9b6e9622a64eacca60363ae01f762df865ac8ca0daab56226023828204162",
+    "code/transport_model_interface.py:_merge_detailed_road_network": "78dcca6645d5d5393600a6b970593bc5e0a148a78d7b47b90368c3b70f83b6a4",
+    "code/transport_model_interface.py:_DETAILED_NETWORK_MERGE_POLICY": "4f83a98b0e49ea42739e1d345149bf1a86150a58cc18c8ab81cf6cd71acaf8ee",
+    "code/transport_model_interface.py:_read_detailed_network": "ca3cb819a1babb72fe7b863bdf4815064836d476c941bc605a56bbab25a61bc9",
+    "code/transport_model_interface.py:_validate_detailed_network": "7e3167de7a6e1144da9734861730e874730c73366b1949f77763b807d69e1a2c",
+    "code/transport_model_interface.py:_detailed_network_scope": "5d3ccc91bed868d230a5e7e1b013a4c3b0a4c4dc0cbb519782e3d152e29ac619",
+    "code/transport_model_interface.py:_load_assignment_network": "3772521ed90913aac4d5f9f12a4e98c28f2b746e8d9ed55807adb384874e007f",
+    "code/transport_model_interface.py:context_cache_status": "c166d24df53de8f596cd434009590cc5a7dbcfa312e3dd63d829682bafa0f716",
+    "code/transport_model_interface.py:configured_input_paths": "48147f1249b0d9bec7f73d300f6b40be2554346111ec620afb4d7e094fa29b96",
+    "code/transport_model_interface.py:_import_transport_modules": "0d0e06234c91bcf411d32c5be2444bd4da0fae9d9affa58d31dad195bd4f39f1",
+    "code/transport_model_interface.py:readiness_flags": "73b7cf7741b19a7250f587208c320d10c53d5aaa4301b2d5aa7ef11fdddca8bb",
+    "code/transport_model_interface.py:transport_input_status": "2feefc4f1c2af349a8dab97595f98def3fb823eb31f7f38a9574e795a34e3c14",
+    "code/transport_model_interface.py:configured_detailed_network_path": "91fb824f27f92738746e123117e3b0c9ea8ceacdb51327d85c440ca2c1e8b079",
+    "code/additional/uncertainty.py:TRANSPORT_BINDINGS": "e29be27c81c023416ee308ff746c8d721cc232e6101792e3d90088c48963e7b1",
+    "code/additional/uncertainty.py:native_transport_inputs": "a5024d6a740482b4cd93325ec5740c5e155528fde177b42c1ccb83909f91ff2c",
+    "code/additional/uncertainty.py:complete_transport_inputs": "fee8083e1df16ae1167f60d6b684b09eee2613fcb141e6e538e24b709421cdd0",
+    "code/additional/section_flows.py:apply_section_time_saving": "5c6036f33efe9abf53109a1c4f8f7893ba60eb55122cdf022127af348c1e6321",
+    "code/additional/section_flows.py:_values": "5ecd8496e322a72c8cdfc774ac61a12cb57f6c0bac4e4b94aa43297238bc2106",
+    "code/additional/section_flows.py:section_saving_weights": "1d9a8c7f86dd6bf22d7d91a9d5542f762b41a06c3ab09ce29985470f6ed4c543",
+    "code/additional/section_flows.py:coverage_masks": "d33c1ab47869a16c8d06c746c6d8ed1dc9ffbea13ee3d50f84856c82c30b2482",
+    "code/additional/section_flows.py:_MODES": "de7a3199230af62f055db731b5cfd20469249804395856fb8ece68a786ccfda6",
+    "code/additional/section_flows.py:_coverage": "5a530303e1dbc920f34e754bc089406db4fe664b72fbd4bb8c30996bf94d34aa",
+    "code/additional/section_flows.py:_name": "1bd9de44bf00f6ff5067cb8db96e0e1935fbe8bb6c3219b9cb7bf1b27ea41996",
+    "code/additional/section_flows.py:_minimal_context": "f3d55878babccae893cabe00aa8ba7abc027882e86402d4d539d0f763090ee38",
+    "code/additional/section_flows.py:_mode": "fb489fe52eaa9ff9b8f8d60a32527ebfde71099d2e0ffc5f2066f61a1f05be26",
+    "code/additional/section_flows.py:_recipe_contract": "36f0063c2583c4324eaab9e2103ffd5a4ede5756597fcea7ebe638f7e153a042",
+    "code/additional/section_flows.py:_routing_path": "dd3cd26f384adea1f3653b2f3b232d22537f33a59007b7298e95683bc7faab7d",
+    "code/additional/section_flows.py:_ROOT": "cf6aca5137e6698eda21fd3c2c781bc7143743fe3a592ddb608c4516c6b77db1",
+    "code/additional/section_flows.py:_CODE_DIR": "770d495023aab802bcfccf37f4c928d6ce31e80a5a4d6813d1e9482226b0fe02",
+    "code/additional/section_flows.py:_digest_path": "1247b736c50e119dd665f031547666ecdb7fbbd8b2999a1940b68883ab2ac202",
+    "code/additional/section_flows.py:_file_digest": "365e540e23b8e7fafc3ac8d21dc2d2c821fd9028e2543cb62ff01eb3fd8308eb",
+    "code/additional/section_flows.py:_RECIPE_VERSION": "a786c4927daaeb9cae90979a0d5edd423485328b70b0b25c5776c14821ec49e4",
+    "code/additional/section_flows.py:_read_coverage": "344b5482e12aef81ee6d14be9e194217b44b3a58785e1a81bfd8870498dca4e6",
+    "code/additional/section_flows.py:_hash": "fbe7897d1570a7e1bfbfd177c43f7333d67f6a1a8717d2ceb35c9f2861d04b69",
+    "code/additional/section_flows.py:_prepare_recipe": "bda4d978d6daec8f9bab3c9d9b8d62b3b73bd985f509b8da59a97c064ef233e5",
+    "code/additional/section_flows.py:_no_path_time": "044f0aefb7e57d8f3949a1c1175d8363163b181b845c44f2c0bb678066bbdb7d",
+    "code/additional/section_flows.py:_station_group": "d00a2b4a4d9d1a073d7a05bbba5a71d02b74d113fec0ce170ab2aff8840ccc63",
+    "code/additional/section_flows.py:route_input_signature": "9095352c695f72b0d5b6995d07108528dc984bf72d49e7c829cad29e102f5648",
+    "code/additional/section_flows.py:_trace_features": "83261bf748896cb1b6f2c0ef4bd90c2da19744f7b824f312243bb381aff9ab22",
+    "code/additional/section_flows.py:_ancestor_sum": "d219e5b695bfcc091515dbdb6137a31530cd4d2e1aacbd12c300f1621e88bfc2",
+    "code/additional/section_flows.py:_route_inputs": "bec1d5f4f96426cbef389ad668a01fe9d32bbe1521dff6103e77f038c2749158",
+    "code/additional/section_flows.py:_path": "102d3b7f8fc18fb31d338fc8dd9faf1917cab01c21558f780ea27b281e4e45c1",
+    "code/additional/section_flows.py:_DEFAULT_COVERAGE": "0cbff2e6cff4f1e779c4b46180af870d6ef354b4f82188ec27cdede21292f72d",
+    "code/additional/section_flows.py:_ensure_recipe_coverage": "7cef10662779643512b0fba0be1cc9f5abfac6fd57ac55159e8b76edb7960e4e",
+    "code/additional/section_flows.py:section_config": "774a6309cddbcdc8120f73f25383b58dba8f0a33765b5e8350bfc38114600b64",
+    "code/additional/section_flows.py:_selector": "8339b5f5d8380ca4e57aa52c35e114220766b5dab1d3b8049bcb032251ad68a7",
+    "code/additional/section_flows.py:_INTERNAL_SECTION": "f54aabcec41d74ee788fe73e002df49ab8ed6ce98365fb6b2af4d43738164d85",
+    "code/additional/section_flows.py:_validate_route_inputs": "72a69ad3247429de1742e0ad5e14734493d48abcf76dcde1478aa188818b18fb",
+    "code/additional/section_flows.py:physical_signature": "cfa684f11987d8c8b98539b8140998e3abbe504b140b4797b3bd4c9dadad3146",
+    "code/additional/section_flows.py:_saving": "28f2fa915d5c0412c311e34dd046f6c5f4c4279dbb95b31d02332cd4d6bfcb49",
+    "code/transport_core/interventions.py:apply_interventions": "6c258742f41df402b16fe75353c1b9bf104b3362a9f44964e63914aee319932e",
+    "code/transport_core/interventions.py:_apply_mobility_hub": "91af188a65d4df848b7446a5a3382f00ffa2a62509d4b4ffc565b19ccc79b10c",
+    "code/transport_core/interventions.py:_multiply_selected": "61b2f047a7bb5108c79946829dc1d305d0a7bed171a2e56584f0a08db8f5999a",
+    "code/transport_core/interventions.py:_reduce_station_transfer": "6c2e7d3464268d479c045434d0ee4efd92c1657e1573c25a2645bcc982622423",
+    "code/transport_core/interventions.py:_reduction_factor": "e9cadd0b2c95b0b47b1504b1b6f2613a92a7946637c341d042fcfcdc04be768f",
+    "code/transport_core/interventions.py:_percentage": "d73898aba9f4c88c14326dcbd89f52285c3bb3207e57939d4a06e8b930dca88b",
+    "code/transport_core/interventions.py:_hub_mode_masks": "5f0e14e9fccd1da3fd4f3d9115dc49b6bc6ef8f6cb083eeeac75d0e747ee975a",
+    "code/transport_core/interventions.py:_hub_stop_ids": "23eabab313e46741710ca452d75cdf60068983cd02d0c9af098007bced821fcb",
+    "code/transport_core/interventions.py:_hub_zone_ids": "19d3264c6aa9512a989dae7775c583ac90764cc7b5df827c341fc6370a0cae7a",
+    "code/transport_core/interventions.py:_selector_zone_ids": "7980adc36156794782aed8df3834a12b9494801247b9c9bee5ec04d8e36f1846",
+    "code/transport_core/interventions.py:_speed_factor": "07a44caedf67e0e8d3c67addbbb4f70c149ad53c081c1275485af4a386d4c9ea",
+    "code/transport_core/interventions.py:station_transfer_walk_minutes": "85e8068b62a874f18b6d49c957009dad2101d43f0207b190f28ed1c5b0ae1ab2",
+    "code/transport_core/interventions.py:_railway_expansion_mask": "5a2a37f528a7db237369d3cf68e39417e2a1cc02fc4382046aae2349d76a53a5",
+    "code/transport_core/interventions.py:_od_mask": "e7f59309a47c13effbfd906adade3cd201a10bda2152b615d4b6dd69cb5dc5e8",
+    "code/transport_core/interventions.py:_as_list": "5b66d0105722c8fd4cecfd020241d235b18e8258836cda2606510829c058e254",
+    "code/transport_core/interventions.py:_apply_railway_expansion": "2d80edec14f28b82ca64bfe164828f2090b0e31f3b4a4773bd349b2fd61bf328",
+    "code/transport_core/interventions.py:_apply_bike_highway": "46d6c4487f8ea2d8f4be380e9ae39d5e00039abfb4131bd09bf355d778ff7cad",
+    "code/transport_core/interventions.py:_bike_highway_mask": "42fba334ee71508d0b71356a660c95c4ebcb3f16cc0c694d17b8ba04a89ba587",
+    "code/transport_core/mode_choice_zurich.py:mode_split_aggregated": "39740dfec6610d700022825fa26bc7df4e23fd921644504f53920e1f2e7322b9",
+    "code/transport_core/mode_choice_zurich.py:UNAVAILABLE_UTILITY": "cf607803da6a985966cf4c2ea3b127db7f605c7e6a149527e92c7ecc9b3d36c5",
+    "code/transport_core/mode_choice_zurich.py:_matrix": "57dc83eb9c08d84e5c067cfdb3749012164060b9c93cdd461d9d7b7183ab00b1",
+    "code/transport_core/mode_choice_zurich.py:load_mode_choice_parameters": "1954ce4e9752eff79cbffaf35710d5d714118c420c59d1796071d9ed1383da1d",
+    "code/transport_core/mode_choice_zurich.py:_availability": "94a468b5ae10f41e5887bd7ee156ab1752f5e5942d8e887d92947493d6e8337a",
+    "code/transport_core/travel_times.py:rebuild_pt_out_of_vehicle_times": "8fcd9b866f27eb8136c207a96e1ab35a7e49d027fb2b47e274409f9a70a1b3f3",
+    "code/transport_core/travel_times.py:standalone_walk_mask": "d7735f72360d69b5bb0d7ed9a25822ca1aae4aab818888b6b17ced91bcf84b2c",
+    "code/transport_core/travel_times.py:apply_ebike_share": "8a90180b70b6580b1ee9a846a3678886d30cab825dee9552def2e49491f3054d",
+    "code/transport_core/travel_times.py:_valid": "a303d1441d1e9388073ac5e6c9be62213e0654a12a87574ba1b0313ee4d81a55",
+    "code/transport_core/travel_times.py:ebike_time_factor": "5a224a3cc955488f7c0f08892fcb233614344057540aa161a3a8d59728ac2ba1",
+    "code/transport_core/travel_times.py:apply_perceived_time_policies": "d9b0cf13a242d84cac666d0aede0b36b313586074f3ebe9ad49a09983c128a3a",
+    "code/transport_core/travel_times.py:_apply_pt_component_floors": "0e8812bfe109e9ecae2728c70f5c15a9c96f4529ba6b06d029e3b3d8c78ef520",
+    "code/transport_core/travel_times.py:_apply_drive_perceived_times": "865e5ce0bb682aa6131a1f00c3da691a1efa42c7d24fce7628627d6c0f7eb683",
+    "code/transport_core/travel_times.py:load_travel_times": "07b30a5688c7523ea98bc9e845a4f6b1ed0bdde1baca8d2f9b98b54b944c0ae7",
+    "code/transport_core/travel_times.py:STRING_SKIMS": "82bc265c8c9ba871ec6316664733231c2d1ab4540bff8e2cc3ae06aa7b69602d",
+    "code/transport_core/travel_times.py:LENGTH_SKIMS": "394dd3a769c5516156dc01cf5c8c99d0fea6ebdab25c45b99ee180ce4c58bed0",
+    "code/transport_core/travel_times.py:NUMERIC_SKIMS": "aca88426b2b2b21e64c32a93fef548abb5f76064cdc63fbe2abee96014e7f501",
+    "code/transport_core/input_packages.py:align_matrix": "76dbbf55971153e022d13a521cb78cf551b19da71a5f6fec86880b21aee9437d",
+    "code/transport_core/input_packages.py:load_package": "5f31d2c5c671de6e12e522141674762acd59ab91c2d69a3bcf2982aca55acbea",
+    "code/transport_core/input_packages.py:PACKAGE_VERSION": "c8ecf5522fe2e582aad4ce39f2e1e86393b302ec27c730debacca131719facec",
+    "code/transport_core/zoning.py:load_model_inputs": "9808b7f189d676aa3d78b14c242c5fb19d391df089e7da4c44d472935f0e9d9b",
+    "code/transport_core/zoning.py:load_od_table": "0b7485fef5fa3225656200fe9c7c83420518175af29ee11d4f0cb01d84244d4c",
+    "code/transport_core/zoning.py:load_zones": "e4ff2f6dc374b15d729e038ac3dd8a7bbf1f687236f448378e554a49d1f79dcc",
+    "code/transport_core/zoning.py:REQUIRED_ZONE_COLUMNS": "6c0996518ec604b212065acccbaabc2dcb99a70aa2de591bb7e876d426e457b9",
+    "code/transport_core/config.py:EBIKE_SPEED_MULTIPLIER": "dae0a3ec813244e77b789467df96d6f2e0d6f7c16f717a18306789eda7898e35",
+    "code/transport_core/config.py:PT_TRANSFER_PHYSICAL_FLOOR_MIN": "891fb690d8fa21cd3f8b644b4a640272b5b7a343e9bc51dc4fb5a0d71ee7449c",
+    "code/transport_core/config.py:PT_EGRESS_FLOOR_MIN": "d11da43ce124d295c5319f6a1684c132d777a858ddefefd264d93d44925e26bd",
+    "code/transport_core/config.py:PT_ACCESS_FLOOR_MIN": "79b75ae5254b1e3364b913f7bf47cff814ed4d737f7b1949f5b131130a5daeb0",
+    "code/transport_core/config.py:PT_INTRAZONAL_MIN": "9784a2a2e5d1e650ee513facf2cf97835f6eff8e6fb2cf5a210c90d7d8c92f7c",
+    "code/transport_core/config.py:DRIVE_INTRAZONAL_MIN": "e8b7513fbd7e4bb009aaffe8b5fea9caf28cb3c53259f4e32b6e7bd4d93edb15",
+    "code/transport_core/config.py:CAR_TERMINAL_CANTON_MIN": "7fe6cc51ce7a7f1236f2857ee88069124531d676746793d3680f35add68d1709",
+    "code/transport_core/config.py:CAR_TERMINAL_CITY_MIN": "1b77d172d496339efc2e17351c351f6cc49c4ac09be6009437d88e0f6f9d0ea6",
+    "code/transport_core/config.py:DRIVE_CONNECTOR_CANTON_MIN": "ef4c062c2ae29db9269421fb6413a96305528df72b178922f57b3142c9478abd",
+    "code/transport_core/config.py:DRIVE_CONNECTOR_CITY_MIN": "00c22847a1f79cffedecae3f49d4e7163a5fbdd7894b638bb37e1b4c5665b7b7",
+    "code/transport_core/config.py:EXTERNAL_BACKGROUND_CANTON_FACTOR": "27b0704fc392a277ccba62e6c6646fd5845cf50889a2149736147ac248cb8543",
+    "code/transport_core/config.py:EXTERNAL_BACKGROUND_CITY_FACTOR": "83c01584df0c620435ed995a2af1f2c9fb3bef0aaa26a831a66a607d4ffdd0d1",
+    "code/transport_core/config.py:MAX_WALK_DISTANCE_KM": "238ac3760cb98234fe768907e7e7d99bf6b16d8126aff5f25f548a685d648ea6",
+    "code/transport_core/config.py:NO_PATH_TIME_MIN": "942afa32d696e2c8a76eee2b169778cb9314019c9785972617ce9a88cc96c263",
+    "code/transport_core/config.py:MODE_ORDER": "2da0be188cb14dc5749a7bf3516a887cd68e34d296c87e8c4294073605d35edd",
+    "code/transport_core/config.py:MODE_CHOICE_FILE": "b45669feb78764b43d7cd0ee193524b3f96c6bbf6969c44ed9d86cce7f2c652e",
+    "code/transport_core/config.py:CONFIG_DIR": "8a6f624a109282a3149dd66c40f6bfa4941bbc0c0ac2c309cdeffacefb0a09e8",
+    "code/transport_core/config.py:INPUT_DIR": "edebd47019ec5ddad464a4923968789d37d24014a4924265b62666547638ad48",
+    "code/transport_core/config.py:ROOT": "2bef70ceee57a55974079bf60e7106a8f67a3d9c19fb3e191d569ce146bbf9b5",
+    "code/transport_core/config.py:LOOKUP_PACKAGE_FILE": "7260b956d28d3fce830bcf3e0775c78153a768834fe6adfea7e3115e10f2b5fc",
+    "code/transport_core/config.py:PREPARED_DIR": "973b0b92d7f22416f6dc3a6fc56fd1523204a537106866643c3b5924e5772ae5",
+    "code/transport_core/config.py:SKIM_PACKAGE_FILE": "b508870e31b5400e8090b1d5dc0314a8fc311ae04df2a2a2db3f3343576ad932",
+    "code/transport_core/config.py:DEMAND_PACKAGE_FILE": "c59bfec7af3e43024603d2915fd9bd663d9c97fc8da34a0ff56b6596ca674cb7",
+    "code/transport_core/config.py:ZONES_FILE": "75fed50e7affacbf9b812923291434b77b018850a124b5b6c97786b8bc44d515"
+  },
+  "physical_inputs": {
+    "fixed_transport_inputs": {
+      "BIKE_ASC_SHIFT": 0.0
+    },
+    "identity_version": 2,
+    "corridor": {
+      "mode": "municipalities",
+      "municipalities": [
+        "Bassersdorf",
+        "Dietlikon",
+        "D\u00fcbendorf",
+        "Elgg",
+        "Elsau",
+        "Hagenbuch",
+        "Illnau-Effretikon",
+        "Kloten",
+        "Lindau",
+        "N\u00fcrensdorf",
+        "Opfikon",
+        "R\u00fcmlang",
+        "Wallisellen",
+        "Wangen-Br\u00fcttisellen",
+        "Wiesendangen",
+        "Winterthur",
+        "Z\u00fcrich"
+      ],
+      "zone_ids": []
+    },
+    "stages": {
+      "0": {
+        "section_time_saving_min": 0.0,
+        "ebike_share": 0.25,
+        "EBIKE_SPEED_MULTIPLIER": 1.5
+      },
+      "1": {
+        "section_time_saving_min": 1.0,
+        "ebike_share": 0.25,
+        "EBIKE_SPEED_MULTIPLIER": 1.5,
+        "mobility_hubs": [
+          {
+            "zones": [
+              {
+                "municipality_name": "Dietlikon"
+              },
+              {
+                "municipality_name": "Bassersdorf"
+              },
+              {
+                "municipality_name": "Wallisellen"
+              }
+            ],
+            "effects": {
+              "access_time_reduction_pct": 25.0,
+              "transfer_time_reduction_pct": 15.0,
+              "initial_wait_reduction_pct": 0.0,
+              "transfer_wait_reduction_pct": 0.0,
+              "egress_time_reduction_pct": 20.0
+            }
+          }
+        ],
+        "railway_expansions": [
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Winterthur"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Kloten"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Opfikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Wallisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "D\u00fcbendorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Kloten"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Opfikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Wallisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "D\u00fcbendorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Opfikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Wallisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "D\u00fcbendorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Wallisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "D\u00fcbendorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "D\u00fcbendorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Lindau"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Lindau"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Lindau"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Lindau"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Lindau"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "N\u00fcrensdorf"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "N\u00fcrensdorf"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "N\u00fcrensdorf"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "N\u00fcrensdorf"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wiesendangen"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wiesendangen"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wiesendangen"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Elsau"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Elsau"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Elgg"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "travel_time_reduction_pct": 0.0,
+              "speed_increase_pct": 0.0,
+              "distance_reduction_pct": 0.0,
+              "initial_wait_reduction_pct": 5.000000000000004,
+              "transfer_wait_reduction_pct": 5.000000000000004,
+              "transfer_time_reduction_pct": 0.0,
+              "access_time_reduction_pct": 0.0,
+              "egress_time_reduction_pct": 0.0
+            }
+          }
+        ]
+      },
+      "2": {
+        "section_time_saving_min": 4.0,
+        "ebike_share": 0.25,
+        "EBIKE_SPEED_MULTIPLIER": 1.5,
+        "mobility_hubs": [
+          {
+            "zones": [
+              {
+                "municipality_name": "Winterthur"
+              }
+            ],
+            "effects": {
+              "access_time_reduction_pct": 25.0,
+              "transfer_time_reduction_pct": 15.0,
+              "initial_wait_reduction_pct": 0.0,
+              "transfer_wait_reduction_pct": 0.0,
+              "egress_time_reduction_pct": 20.0
+            }
+          }
+        ],
+        "railway_expansions": [
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Winterthur"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Kloten"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Opfikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Wallisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "D\u00fcbendorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Kloten"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Opfikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Wallisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "D\u00fcbendorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Opfikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Wallisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "D\u00fcbendorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Wallisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "D\u00fcbendorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "D\u00fcbendorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Lindau"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Lindau"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Lindau"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Lindau"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Lindau"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "N\u00fcrensdorf"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "N\u00fcrensdorf"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "N\u00fcrensdorf"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "N\u00fcrensdorf"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wiesendangen"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wiesendangen"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wiesendangen"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Elsau"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Elsau"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Elgg"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "travel_time_reduction_pct": 0.0,
+              "speed_increase_pct": 0.0,
+              "distance_reduction_pct": 0.0,
+              "initial_wait_reduction_pct": 15.000000000000002,
+              "transfer_wait_reduction_pct": 15.000000000000002,
+              "transfer_time_reduction_pct": 0.0,
+              "access_time_reduction_pct": 0.0,
+              "egress_time_reduction_pct": 0.0
+            }
+          }
+        ]
+      },
+      "3": {
+        "section_time_saving_min": 6.0,
+        "ebike_share": 0.25,
+        "EBIKE_SPEED_MULTIPLIER": 1.5,
+        "mobility_hubs": [
+          {
+            "zones": [
+              {
+                "municipality_name": "Dietlikon"
+              },
+              {
+                "municipality_name": "Bassersdorf"
+              },
+              {
+                "municipality_name": "Wallisellen"
+              }
+            ],
+            "effects": {
+              "access_time_reduction_pct": 25.0,
+              "transfer_time_reduction_pct": 15.0,
+              "initial_wait_reduction_pct": 0.0,
+              "transfer_wait_reduction_pct": 0.0,
+              "egress_time_reduction_pct": 20.0
+            }
+          },
+          {
+            "zones": [
+              {
+                "municipality_name": "Winterthur"
+              }
+            ],
+            "effects": {
+              "access_time_reduction_pct": 25.0,
+              "transfer_time_reduction_pct": 15.0,
+              "initial_wait_reduction_pct": 0.0,
+              "transfer_wait_reduction_pct": 0.0,
+              "egress_time_reduction_pct": 20.0
+            }
+          }
+        ],
+        "railway_expansions": [
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Winterthur"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Kloten"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Opfikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Wallisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "D\u00fcbendorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Z\u00fcrich"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Kloten"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Opfikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Wallisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "D\u00fcbendorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Winterthur"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Opfikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Wallisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "D\u00fcbendorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Kloten"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Wallisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "D\u00fcbendorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Opfikon"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "D\u00fcbendorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wallisellen"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Dietlikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "D\u00fcbendorf"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietlikon"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Bassersdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wangen-Br\u00fcttisellen"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "R\u00fcmlang"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Bassersdorf"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Illnau-Effretikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "R\u00fcmlang"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "Lindau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Illnau-Effretikon"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Lindau"
+                },
+                "destination": {
+                  "municipality_name": "N\u00fcrensdorf"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Lindau"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Lindau"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Lindau"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Lindau"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "N\u00fcrensdorf"
+                },
+                "destination": {
+                  "municipality_name": "Wiesendangen"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "N\u00fcrensdorf"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "N\u00fcrensdorf"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "N\u00fcrensdorf"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wiesendangen"
+                },
+                "destination": {
+                  "municipality_name": "Elsau"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wiesendangen"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Wiesendangen"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Elsau"
+                },
+                "destination": {
+                  "municipality_name": "Elgg"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Elsau"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Elgg"
+                },
+                "destination": {
+                  "municipality_name": "Hagenbuch"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "travel_time_reduction_pct": 0.0,
+              "speed_increase_pct": 0.0,
+              "distance_reduction_pct": 0.0,
+              "initial_wait_reduction_pct": 25.0,
+              "transfer_wait_reduction_pct": 25.0,
+              "transfer_time_reduction_pct": 0.0,
+              "access_time_reduction_pct": 0.0,
+              "egress_time_reduction_pct": 0.0
+            }
+          }
+        ]
+      }
+    },
+    "section_signatures": {
+      "0": "abd5db9c520276a40bc85edaadb206f96f0a09844ca6eb0e85a5c31d4f10e4a1",
+      "1": "abd5db9c520276a40bc85edaadb206f96f0a09844ca6eb0e85a5c31d4f10e4a1",
+      "2": "abd5db9c520276a40bc85edaadb206f96f0a09844ca6eb0e85a5c31d4f10e4a1",
+      "3": "abd5db9c520276a40bc85edaadb206f96f0a09844ca6eb0e85a5c31d4f10e4a1"
+    },
+    "input_domain": {
+      "PASSENGER_DEMAND_GROWTH": {
+        "minimum": -0.2,
+        "maximum": 0.5,
+        "nominal": 0.0
+      },
+      "PT_ASC_SHIFT": {
+        "minimum": -0.1,
+        "maximum": 0.3,
+        "nominal": 0.0
+      },
+      "EBIKE_SHARE": {
+        "minimum": 0.25,
+        "maximum": 0.8,
+        "nominal": 0.25
+      },
+      "ROAD_FREIGHT_GROWTH": {
+        "minimum": -0.05451161530839066,
+        "maximum": 0.25451161530839067,
+        "nominal": 0.0
+      }
+    },
+    "drive_occupancy": 1.14,
+    "prepared_inputs": {
+      "cache/tmi_context.pkl": "0c83d5e840b655f539c4a12b422d6b0c4e42fadcd3df70fb29e724e22e6f3d68",
+      "data/transport/config/mode_choice.json": "b099f6dbfe7c3f2b0f72868ccb0598a0a4b7653ea34cf37a85e1ad1111f13d85",
+      "data/processed/mehrspur_detailed_network.pkl": "a0b4e74e5a947ad0b6dd92988147b8db7fc39eb3ec29463d5dca63490b8d97b7"
+    },
+    "reference_equations": {
+      "code/transport_model_interface.py:_corridor_shortest_time_table": "35336b26fbbc94b8b970c35160c3eb6fa2c63177c73be6a813187749ca38a533",
+      "code/transport_model_interface.py:_sparse_shortest_path_inputs": "137f477a654037df98ce5ca3bbbc0386becf23f84af25328898aea85c9e940c7",
+      "code/transport_model_interface.py:_bpr_link_times": "0ab54cdbfbc413a0c37290f60fa5dd7783f742520f3be37edd66ed3407612f2f",
+      "code/transport_model_interface.py:collapse_od_to_gates": "ad8c543fd63e5f6bd58d4eee926d5ecd17aebdb38e8f9b054c21db4e521c7609",
+      "code/transport_model_interface.py:CorridorContext": "4890f3f6bafc40c34e1fad51a873ac5d5de11f3ac51f2576ce2417a85e9f4612",
+      "code/transport_model_interface.py:TransportContext": "80530b81ffbf12ec8631e7156530659dc46e03d7251a709a185827ef13929ffa",
+      "code/transport_model_interface.py:DEFAULT_PASSTHROUGH_FRACTION": "48107cfe7237c6d213451d7833ce0ab8102b70c833493bdeca4f4f5a82d91711",
+      "code/transport_model_interface.py:run_coupled_corridor_assignment": "2ff21519f30a723141bc0068ab0a08d3a3f0b127443adfe2e69ebc9a502ea400",
+      "code/transport_model_interface.py:gate_totals": "f8a66350729fd663e4662c9edd199f9d3d3c787482fd6ee6a84e248e1e9ea326",
+      "code/transport_model_interface.py:_corridor_mode_summary": "443d47429a76bbfb868eada887127dd62010c074afaf0a6e3323278defe3a838",
+      "code/transport_model_interface.py:_synthetic_assignment_background": "cc7532e294b8724459a1a0d70553c1d0cfa202521d05ae8af4a52170dad3c2f3",
+      "code/transport_model_interface.py:_project_corridor_delay_to_full_od": "08d0d14eacebfe2d87ef130d1fcf0befc1f4323adffa46384adc9b04630b0f9a",
+      "code/transport_model_interface.py:_all_or_nothing_sparse": "eb46f5da329080fce594c83ccc204ec525e3f23a294da3a41957aa85164b5559",
+      "code/transport_model_interface.py:AssignmentResult": "56d2481127764b2a4fdc27843325237f2f848cb475f9e641779ce9930bcbdb7b",
+      "code/transport_model_interface.py:ModeChoiceResult": "c6e4c1dc2259fa1409b8bcbfad6ba88eb0f45e7b99e67cce08c388588d9bb700",
+      "code/transport_model_interface.py:_report_unserved_road_demand": "79fb146415520fc22ea83b4aff24321067093021a8a5ab016ecf4505fc73775c",
+      "code/transport_model_interface.py:resolve_assignment_settings": "4fad46305924815e12d3c6f9a8dea630b062ea3e4b9d11a78c86b14429b448d6",
+      "code/transport_model_interface.py:run_transport_mode_choice": "f50a251a2162187629027d13b29a6d01219106624a4f54c63943bb019897a80d",
+      "code/transport_model_interface.py:apply_road_capacity_stage": "72bab627fc2b76188b757ab5989c36efa0815c697ad96deab57e99fd7ab73510",
+      "code/transport_model_interface.py:_road_change_columns": "72fef994e8897dd6d61f5e71af4119623600735fe72dbd88d36b8ca7e04f1823",
+      "code/transport_model_interface.py:_prepare_road_edges": "47ddea68175ff334d8d11b1b6b57906fdbaccffe4451a6ffd90e72e4e5199b87",
+      "code/transport_model_interface.py:build_corridor_context": "ea57e230732b37e84260c45b52c5139db0217a601723b67ff606ef571c9d4880",
+      "code/transport_model_interface.py:_select_spaced_gates": "3097bd37ec6353e712f22a35f7217ba6a962d86c72d9d7e131d8eda5e8781403",
+      "code/transport_model_interface.py:_reachable_gate_candidates": "02bae839d741d03589a61e55413ee737fc5494f5b0cd6708a4d9507c725465d2",
+      "code/transport_model_interface.py:_retain_internal_road_connections": "cbd89718f6ba69995822c8519be461b1a2f3c4be1653ce0527c7e51f8681697f",
+      "code/transport_model_interface.py:_get_core_zones": "32d8a413ab5501a1f49e7321ace40681cb4c0451667f6fde7e2a560fe39e3e14",
+      "code/transport_model_interface.py:resolve_corridor_zone_ids": "7f6110ee39dbc6affa781738723e764625d08cba418760d9c843792818d2a116",
+      "code/transport_model_interface.py:DEFAULT_GATE_SEPARATION_M": "d525993c205d38203a6d7a35dbee9bb8d8ac27193c67b6688c10a7b4eebc6aec",
+      "code/transport_model_interface.py:DEFAULT_MAX_GATES": "2675fd702424da9df6e5e64dca98f0136fb8354991335d6d7700446981e4a8fa",
+      "code/transport_model_interface.py:DEFAULT_CORRIDOR_BUFFER_M": "da12853a5516bba19d5f5363006ce409852bea9b534ef24e9602bed82d609946",
+      "code/transport_model_interface.py:load_transport_context": "7d5dfde36d8291f94d39a25b95908cc3485b411329e18b660cfea68d213cf93c",
+      "code/transport_model_interface.py:_detailed_network_file_identity": "7bb9b6e9622a64eacca60363ae01f762df865ac8ca0daab56226023828204162",
+      "code/transport_model_interface.py:_merge_detailed_road_network": "78dcca6645d5d5393600a6b970593bc5e0a148a78d7b47b90368c3b70f83b6a4",
+      "code/transport_model_interface.py:_DETAILED_NETWORK_MERGE_POLICY": "4f83a98b0e49ea42739e1d345149bf1a86150a58cc18c8ab81cf6cd71acaf8ee",
+      "code/transport_model_interface.py:_read_detailed_network": "ca3cb819a1babb72fe7b863bdf4815064836d476c941bc605a56bbab25a61bc9",
+      "code/transport_model_interface.py:_validate_detailed_network": "7e3167de7a6e1144da9734861730e874730c73366b1949f77763b807d69e1a2c",
+      "code/transport_model_interface.py:_detailed_network_scope": "5d3ccc91bed868d230a5e7e1b013a4c3b0a4c4dc0cbb519782e3d152e29ac619",
+      "code/transport_model_interface.py:_load_assignment_network": "3772521ed90913aac4d5f9f12a4e98c28f2b746e8d9ed55807adb384874e007f",
+      "code/transport_model_interface.py:context_cache_status": "c166d24df53de8f596cd434009590cc5a7dbcfa312e3dd63d829682bafa0f716",
+      "code/transport_model_interface.py:configured_input_paths": "48147f1249b0d9bec7f73d300f6b40be2554346111ec620afb4d7e094fa29b96",
+      "code/transport_model_interface.py:_import_transport_modules": "0d0e06234c91bcf411d32c5be2444bd4da0fae9d9affa58d31dad195bd4f39f1",
+      "code/transport_model_interface.py:readiness_flags": "73b7cf7741b19a7250f587208c320d10c53d5aaa4301b2d5aa7ef11fdddca8bb",
+      "code/transport_model_interface.py:transport_input_status": "2feefc4f1c2af349a8dab97595f98def3fb823eb31f7f38a9574e795a34e3c14",
+      "code/transport_model_interface.py:configured_detailed_network_path": "91fb824f27f92738746e123117e3b0c9ea8ceacdb51327d85c440ca2c1e8b079",
+      "code/additional/uncertainty.py:TRANSPORT_BINDINGS": "e29be27c81c023416ee308ff746c8d721cc232e6101792e3d90088c48963e7b1",
+      "code/additional/uncertainty.py:native_transport_inputs": "a5024d6a740482b4cd93325ec5740c5e155528fde177b42c1ccb83909f91ff2c",
+      "code/additional/uncertainty.py:complete_transport_inputs": "fee8083e1df16ae1167f60d6b684b09eee2613fcb141e6e538e24b709421cdd0",
+      "code/additional/section_flows.py:apply_section_time_saving": "5c6036f33efe9abf53109a1c4f8f7893ba60eb55122cdf022127af348c1e6321",
+      "code/additional/section_flows.py:_values": "5ecd8496e322a72c8cdfc774ac61a12cb57f6c0bac4e4b94aa43297238bc2106",
+      "code/additional/section_flows.py:section_saving_weights": "1d9a8c7f86dd6bf22d7d91a9d5542f762b41a06c3ab09ce29985470f6ed4c543",
+      "code/additional/section_flows.py:coverage_masks": "d33c1ab47869a16c8d06c746c6d8ed1dc9ffbea13ee3d50f84856c82c30b2482",
+      "code/additional/section_flows.py:_MODES": "de7a3199230af62f055db731b5cfd20469249804395856fb8ece68a786ccfda6",
+      "code/additional/section_flows.py:_coverage": "5a530303e1dbc920f34e754bc089406db4fe664b72fbd4bb8c30996bf94d34aa",
+      "code/additional/section_flows.py:_name": "1bd9de44bf00f6ff5067cb8db96e0e1935fbe8bb6c3219b9cb7bf1b27ea41996",
+      "code/additional/section_flows.py:_minimal_context": "f3d55878babccae893cabe00aa8ba7abc027882e86402d4d539d0f763090ee38",
+      "code/additional/section_flows.py:_mode": "fb489fe52eaa9ff9b8f8d60a32527ebfde71099d2e0ffc5f2066f61a1f05be26",
+      "code/additional/section_flows.py:_recipe_contract": "36f0063c2583c4324eaab9e2103ffd5a4ede5756597fcea7ebe638f7e153a042",
+      "code/additional/section_flows.py:_routing_path": "dd3cd26f384adea1f3653b2f3b232d22537f33a59007b7298e95683bc7faab7d",
+      "code/additional/section_flows.py:_ROOT": "cf6aca5137e6698eda21fd3c2c781bc7143743fe3a592ddb608c4516c6b77db1",
+      "code/additional/section_flows.py:_CODE_DIR": "770d495023aab802bcfccf37f4c928d6ce31e80a5a4d6813d1e9482226b0fe02",
+      "code/additional/section_flows.py:_digest_path": "1247b736c50e119dd665f031547666ecdb7fbbd8b2999a1940b68883ab2ac202",
+      "code/additional/section_flows.py:_file_digest": "365e540e23b8e7fafc3ac8d21dc2d2c821fd9028e2543cb62ff01eb3fd8308eb",
+      "code/additional/section_flows.py:_RECIPE_VERSION": "a786c4927daaeb9cae90979a0d5edd423485328b70b0b25c5776c14821ec49e4",
+      "code/additional/section_flows.py:_read_coverage": "344b5482e12aef81ee6d14be9e194217b44b3a58785e1a81bfd8870498dca4e6",
+      "code/additional/section_flows.py:_hash": "fbe7897d1570a7e1bfbfd177c43f7333d67f6a1a8717d2ceb35c9f2861d04b69",
+      "code/additional/section_flows.py:_prepare_recipe": "bda4d978d6daec8f9bab3c9d9b8d62b3b73bd985f509b8da59a97c064ef233e5",
+      "code/additional/section_flows.py:_no_path_time": "044f0aefb7e57d8f3949a1c1175d8363163b181b845c44f2c0bb678066bbdb7d",
+      "code/additional/section_flows.py:_station_group": "d00a2b4a4d9d1a073d7a05bbba5a71d02b74d113fec0ce170ab2aff8840ccc63",
+      "code/additional/section_flows.py:route_input_signature": "9095352c695f72b0d5b6995d07108528dc984bf72d49e7c829cad29e102f5648",
+      "code/additional/section_flows.py:_trace_features": "83261bf748896cb1b6f2c0ef4bd90c2da19744f7b824f312243bb381aff9ab22",
+      "code/additional/section_flows.py:_ancestor_sum": "d219e5b695bfcc091515dbdb6137a31530cd4d2e1aacbd12c300f1621e88bfc2",
+      "code/additional/section_flows.py:_route_inputs": "bec1d5f4f96426cbef389ad668a01fe9d32bbe1521dff6103e77f038c2749158",
+      "code/additional/section_flows.py:_path": "102d3b7f8fc18fb31d338fc8dd9faf1917cab01c21558f780ea27b281e4e45c1",
+      "code/additional/section_flows.py:_DEFAULT_COVERAGE": "0cbff2e6cff4f1e779c4b46180af870d6ef354b4f82188ec27cdede21292f72d",
+      "code/additional/section_flows.py:_ensure_recipe_coverage": "7cef10662779643512b0fba0be1cc9f5abfac6fd57ac55159e8b76edb7960e4e",
+      "code/additional/section_flows.py:section_config": "774a6309cddbcdc8120f73f25383b58dba8f0a33765b5e8350bfc38114600b64",
+      "code/additional/section_flows.py:_selector": "8339b5f5d8380ca4e57aa52c35e114220766b5dab1d3b8049bcb032251ad68a7",
+      "code/additional/section_flows.py:_INTERNAL_SECTION": "f54aabcec41d74ee788fe73e002df49ab8ed6ce98365fb6b2af4d43738164d85",
+      "code/additional/section_flows.py:_validate_route_inputs": "72a69ad3247429de1742e0ad5e14734493d48abcf76dcde1478aa188818b18fb",
+      "code/additional/section_flows.py:physical_signature": "cfa684f11987d8c8b98539b8140998e3abbe504b140b4797b3bd4c9dadad3146",
+      "code/additional/section_flows.py:_saving": "28f2fa915d5c0412c311e34dd046f6c5f4c4279dbb95b31d02332cd4d6bfcb49",
+      "code/transport_core/interventions.py:apply_interventions": "6c258742f41df402b16fe75353c1b9bf104b3362a9f44964e63914aee319932e",
+      "code/transport_core/interventions.py:_apply_mobility_hub": "91af188a65d4df848b7446a5a3382f00ffa2a62509d4b4ffc565b19ccc79b10c",
+      "code/transport_core/interventions.py:_multiply_selected": "61b2f047a7bb5108c79946829dc1d305d0a7bed171a2e56584f0a08db8f5999a",
+      "code/transport_core/interventions.py:_reduce_station_transfer": "6c2e7d3464268d479c045434d0ee4efd92c1657e1573c25a2645bcc982622423",
+      "code/transport_core/interventions.py:_reduction_factor": "e9cadd0b2c95b0b47b1504b1b6f2613a92a7946637c341d042fcfcdc04be768f",
+      "code/transport_core/interventions.py:_percentage": "d73898aba9f4c88c14326dcbd89f52285c3bb3207e57939d4a06e8b930dca88b",
+      "code/transport_core/interventions.py:_hub_mode_masks": "5f0e14e9fccd1da3fd4f3d9115dc49b6bc6ef8f6cb083eeeac75d0e747ee975a",
+      "code/transport_core/interventions.py:_hub_stop_ids": "23eabab313e46741710ca452d75cdf60068983cd02d0c9af098007bced821fcb",
+      "code/transport_core/interventions.py:_hub_zone_ids": "19d3264c6aa9512a989dae7775c583ac90764cc7b5df827c341fc6370a0cae7a",
+      "code/transport_core/interventions.py:_selector_zone_ids": "7980adc36156794782aed8df3834a12b9494801247b9c9bee5ec04d8e36f1846",
+      "code/transport_core/interventions.py:_speed_factor": "07a44caedf67e0e8d3c67addbbb4f70c149ad53c081c1275485af4a386d4c9ea",
+      "code/transport_core/interventions.py:station_transfer_walk_minutes": "85e8068b62a874f18b6d49c957009dad2101d43f0207b190f28ed1c5b0ae1ab2",
+      "code/transport_core/interventions.py:_railway_expansion_mask": "5a2a37f528a7db237369d3cf68e39417e2a1cc02fc4382046aae2349d76a53a5",
+      "code/transport_core/interventions.py:_od_mask": "e7f59309a47c13effbfd906adade3cd201a10bda2152b615d4b6dd69cb5dc5e8",
+      "code/transport_core/interventions.py:_as_list": "5b66d0105722c8fd4cecfd020241d235b18e8258836cda2606510829c058e254",
+      "code/transport_core/interventions.py:_apply_railway_expansion": "2d80edec14f28b82ca64bfe164828f2090b0e31f3b4a4773bd349b2fd61bf328",
+      "code/transport_core/interventions.py:_apply_bike_highway": "46d6c4487f8ea2d8f4be380e9ae39d5e00039abfb4131bd09bf355d778ff7cad",
+      "code/transport_core/interventions.py:_bike_highway_mask": "42fba334ee71508d0b71356a660c95c4ebcb3f16cc0c694d17b8ba04a89ba587",
+      "code/transport_core/mode_choice_zurich.py:mode_split_aggregated": "39740dfec6610d700022825fa26bc7df4e23fd921644504f53920e1f2e7322b9",
+      "code/transport_core/mode_choice_zurich.py:UNAVAILABLE_UTILITY": "cf607803da6a985966cf4c2ea3b127db7f605c7e6a149527e92c7ecc9b3d36c5",
+      "code/transport_core/mode_choice_zurich.py:_matrix": "57dc83eb9c08d84e5c067cfdb3749012164060b9c93cdd461d9d7b7183ab00b1",
+      "code/transport_core/mode_choice_zurich.py:load_mode_choice_parameters": "1954ce4e9752eff79cbffaf35710d5d714118c420c59d1796071d9ed1383da1d",
+      "code/transport_core/mode_choice_zurich.py:_availability": "94a468b5ae10f41e5887bd7ee156ab1752f5e5942d8e887d92947493d6e8337a",
+      "code/transport_core/travel_times.py:rebuild_pt_out_of_vehicle_times": "8fcd9b866f27eb8136c207a96e1ab35a7e49d027fb2b47e274409f9a70a1b3f3",
+      "code/transport_core/travel_times.py:standalone_walk_mask": "d7735f72360d69b5bb0d7ed9a25822ca1aae4aab818888b6b17ced91bcf84b2c",
+      "code/transport_core/travel_times.py:apply_ebike_share": "8a90180b70b6580b1ee9a846a3678886d30cab825dee9552def2e49491f3054d",
+      "code/transport_core/travel_times.py:_valid": "a303d1441d1e9388073ac5e6c9be62213e0654a12a87574ba1b0313ee4d81a55",
+      "code/transport_core/travel_times.py:ebike_time_factor": "5a224a3cc955488f7c0f08892fcb233614344057540aa161a3a8d59728ac2ba1",
+      "code/transport_core/travel_times.py:apply_perceived_time_policies": "d9b0cf13a242d84cac666d0aede0b36b313586074f3ebe9ad49a09983c128a3a",
+      "code/transport_core/travel_times.py:_apply_pt_component_floors": "0e8812bfe109e9ecae2728c70f5c15a9c96f4529ba6b06d029e3b3d8c78ef520",
+      "code/transport_core/travel_times.py:_apply_drive_perceived_times": "865e5ce0bb682aa6131a1f00c3da691a1efa42c7d24fce7628627d6c0f7eb683",
+      "code/transport_core/travel_times.py:load_travel_times": "07b30a5688c7523ea98bc9e845a4f6b1ed0bdde1baca8d2f9b98b54b944c0ae7",
+      "code/transport_core/travel_times.py:STRING_SKIMS": "82bc265c8c9ba871ec6316664733231c2d1ab4540bff8e2cc3ae06aa7b69602d",
+      "code/transport_core/travel_times.py:LENGTH_SKIMS": "394dd3a769c5516156dc01cf5c8c99d0fea6ebdab25c45b99ee180ce4c58bed0",
+      "code/transport_core/travel_times.py:NUMERIC_SKIMS": "aca88426b2b2b21e64c32a93fef548abb5f76064cdc63fbe2abee96014e7f501",
+      "code/transport_core/input_packages.py:align_matrix": "76dbbf55971153e022d13a521cb78cf551b19da71a5f6fec86880b21aee9437d",
+      "code/transport_core/input_packages.py:load_package": "5f31d2c5c671de6e12e522141674762acd59ab91c2d69a3bcf2982aca55acbea",
+      "code/transport_core/input_packages.py:PACKAGE_VERSION": "c8ecf5522fe2e582aad4ce39f2e1e86393b302ec27c730debacca131719facec",
+      "code/transport_core/zoning.py:load_model_inputs": "9808b7f189d676aa3d78b14c242c5fb19d391df089e7da4c44d472935f0e9d9b",
+      "code/transport_core/zoning.py:load_od_table": "0b7485fef5fa3225656200fe9c7c83420518175af29ee11d4f0cb01d84244d4c",
+      "code/transport_core/zoning.py:load_zones": "e4ff2f6dc374b15d729e038ac3dd8a7bbf1f687236f448378e554a49d1f79dcc",
+      "code/transport_core/zoning.py:REQUIRED_ZONE_COLUMNS": "6c0996518ec604b212065acccbaabc2dcb99a70aa2de591bb7e876d426e457b9",
+      "code/transport_core/config.py:EBIKE_SPEED_MULTIPLIER": "dae0a3ec813244e77b789467df96d6f2e0d6f7c16f717a18306789eda7898e35",
+      "code/transport_core/config.py:PT_TRANSFER_PHYSICAL_FLOOR_MIN": "891fb690d8fa21cd3f8b644b4a640272b5b7a343e9bc51dc4fb5a0d71ee7449c",
+      "code/transport_core/config.py:PT_EGRESS_FLOOR_MIN": "d11da43ce124d295c5319f6a1684c132d777a858ddefefd264d93d44925e26bd",
+      "code/transport_core/config.py:PT_ACCESS_FLOOR_MIN": "79b75ae5254b1e3364b913f7bf47cff814ed4d737f7b1949f5b131130a5daeb0",
+      "code/transport_core/config.py:PT_INTRAZONAL_MIN": "9784a2a2e5d1e650ee513facf2cf97835f6eff8e6fb2cf5a210c90d7d8c92f7c",
+      "code/transport_core/config.py:DRIVE_INTRAZONAL_MIN": "e8b7513fbd7e4bb009aaffe8b5fea9caf28cb3c53259f4e32b6e7bd4d93edb15",
+      "code/transport_core/config.py:CAR_TERMINAL_CANTON_MIN": "7fe6cc51ce7a7f1236f2857ee88069124531d676746793d3680f35add68d1709",
+      "code/transport_core/config.py:CAR_TERMINAL_CITY_MIN": "1b77d172d496339efc2e17351c351f6cc49c4ac09be6009437d88e0f6f9d0ea6",
+      "code/transport_core/config.py:DRIVE_CONNECTOR_CANTON_MIN": "ef4c062c2ae29db9269421fb6413a96305528df72b178922f57b3142c9478abd",
+      "code/transport_core/config.py:DRIVE_CONNECTOR_CITY_MIN": "00c22847a1f79cffedecae3f49d4e7163a5fbdd7894b638bb37e1b4c5665b7b7",
+      "code/transport_core/config.py:EXTERNAL_BACKGROUND_CANTON_FACTOR": "27b0704fc392a277ccba62e6c6646fd5845cf50889a2149736147ac248cb8543",
+      "code/transport_core/config.py:EXTERNAL_BACKGROUND_CITY_FACTOR": "83c01584df0c620435ed995a2af1f2c9fb3bef0aaa26a831a66a607d4ffdd0d1",
+      "code/transport_core/config.py:MAX_WALK_DISTANCE_KM": "238ac3760cb98234fe768907e7e7d99bf6b16d8126aff5f25f548a685d648ea6",
+      "code/transport_core/config.py:NO_PATH_TIME_MIN": "942afa32d696e2c8a76eee2b169778cb9314019c9785972617ce9a88cc96c263",
+      "code/transport_core/config.py:MODE_ORDER": "2da0be188cb14dc5749a7bf3516a887cd68e34d296c87e8c4294073605d35edd",
+      "code/transport_core/config.py:MODE_CHOICE_FILE": "b45669feb78764b43d7cd0ee193524b3f96c6bbf6969c44ed9d86cce7f2c652e",
+      "code/transport_core/config.py:CONFIG_DIR": "8a6f624a109282a3149dd66c40f6bfa4941bbc0c0ac2c309cdeffacefb0a09e8",
+      "code/transport_core/config.py:INPUT_DIR": "edebd47019ec5ddad464a4923968789d37d24014a4924265b62666547638ad48",
+      "code/transport_core/config.py:ROOT": "2bef70ceee57a55974079bf60e7106a8f67a3d9c19fb3e191d569ce146bbf9b5",
+      "code/transport_core/config.py:LOOKUP_PACKAGE_FILE": "7260b956d28d3fce830bcf3e0775c78153a768834fe6adfea7e3115e10f2b5fc",
+      "code/transport_core/config.py:PREPARED_DIR": "973b0b92d7f22416f6dc3a6fc56fd1523204a537106866643c3b5924e5772ae5",
+      "code/transport_core/config.py:SKIM_PACKAGE_FILE": "b508870e31b5400e8090b1d5dc0314a8fc311ae04df2a2a2db3f3343576ad932",
+      "code/transport_core/config.py:DEMAND_PACKAGE_FILE": "c59bfec7af3e43024603d2915fd9bd663d9c97fc8da34a0ff56b6596ca674cb7",
+      "code/transport_core/config.py:ZONES_FILE": "75fed50e7affacbf9b812923291434b77b018850a124b5b6c97786b8bc44d515"
+    }
+  },
+  "source_sha256": {
+    "code/__init__.py": "cf4413dc399f8d80670015aeede3070b6d2e2e6bfc3ac09cb6a4a2fe75725d39",
+    "code/adaptive_planning.py": "1e158e7b8e43bb21d0a5bf405367dc6d7206504739b16806d55795fcd6828fea",
+    "code/additional/__init__.py": "9ddd4b71b697c94056a009a1676c42259102b25623ff5b5a4f57836b4779d23a",
+    "code/additional/notebook_exports.py": "3a83839a9217a775f994c1d88c998ad4b4e217b76e8a1ee5639d5e0675d6b8a4",
+    "code/additional/section_flows.py": "0e304de867234744e33232572647348be25882973e8651218eb188d66c09523d",
+    "code/additional/transport_display.py": "45aa0a30f5e8a1f52d9aaddbe44a974c8e7db2efb6d44d3f98a962d7f71fe8fb",
+    "code/additional/trigger_optimization.py": "18fd8b4300761ee47476fe47a22997badda310de88cb47b9d05cce6e9a3f5135",
+    "code/additional/uncertainty.py": "10432673e33b9059824cb75f9286c19dcf93cb8cb896552081597c4e566d8141",
+    "code/parameters.py": "d7deb9be3ed996a99aebaa00304efc0d942c96cda51693388909b8e5a3751a47",
+    "code/simulation_engine.py": "72b0f369364272978048a5fa3ddabab7c47355766ffffe7ec6c7b00cef844a8e",
+    "code/stages.py": "db82982769d9910d3b7ff0fc1233c91d2de73b079c28adfd9979d9d90c21da76",
+    "code/surrogate_model/__init__.py": "913ec659a888396e56db37d5d0971f4d767e6d3aafd10690442bb78f27b867ea",
+    "code/surrogate_model/build_transport_surrogate.py": "4794f9be30c9c2c6cab2872ecadf5e387130d8089d1ce274f53c18ee50bae0b1",
+    "code/surrogate_model/od_gp.py": "ce03b9601c671d06974fc5acece46eed4867f9f139a5e130e8bd39cd0e7a04bf",
+    "code/surrogate_model/prepared_transport.py": "3a124581e25ccd95e12195eebbae591aad452f6c92d5a741c3acc9902251872e",
+    "code/surrogate_model/response_table.py": "1185c5c28addd510e69b0ec54b0382141a438e7603337310442b76a9e4695b25",
+    "code/surrogate_model/transport_surrogate.py": "3198439cf679aa613744c9ad88af5231ab5e1a5ab03ab3bf2d29dee7389d0e3e",
+    "code/surrogate_model/validate_surrogate_appraisal.py": "08314f911179ef1f99777466008228b25bf22d976220cff00d364152b13010a6",
+    "code/transport_core/__init__.py": "1abc59bfc8a9c4682aedb4551ca0b69e273dcdc8a68a1205527c78e64e329f42",
+    "code/transport_core/config.py": "da3d82b2fd626c2624239e3df13ef1162a9d22d4e341111317bd5066219578f8",
+    "code/transport_core/input_packages.py": "07f778c05c9b7b5b49a35209947d72eac864f73d40fd832673909e20251e5347",
+    "code/transport_core/interventions.py": "a476808b2fd079ad7a9c966b7b2b1ae871932f5187dd8096105736720963942e",
+    "code/transport_core/mode_choice_zurich.py": "a26479a0dd675ff68c45312553d3244329e1d7f2c9ce4486a8752d45323038e1",
+    "code/transport_core/network.py": "a15facfb0403de774a4b8734a898b3ea6ef8a586a889fdd1adb758c718ee522d",
+    "code/transport_core/routing.py": "ca8b3dc68880492991130e023f7d80388784a74415a9f4278ecf5b331eae1292",
+    "code/transport_core/travel_times.py": "0e761de51501ef7883663aa2d398dae5c0305937dbe937e30c40a938a92480d4",
+    "code/transport_core/zoning.py": "11d387c2389b4954351f82c59f2d7d2b4c74464a9b829155e33cc6b530f780c3",
+    "code/transport_model_interface.py": "71a3931ca320c6c35494b9f02cc0cefea40c4c529a0d90ad8acc4ca51a34caba",
+    "code/validate_case_study.py": "ae01188070788d21fe910b1142e9fb8c02f9100fce63c662a458f14d1adb589f"
+  },
+  "reference_source_sha256": {
+    "code/__init__.py": "cf4413dc399f8d80670015aeede3070b6d2e2e6bfc3ac09cb6a4a2fe75725d39",
+    "code/adaptive_planning.py": "1e158e7b8e43bb21d0a5bf405367dc6d7206504739b16806d55795fcd6828fea",
+    "code/additional/__init__.py": "9ddd4b71b697c94056a009a1676c42259102b25623ff5b5a4f57836b4779d23a",
+    "code/additional/notebook_exports.py": "3a83839a9217a775f994c1d88c998ad4b4e217b76e8a1ee5639d5e0675d6b8a4",
+    "code/additional/section_flows.py": "0e304de867234744e33232572647348be25882973e8651218eb188d66c09523d",
+    "code/additional/transport_display.py": "45aa0a30f5e8a1f52d9aaddbe44a974c8e7db2efb6d44d3f98a962d7f71fe8fb",
+    "code/additional/trigger_optimization.py": "18fd8b4300761ee47476fe47a22997badda310de88cb47b9d05cce6e9a3f5135",
+    "code/additional/uncertainty.py": "10432673e33b9059824cb75f9286c19dcf93cb8cb896552081597c4e566d8141",
+    "code/parameters.py": "d7deb9be3ed996a99aebaa00304efc0d942c96cda51693388909b8e5a3751a47",
+    "code/simulation_engine.py": "72b0f369364272978048a5fa3ddabab7c47355766ffffe7ec6c7b00cef844a8e",
+    "code/stages.py": "db82982769d9910d3b7ff0fc1233c91d2de73b079c28adfd9979d9d90c21da76",
+    "code/surrogate_model/__init__.py": "913ec659a888396e56db37d5d0971f4d767e6d3aafd10690442bb78f27b867ea",
+    "code/surrogate_model/build_transport_surrogate.py": "4794f9be30c9c2c6cab2872ecadf5e387130d8089d1ce274f53c18ee50bae0b1",
+    "code/surrogate_model/od_gp.py": "ce03b9601c671d06974fc5acece46eed4867f9f139a5e130e8bd39cd0e7a04bf",
+    "code/surrogate_model/prepared_transport.py": "3a124581e25ccd95e12195eebbae591aad452f6c92d5a741c3acc9902251872e",
+    "code/surrogate_model/response_table.py": "1185c5c28addd510e69b0ec54b0382141a438e7603337310442b76a9e4695b25",
+    "code/surrogate_model/transport_surrogate.py": "3198439cf679aa613744c9ad88af5231ab5e1a5ab03ab3bf2d29dee7389d0e3e",
+    "code/surrogate_model/validate_surrogate_appraisal.py": "08314f911179ef1f99777466008228b25bf22d976220cff00d364152b13010a6",
+    "code/transport_core/__init__.py": "1abc59bfc8a9c4682aedb4551ca0b69e273dcdc8a68a1205527c78e64e329f42",
+    "code/transport_core/config.py": "da3d82b2fd626c2624239e3df13ef1162a9d22d4e341111317bd5066219578f8",
+    "code/transport_core/input_packages.py": "07f778c05c9b7b5b49a35209947d72eac864f73d40fd832673909e20251e5347",
+    "code/transport_core/interventions.py": "a476808b2fd079ad7a9c966b7b2b1ae871932f5187dd8096105736720963942e",
+    "code/transport_core/mode_choice_zurich.py": "a26479a0dd675ff68c45312553d3244329e1d7f2c9ce4486a8752d45323038e1",
+    "code/transport_core/network.py": "a15facfb0403de774a4b8734a898b3ea6ef8a586a889fdd1adb758c718ee522d",
+    "code/transport_core/routing.py": "ca8b3dc68880492991130e023f7d80388784a74415a9f4278ecf5b331eae1292",
+    "code/transport_core/travel_times.py": "0e761de51501ef7883663aa2d398dae5c0305937dbe937e30c40a938a92480d4",
+    "code/transport_core/zoning.py": "11d387c2389b4954351f82c59f2d7d2b4c74464a9b829155e33cc6b530f780c3",
+    "code/transport_model_interface.py": "71a3931ca320c6c35494b9f02cc0cefea40c4c529a0d90ad8acc4ca51a34caba",
+    "code/validate_case_study.py": "ae01188070788d21fe910b1142e9fb8c02f9100fce63c662a458f14d1adb589f"
+  }
+}

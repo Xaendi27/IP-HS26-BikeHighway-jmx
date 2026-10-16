@@ -68,19 +68,16 @@ def _input_file_key(path, root):
     return path.relative_to(root).as_posix() if path.is_relative_to(root) else path.as_posix()
 
 
-def current_model_inputs(stage_specs):
-    """Physical input values and transport-data/equation identities.
-
-    Each artifact records its actual solver policy separately. Changing future
-    training defaults or the supplementary appraisal cohort does not refit it.
-    """
+def _model_inputs(stage_specs, *, portable=False):
+    """Collect physical settings and either source-data or local-cache identity."""
     import parameters as p
     import transport_model_interface as tmi
     from additional.section_flows import physical_signature
     from additional.uncertainty import complete_transport_inputs
     root = Path(tmi.__file__).resolve().parents[1]
     network = tmi.configured_detailed_network_path(root)
-    paths = [root / "cache/tmi_context.pkl", *sorted((root / "data/transport/config").glob("*.json"))]
+    paths = list(sorted((root / "data/transport/config").glob("*.json")))
+    paths.extend(tmi.configured_input_paths(root).values() if portable else [root / "cache/tmi_context.pkl"])
     if network is not None:
         paths.append(network)
     files = {}
@@ -89,12 +86,14 @@ def current_model_inputs(stage_specs):
             stat = path.stat()
             files[_input_file_key(path, root)] = _file_digest(str(path), stat.st_size, stat.st_mtime_ns)
         else:
+            if portable:
+                raise SurrogateError(f"Missing prepared transport input: {_input_file_key(path, root)}")
             files[_input_file_key(path, root)] = None
     fixed_inputs = {name: value for name, value in complete_transport_inputs().items()
                     if name not in uc.TRANSPORT_SURROGATE_INPUTS}
     return {
         **({"fixed_transport_inputs": fixed_inputs} if fixed_inputs else {}),
-        "identity_version": 2,
+        "identity_version": 3 if portable else 2,
         "corridor": {"mode": getattr(p, "CORRIDOR_DEFINITION_MODE", "municipalities"),
                      "municipalities": sorted(map(str, p.CORRIDOR_MUNICIPALITIES)),
                      "zone_ids": sorted(map(str, getattr(p, "CORRIDOR_ZONE_IDS", None) or []))},
@@ -104,6 +103,20 @@ def current_model_inputs(stage_specs):
                          for name, spec in uc.TRANSPORT_SURROGATE_INPUTS.items()},
         "drive_occupancy": tmi.ASSIGNMENT_SETTINGS.get("drive_occupancy", 1.14),
         "prepared_inputs": files}
+
+
+def current_model_inputs(stage_specs):
+    """Physical inputs used to identify local reference-generation caches.
+
+    Each artifact records its actual solver policy separately. Changing future
+    training defaults or the supplementary appraisal cohort does not refit it.
+    """
+    return _model_inputs(stage_specs)
+
+
+def portable_model_inputs(stage_specs):
+    """Identify a shared fitted model from prepared data, not a local pickle cache."""
+    return _model_inputs(stage_specs, portable=True)
 
 
 def _physical_settings(value):
@@ -136,6 +149,24 @@ def _input_changes(before, after, prefix=""):
         elif left != right:
             changed.append(name)
     return changed
+
+
+def _check_model_inputs(manifest, stage_specs, root):
+    """Validate published source identities, retaining legacy cache checks."""
+    import transport_model_interface as tmi
+    saved = manifest.get("portable_model_inputs")
+    if saved is not None:
+        changed = _input_changes(saved, portable_model_inputs(stage_specs))
+        if changed:
+            raise SurrogateError("Saved GP physical inputs differ from current configuration: "
+                                 + ", ".join(changed))
+    else:
+        freshness = tmi.context_cache_status(root)
+        if not freshness["ready"]:
+            raise SurrogateError("Transport input cache is not current: " + freshness["reason"]
+                                 + ". Refresh prepared transport inputs before rebuilding the surrogate.")
+        if model_identity(manifest) != current_model_fingerprint(stage_specs):
+            raise SurrogateError("Saved GP physical inputs differ from current configuration.")
 
 
 def equation_identity(roots, source_texts=None):
@@ -257,12 +288,7 @@ def artifact_status(project_root=None, *, stage_specs=None, artifact_dir=None,
         if missing:
             raise SurrogateError(f"The surrogate lacks infrastructure states {sorted(missing)}.")
         if validate_fingerprint:
-            freshness = tmi.context_cache_status(root)
-            if not freshness["ready"]:
-                raise SurrogateError("Transport input cache is not current: " + freshness["reason"]
-                                     + ". Refresh prepared transport inputs before rebuilding the surrogate.")
-            if model_identity(manifest) != current_model_fingerprint(specs):
-                raise SurrogateError("Saved GP physical inputs differ from current configuration.")
+            _check_model_inputs(manifest, specs, root)
             saved_equations = manifest.get("compatibility", {}).get("reference_equations", manifest.get("reference_equations"))
             if saved_equations:
                 changed = _input_changes(saved_equations, reference_equations())
@@ -384,10 +410,9 @@ class TransportEmulator:
         import stages
         import transport_model_interface as tmi
         specs = stages.get_stages(p.NOMINAL_PARAMS)
-        if model_identity(self.manifest) != current_model_fingerprint(specs):
-            raise SurrogateError("Physical model inputs changed. Rebuild the OD surrogate in Notebook 03, Section 3.1.")
+        root = Path(tmi.__file__).resolve().parents[1]
+        _check_model_inputs(self.manifest, specs, root)
         if self._backend is None:
-            root = Path(tmi.__file__).resolve().parents[1]
             context = tmi.load_transport_context(root)
             base = tmi.build_corridor_context(context, corridor_municipalities=p.CORRIDOR_MUNICIPALITIES,
                                               name="surrogate post-processing corridor")
