@@ -76,7 +76,7 @@ NOMINAL_PARAMS = {
     "PEAK_TO_ANNUAL_TRAIN": 3391.5,  # Peak-hour supplied train-km to annual train-km; independent of passenger demand.
 
     # -------------------------------------------------------------------------
-    # PT service, section comfort capacity and train supply
+    # PT service, section comfort capacity and train supply 
     # -------------------------------------------------------------------------
     "PT_HEADWAY_BASELINE": 20.0,  # Baseline interval between PT services (minutes).
     # Package headway reductions and capacity increases are configured in stages.py.
