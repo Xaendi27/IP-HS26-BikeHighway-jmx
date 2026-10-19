@@ -177,16 +177,21 @@ globals().update(NOMINAL_PARAMS)
 
 
 CORRIDOR_REGIONS = { # Named municipality groups defining the modeled corridor.
-    "Limmattal": [
-        "Schlieren",
-        "Dietikon",
+    "restliches Limmattal": [
         "Unterengstringen",
         "Oberengstringen",
         "Urdorf",
         "Weiningen (ZH)",
         "Geroldswil"
-    ] , 
-    "Zürich" : ["Zürich"],   
+    ] ,
+    "Schlieren" : ["Schlieren"],
+    "Dietikon" : ["Dietikon"],
+    "Zürich" : ["Zürich"]   # Alternative: Gesamte Stadt Zürich
+    #"Zürich Altstetten, Höngg & Albisrieden": [
+    #    "Altstetten",
+    #    "Höngg",
+    #    "Albisrieden"
+    #]
 }
 
 # Flat list of all corridor municipalities
