@@ -176,7 +176,13 @@ globals().update(NOMINAL_PARAMS)
 
 
 
-CORRIDOR_REGIONS = { # Named municipality groups defining the modeled corridor.
+# -----------------------------------------------------------------------------
+# OPTION A: Municipality groups
+# In "zones" mode (Option B below) the corridor itself is defined ONLY by
+# CORRIDOR_ZONE_IDS. This list is kept as a helper for municipality-level
+# displays (NB02 1.4 desire lines, 2.2/2.3 playground) and stage service pairs.
+# -----------------------------------------------------------------------------
+CORRIDOR_REGIONS = { # Named municipality groups (helper only in "zones" mode)
     "restliches Limmattal": [
         "Unterengstringen",
         "Oberengstringen",
@@ -186,12 +192,7 @@ CORRIDOR_REGIONS = { # Named municipality groups defining the modeled corridor.
     ] ,
     "Schlieren" : ["Schlieren"],
     "Dietikon" : ["Dietikon"],
-    "Zürich" : ["Zürich"]   # Alternative: Gesamte Stadt Zürich
-    #"Zürich Altstetten, Höngg & Albisrieden": [
-    #    "Altstetten",
-    #    "Höngg",
-    #    "Albisrieden"
-    #]
+    "Zürich" : ["Zürich"]   # Whole city only for municipality-level displays
 }
 
 # Flat list of all corridor municipalities
@@ -202,7 +203,8 @@ CORRIDOR_MUNICIPALITIES = [  # Derived flat list used by corridor selection and 
 # Optional project-relative or absolute detailed road-network cache path.
 # Notebook 02 prepares a missing cache; later notebooks require it to exist.
 # None uses the existing default cache. For a new project, select a new filename.
-DETAILED_NETWORK_FILE = "data/processed/limmattal_erweitert_detailed_network.pkl"
+#DETAILED_NETWORK_FILE = "data/processed/limmattal_erweitert_detailed_network.pkl"
+DETAILED_NETWORK_FILE = "data/processed/limmattal_altstetten_hoengg_albisrieden_detailed_network.pkl"
 
 # -----------------------------------------------------------------------------
 # OPTION B: Define by Explicit Zone IDs
@@ -232,6 +234,57 @@ DETAILED_NETWORK_FILE = "data/processed/limmattal_erweitert_detailed_network.pkl
 # }
 # Flat list of active corridor zone IDs:
 # CORRIDOR_ZONE_IDS = [z for zone_list in PROJECT_ZONES.values() for z in zone_list]
+
+CORRIDOR_DEFINITION_MODE = "zones"
+
+PROJECT_ZONES = {
+    # Zurich city quarter Altstetten (includes the Grünau area; no separate quarter in ctx.zones)
+    "Zürich Altstetten": [
+        "26101001", "26101002", "26101003", "26101004", "26101006",
+        "26101008", "26101010", "26101012", "26101013", "26101015",
+        "26101016", "26101018", "26101019", "26101020", "26101021",
+        "26101023", "26101029", "26101030", "26101032", "26101033",
+        "26101034", "26101039", "26101041", "26101046", "26103306",
+    ],
+    # Zurich city quarter Höngg
+    "Zürich Höngg": [
+        "26101005", "26101007", "26101011", "26101022", "26101024",
+        "26101027", "26101031", "26101042", "26101045", "26101054",
+        "26101058", "26101064",
+    ],
+    # Zurich city quarter Albisrieden
+    "Zürich Albisrieden": [
+        "26101009", "26101014", "26101017", "26101025", "26101026",
+        "26101028", "26101035", "26101036", "26101037", "26101043",
+    ],
+    "Schlieren": [
+        "24701001", "24701002", "24701003", "24701004", "24701005",
+        "24701006", "24701007", "24701008", "24701009", "24701010",
+        "24701011", "24701012", "24701013", "24701014", "24701015",
+        "24701016", "24701017", "24701018", "24701019", "24701020",
+    ],
+    "Dietikon": [
+        "24301001", "24301002", "24301003", "24301004", "24301005",
+        "24301006", "24301007", "24301008", "24301009", "24301010",
+        "24301011", "24301012", "24301013", "24301014", "24301015",
+        "24301016", "24301017", "24301018", "24301019", "24301020",
+        "24301021", "24301022", "24301023", "24301024", "24301025",
+        "24301026", "24301027",
+    ],
+    # Geroldswil, Oberengstringen, Unterengstringen, Urdorf, Weiningen (ZH)
+    "restliches Limmattal": [
+        "24401001", "24401002", "24401003", "24401004", "24401005",
+        "24501001", "24501002", "24501003", "24501004",
+        "24901001", "24901002", "24901003",
+        "25001001", "25001002", "25001003", "25001004", "25001005",
+        "25001006", "25001007", "25001008", "25001009",
+        "25101001", "25101002", "25101003", "25101004",
+    ],
+}
+
+# Flat list of active corridor zone IDs (119 zones)
+CORRIDOR_ZONE_IDS = [z for zone_list in PROJECT_ZONES.values() for z in zone_list]
+
 # -----------------------------------------------------------------------------
 # Optional route coverage, including trips with endpoints outside the corridor.
 # Coverage is regenerated from the shared routing inputs when settings change.
@@ -247,18 +300,22 @@ SECTION_DEFAULTS = {  # Generic fallback settings; configure the project's SECTI
     "coverage_file": None,                # None uses an automatically regenerated cache.
     "crowding_enabled": False,            # this version values crowding only for PT
 }
-SECTION = {  # Active project section and endpoints used for its travel-time reference.
-    **SECTION_DEFAULTS,
-    "active": True,                       # Include this count and its effects in model/appraisal outputs.
-    "kind": "pt_approach",                # PT station approach, cycling route or individual PT stop.
-    "station": "Winterthur",              # Station whose approach is counted.
-    "towards": "Effretikon",              # Select the side facing this station, including express services.
-    "coverage_file": "data/processed/section_coverage.npz",  # Supplied example; refreshed if inputs or definition change.
-    "mode": "PT",                         # Mode using this section; must match an enabled external flow.
-    "origin": {"municipality_name": "Zürich"},  # Origin of the modeled travel-time reference.
-    "destination": {"municipality_name": "Winterthur"},  # Destination of that reference.
-    "crowding_enabled": True,             # Value extra PT discomfort using the section comfort threshold.
-}
+# --- Old MehrSpur section (kept for reference, inactive for the bike highway) ---
+# SECTION = {  # Active project section and endpoints used for its travel-time reference.
+#     **SECTION_DEFAULTS,
+#     "active": True,                       # Include this count and its effects in model/appraisal outputs.
+#     "kind": "pt_approach",                # PT station approach, cycling route or individual PT stop.
+#     "station": "Winterthur",              # Station whose approach is counted.
+#     "towards": "Effretikon",              # Select the side facing this station, including express services.
+#     "coverage_file": "data/processed/section_coverage.npz",  # Supplied example; refreshed if inputs or definition change.
+#     "mode": "PT",                         # Mode using this section; must match an enabled external flow.
+#     "origin": {"municipality_name": "Zürich"},  # Origin of the modeled travel-time reference.
+#     "destination": {"municipality_name": "Winterthur"},  # Destination of that reference.
+#     "crowding_enabled": True,             # Value extra PT discomfort using the section comfort threshold.
+# }
+
+# No counting section for the bike highway: defaults keep SECTION inactive ("active": False).
+SECTION = {**SECTION_DEFAULTS}
 
 # Alternative definitions (replace SECTION above; disable PT crowding for these).
 # Disable EXTERNAL_FLOW below, or calibrate a new cohort of the matching mode:
@@ -280,16 +337,20 @@ EXTERNAL_FLOW_DEFAULTS = {  # Generic fallback; configure the project's EXTERNAL
     "additional_trips_daily": 0.0,        # Existing person-trips/weekday missing from the retained model.
     "growth": "general",                  # "general" demand growth or "fixed"
 }
-EXTERNAL_FLOW = {  # One cohort shared by baseline and projects, added after mode choice.
-    **EXTERNAL_FLOW_DEFAULTS,
-    "enabled": True,                      # Include this cohort's time costs and PT comfort loading.
-    "mode": "PT",                         # Existing PT passengers; must match SECTION.mode.
-    # One-time nominal Stage-0 calibration (25% e-bikes; 2% road-gap target):
-    # 120,000 target - 66,891.950467 modeled passengers/day, both directions.
-    # Winterthur approach towards Effretikon; connectivity-refined road network.
-    # Keep this cohort fixed across alternatives; only general demand growth applies.
-    "additional_trips_daily": 53_108.0495332632,  # Baseline supplementary person-trips/day, both directions.
-}
+# --- Old MehrSpur supplementary PT cohort (kept for reference, disabled for the bike highway) ---
+# EXTERNAL_FLOW = {  # One cohort shared by baseline and projects, added after mode choice.
+#     **EXTERNAL_FLOW_DEFAULTS,
+#     "enabled": True,                      # Include this cohort's time costs and PT comfort loading.
+#     "mode": "PT",                         # Existing PT passengers; must match SECTION.mode.
+#     # One-time nominal Stage-0 calibration (25% e-bikes; 2% road-gap target):
+#     # 120,000 target - 66,891.950467 modeled passengers/day, both directions.
+#     # Winterthur approach towards Effretikon; connectivity-refined road network.
+#     # Keep this cohort fixed across alternatives; only general demand growth applies.
+#     "additional_trips_daily": 53_108.0495332632,  # Baseline supplementary person-trips/day, both directions.
+# }
+
+# No supplementary passenger cohort for the bike highway: defaults keep it disabled ("enabled": False).
+EXTERNAL_FLOW = {**EXTERNAL_FLOW_DEFAULTS}
 
 
 # =============================================================================

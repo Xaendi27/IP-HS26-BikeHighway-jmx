@@ -146,6 +146,16 @@ from math import isfinite
 # =============================================================================
 # 1. PACKAGES: RAILWAY IMPROVEMENTS, MOBILITY HUBS AND APPRAISAL
 # =============================================================================
+# Zurich city quarters other than Altstetten, Höngg and Albisrieden ("rest of Zurich")
+REST_OF_ZURICH = [
+    "Affoltern", "Alt-Wiedikon", "City", "Enge", "Escher Wyss", "Fluntern",
+    "Friesenberg", "Gewerbeschule", "Hard", "Hirslanden", "Hirzenbach",
+    "Hochschulen", "Hottingen", "Langstrasse", "Leimbach", "Lindenhof",
+    "Mühlebach", "Oberstrass", "Oerlikon", "Rathaus", "Saatlen",
+    "Schwamendingen-Mitte", "Seebach", "Seefeld", "Sihlfeld", "Unterstrass",
+    "Weinegg", "Werd", "Wipkingen", "Witikon", "Wollishofen",
+]
+
 PACKAGES = {
     # --- Package 1: east section Zürich-Altstetten -> end of Schlieren ---
     # 3.5 km, 4.8 m wide, 3 underpasses, 1 Limmat bridge. Usable on its own.
@@ -156,25 +166,59 @@ PACKAGES = {
         ],
         "bike_highways": [
             {
-                "name": "Zürich–Schlieren (east section)",
-                "area_pairs": [{"origin": {"municipality_name": "Zürich"},
+                "name": "Altstetten–Schlieren (east section)",  # s = 0.70
+                "area_pairs": [{"origin": {"city_quartier": "Altstetten"},
                                 "destination": {"municipality_name": "Schlieren"}}],
                 "both_directions": True,
-                "effects": {"speed_increase_pct": 12.5, "distance_reduction_pct": 2.0},
+                "effects": {"speed_increase_pct": 24.14, "distance_reduction_pct": 3.5},
             },
             {
-                "name": "Zürich–Dietikon (east section)",
-                "area_pairs": [{"origin": {"municipality_name": "Zürich"},
+                "name": "Höngg/Albisrieden–Schlieren (east section)",  # s = 0.60
+                "area_pairs": [{"origin": {"city_quartier": "Höngg"},
+                                "destination": {"municipality_name": "Schlieren"}},
+                               {"origin": {"city_quartier": "Albisrieden"},
+                                "destination": {"municipality_name": "Schlieren"}}],
+                "both_directions": True,
+                "effects": {"speed_increase_pct": 20.0, "distance_reduction_pct": 3.0},
+            },
+            {
+                "name": "Rest of Zürich–Schlieren (east section)",  # s = 0.30
+                "area_pairs": [{"origin": {"city_quartier": q},
+                                "destination": {"municipality_name": "Schlieren"}}
+                               for q in REST_OF_ZURICH],
+                "both_directions": True,
+                "effects": {"speed_increase_pct": 9.09, "distance_reduction_pct": 1.5},
+            },
+            {
+                "name": "Altstetten–Dietikon (east section)",  # s = 0.30625 (0.7 · 3.5/8)
+                "area_pairs": [{"origin": {"city_quartier": "Altstetten"},
                                 "destination": {"municipality_name": "Dietikon"}}],
                 "both_directions": True,
-                "effects": {"speed_increase_pct": 5.11, "distance_reduction_pct": 0.875},  # s = 0.175
+                "effects": {"speed_increase_pct": 9.30, "distance_reduction_pct": 1.531},
             },
             {
-                "name": "Schlieren–Dietikon (east section)",
+                "name": "Höngg/Albisrieden–Dietikon (east section)",  # s = 0.2625 (0.6 · 3.5/8)
+                "area_pairs": [{"origin": {"city_quartier": "Höngg"},
+                                "destination": {"municipality_name": "Dietikon"}},
+                               {"origin": {"city_quartier": "Albisrieden"},
+                                "destination": {"municipality_name": "Dietikon"}}],
+                "both_directions": True,
+                "effects": {"speed_increase_pct": 7.87, "distance_reduction_pct": 1.313},
+            },
+            {
+                "name": "Rest of Zürich–Dietikon (east section)",  # s = 0.13125 (0.3 · 3.5/8)
+                "area_pairs": [{"origin": {"city_quartier": q},
+                                "destination": {"municipality_name": "Dietikon"}}
+                               for q in REST_OF_ZURICH],
+                "both_directions": True,
+                "effects": {"speed_increase_pct": 3.78, "distance_reduction_pct": 0.656},
+            },
+            {
+                "name": "Schlieren–Dietikon (east section)",  # s = 0.35 (0.8 · 3.5/8)
                 "area_pairs": [{"origin": {"municipality_name": "Schlieren"},
                                 "destination": {"municipality_name": "Dietikon"}}],
                 "both_directions": True,
-                "effects": {"speed_increase_pct": 9.09, "distance_reduction_pct": 1.5},
+                "effects": {"speed_increase_pct": 10.77, "distance_reduction_pct": 1.75},
             },
         ],
         "appraisal": {
@@ -184,7 +228,7 @@ PACKAGES = {
             # "construction_co2_tonnes": 0.0,  # Add when a source is available.
         },
     },
- 
+
     # --- Package 2: west section end of Schlieren -> Dietikon (cantonal border AG) ---
     # 4.5 km, 4.8 m wide, 5 underpasses, 1 Limmat bridge. Usable on its own.
     "tunnel": {
@@ -194,18 +238,35 @@ PACKAGES = {
         ],
         "bike_highways": [
             {
-                "name": "Zürich–Dietikon (west section)",
-                "area_pairs": [{"origin": {"municipality_name": "Zürich"},
+                "name": "Altstetten–Dietikon (west section)",  # s = 0.39375 (0.7 · 4.5/8)
+                "area_pairs": [{"origin": {"city_quartier": "Altstetten"},
                                 "destination": {"municipality_name": "Dietikon"}}],
                 "both_directions": True,
-                 "effects": {"speed_increase_pct": 6.67, "distance_reduction_pct": 1.125},  # s = 0.225
+                "effects": {"speed_increase_pct": 12.28, "distance_reduction_pct": 1.969},
             },
             {
-                "name": "Schlieren–Dietikon (west section)",
+                "name": "Höngg/Albisrieden–Dietikon (west section)",  # s = 0.3375 (0.6 · 4.5/8)
+                "area_pairs": [{"origin": {"city_quartier": "Höngg"},
+                                "destination": {"municipality_name": "Dietikon"}},
+                               {"origin": {"city_quartier": "Albisrieden"},
+                                "destination": {"municipality_name": "Dietikon"}}],
+                "both_directions": True,
+                "effects": {"speed_increase_pct": 10.34, "distance_reduction_pct": 1.688},
+            },
+            {
+                "name": "Rest of Zürich–Dietikon (west section)",  # s = 0.16875 (0.3 · 4.5/8)
+                "area_pairs": [{"origin": {"city_quartier": q},
+                                "destination": {"municipality_name": "Dietikon"}}
+                               for q in REST_OF_ZURICH],
+                "both_directions": True,
+                "effects": {"speed_increase_pct": 4.92, "distance_reduction_pct": 0.844},
+            },
+            {
+                "name": "Schlieren–Dietikon (west section)",  # s = 0.45 (0.8 · 4.5/8)
                 "area_pairs": [{"origin": {"municipality_name": "Schlieren"},
                                 "destination": {"municipality_name": "Dietikon"}}],
                 "both_directions": True,
-                "effects": {"speed_increase_pct": 16.13, "distance_reduction_pct": 2.5},
+                "effects": {"speed_increase_pct": 14.29, "distance_reduction_pct": 2.25},
             },
         ],
         "appraisal": {
@@ -216,7 +277,7 @@ PACKAGES = {
         },
     },
 }
- 
+
 # =============================================================================
 # 2. COMBINED-ONLY EFFECTS
 # =============================================================================
@@ -228,18 +289,35 @@ COMBINED_EFFECTS = {
     ],
     "bike_highways": [
         {
-            "name": "Zürich–Dietikon (continuity correction)",
-            "area_pairs": [{"origin": {"municipality_name": "Zürich"},
+            "name": "Altstetten–Dietikon (continuity correction)",  # s = 0.30625 + 0.39375
+            "area_pairs": [{"origin": {"city_quartier": "Altstetten"},
                             "destination": {"municipality_name": "Dietikon"}}],
             "both_directions": True,
-            "effects": {"speed_increase_pct": 0.34, "distance_reduction_pct": 0.01},  # s = 0.175 + 0.225
+            "effects": {"speed_increase_pct": 1.16, "distance_reduction_pct": 0.031},
         },
         {
-            "name": "Schlieren–Dietikon (continuity correction)",
+            "name": "Höngg/Albisrieden–Dietikon (continuity correction)",  # s = 0.2625 + 0.3375
+            "area_pairs": [{"origin": {"city_quartier": "Höngg"},
+                            "destination": {"municipality_name": "Dietikon"}},
+                           {"origin": {"city_quartier": "Albisrieden"},
+                            "destination": {"municipality_name": "Dietikon"}}],
+            "both_directions": True,
+            "effects": {"speed_increase_pct": 0.82, "distance_reduction_pct": 0.023},
+        },
+        {
+            "name": "Rest of Zürich–Dietikon (continuity correction)",  # s = 0.13125 + 0.16875
+            "area_pairs": [{"origin": {"city_quartier": q},
+                            "destination": {"municipality_name": "Dietikon"}}
+                           for q in REST_OF_ZURICH],
+            "both_directions": True,
+            "effects": {"speed_increase_pct": 0.19, "distance_reduction_pct": 0.006},
+        },
+        {
+            "name": "Schlieren–Dietikon (continuity correction)",  # s = 0.35 + 0.45
             "area_pairs": [{"origin": {"municipality_name": "Schlieren"},
                             "destination": {"municipality_name": "Dietikon"}}],
             "both_directions": True,
-            "effects": {"speed_increase_pct": 1.49, "distance_reduction_pct": 0.04},
+            "effects": {"speed_increase_pct": 1.56, "distance_reduction_pct": 0.041},
         },
     ],
 }

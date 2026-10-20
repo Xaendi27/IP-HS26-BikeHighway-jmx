@@ -33,7 +33,7 @@
     },
     "ROAD_FREIGHT_GROWTH": {
       "minimum": 0.0,
-      "maximum": 0.1891,
+      "maximum": 0.1827,
       "nominal": 0.0
     }
   },
@@ -44,21 +44,6 @@
     3
   ],
   "od_labels": [
-    "13101001",
-    "13101005",
-    "13101010",
-    "13501002",
-    "16101002",
-    "16101004",
-    "16101006",
-    "16101007",
-    "19101001",
-    "19101002",
-    "19101003",
-    "19101004",
-    "19101005",
-    "19301001",
-    "19501001",
     "24301001",
     "24301002",
     "24301003",
@@ -178,288 +163,38 @@
     "26101041",
     "26101042",
     "26101043",
-    "26101044",
     "26101045",
     "26101046",
     "26101047",
-    "26101048",
     "26101049",
     "26101050",
     "26101051",
     "26101052",
-    "26101053",
     "26101054",
-    "26101055",
     "26101056",
     "26101057",
     "26101058",
-    "26101059",
     "26101060",
     "26101061",
     "26101062",
     "26101063",
     "26101064",
-    "26101065",
     "26101066",
     "26101067",
     "26101068",
-    "26101069",
-    "26101070",
-    "26101071",
-    "26101072",
-    "26101073",
-    "26101074",
-    "26101075",
     "26101076",
-    "26101077",
-    "26101078",
     "26101079",
-    "26101080",
-    "26101081",
-    "26101082",
-    "26101083",
-    "26101084",
-    "26101085",
-    "26101086",
-    "26101087",
-    "26101088",
-    "26101089",
-    "26101090",
-    "26101091",
     "26101092",
-    "26101093",
-    "26101094",
     "26101095",
-    "26101096",
-    "26101097",
-    "26101098",
-    "26101099",
     "26101100",
-    "26101101",
-    "26101102",
-    "26101103",
-    "26101104",
-    "26101105",
-    "26101106",
-    "26101107",
-    "26101108",
-    "26101109",
-    "26101110",
     "26101111",
     "26101112",
-    "26101113",
-    "26101114",
-    "26101115",
-    "26101116",
-    "26101117",
-    "26101118",
-    "26101119",
-    "26101120",
-    "26101121",
-    "26101122",
-    "26101123",
-    "26101124",
     "26101125",
-    "26101126",
-    "26101127",
-    "26101128",
-    "26101129",
-    "26101130",
-    "26101131",
-    "26101132",
-    "26101133",
-    "26101134",
-    "26101135",
-    "26101136",
-    "26101137",
-    "26101138",
-    "26101139",
-    "26101140",
-    "26101141",
-    "26101142",
-    "26101143",
-    "26101144",
-    "26101145",
-    "26101146",
-    "26101147",
     "26101148",
-    "26101149",
-    "26101150",
-    "26101151",
-    "26101152",
-    "26101153",
-    "26101154",
     "26101155",
-    "26101156",
-    "26101157",
-    "26101158",
-    "26101159",
-    "26101160",
-    "26101161",
-    "26101162",
-    "26101163",
-    "26101164",
-    "26101165",
-    "26101166",
-    "26101167",
     "26101168",
-    "26101169",
-    "26101170",
-    "26101171",
-    "26101172",
-    "26101173",
-    "26101174",
-    "26101175",
-    "26101176",
-    "26101177",
-    "26101178",
-    "26101179",
-    "26101180",
-    "26101181",
-    "26101182",
-    "26101183",
-    "26101184",
-    "26101185",
-    "26101186",
-    "26101187",
-    "26101188",
-    "26101189",
-    "26101190",
-    "26101191",
-    "26101192",
-    "26101193",
-    "26101194",
-    "26101195",
-    "26101196",
-    "26101197",
-    "26101198",
-    "26101199",
-    "26101200",
-    "26101201",
-    "26101202",
-    "26101203",
-    "26101204",
-    "26101205",
-    "26101206",
-    "26101207",
-    "26101208",
-    "26101209",
-    "26101210",
-    "26101211",
-    "26101212",
-    "26101213",
-    "26101214",
-    "26101215",
-    "26101216",
-    "26101217",
-    "26101218",
-    "26101219",
-    "26101220",
-    "26101221",
-    "26101222",
-    "26101223",
-    "26101224",
-    "26101225",
-    "26101226",
-    "26101227",
-    "26101228",
-    "26101229",
-    "26101230",
-    "26101231",
-    "26101232",
-    "26101233",
-    "26101234",
-    "26101235",
-    "26101236",
-    "26101237",
-    "26101238",
-    "26101239",
-    "26101240",
-    "26101241",
-    "26101242",
-    "26101243",
-    "26101244",
-    "26101245",
-    "26101246",
-    "26101247",
-    "26101248",
-    "26101249",
-    "26101250",
-    "26101251",
-    "26101252",
-    "26101253",
-    "26101254",
-    "26101255",
-    "26101256",
-    "26101257",
-    "26101258",
-    "26101259",
-    "26101260",
-    "26101261",
-    "26101262",
-    "26101263",
-    "26101264",
-    "26101265",
-    "26101266",
-    "26101267",
-    "26101268",
-    "26101269",
-    "26101270",
-    "26101271",
-    "26101272",
-    "26101273",
-    "26101274",
-    "26101275",
-    "26101276",
-    "26101277",
-    "26101278",
-    "26101279",
-    "26101280",
-    "26101281",
-    "26101282",
-    "26101283",
-    "26101284",
-    "26101285",
-    "26101286",
-    "26101287",
-    "26101288",
-    "26101289",
-    "26101290",
-    "26101291",
-    "26101292",
-    "26101293",
-    "26101294",
-    "26101295",
-    "26101296",
-    "26101297",
-    "26101298",
-    "26101299",
-    "26101300",
-    "26101301",
-    "26101302",
-    "26101303",
-    "26101304",
-    "26101305",
     "26103306",
-    "26103307",
-    "26103308",
-    "6601001",
-    "6601002",
-    "6601003",
-    "6601006",
-    "6601008",
-    "6601009",
-    "6901001",
-    "6901002",
-    "6901004",
-    "6901007",
-    "6901008",
-    "6901011",
-    "6901015",
-    "6902019",
     "9601012",
-    "9601014",
-    "9701004",
     "G01",
     "G02",
     "G03",
@@ -494,25 +229,9 @@
     "G32",
     "G33",
     "G34",
-    "G35",
-    "G36",
-    "G37",
-    "G38",
-    "G39",
-    "G40",
-    "G41",
-    "G42",
-    "G43",
-    "G44",
-    "G45",
-    "G46",
-    "G47",
-    "G48",
-    "G49",
-    "G50",
-    "G51"
+    "G35"
   ],
-  "od_labels_hash": "a68e3a4b82dca7a1b4d9",
+  "od_labels_hash": "05a59306dd22e3f79dd0",
   "n_train_total": 100,
   "n_validation_total": 20,
   "adaptive_fill_in": {
@@ -524,9 +243,9 @@
     },
     "points_added": 0,
     "final_holdout_metrics": {
-      "weighted_rmse_min": 0.33416191952538593
+      "weighted_rmse_min": 0.12638582068868595
     },
-    "target_reached": false
+    "target_reached": true
   },
   "training_record_ids": [
     "train_000",
@@ -652,7 +371,7 @@
     "test_004_stage2",
     "test_004_stage3"
   ],
-  "design_sha256": "f00be7978249535ee4b6c906471997dea7875dee9b477fb94f2587455fc4021c",
+  "design_sha256": "1fd81d2c5c9366db71269514359aec845b35f5648843db74a31d0ddf201aeba7",
   "training_counts_by_stage": {
     "0": 25,
     "1": 25,
@@ -661,12 +380,12 @@
   },
   "seed": 42,
   "design": "continuous LHS with balanced stage labels; independent paired-stage LHS holdout",
-  "model_fingerprint": "e0bed4dcc158771b63bb",
-  "cache_namespace": "0bce5d5dc139f6652c3f",
+  "model_fingerprint": "daa4bf034ab4f1a4925c",
+  "cache_namespace": "b227ca8b4879c68f4a8f",
   "portable_model_inputs": {
     "identity_version": 3,
     "corridor": {
-      "mode": "municipalities",
+      "mode": "zones",
       "municipalities": [
         "Dietikon",
         "Geroldswil",
@@ -677,7 +396,127 @@
         "Weiningen (ZH)",
         "Z\u00fcrich"
       ],
-      "zone_ids": []
+      "zone_ids": [
+        "24301001",
+        "24301002",
+        "24301003",
+        "24301004",
+        "24301005",
+        "24301006",
+        "24301007",
+        "24301008",
+        "24301009",
+        "24301010",
+        "24301011",
+        "24301012",
+        "24301013",
+        "24301014",
+        "24301015",
+        "24301016",
+        "24301017",
+        "24301018",
+        "24301019",
+        "24301020",
+        "24301021",
+        "24301022",
+        "24301023",
+        "24301024",
+        "24301025",
+        "24301026",
+        "24301027",
+        "24401001",
+        "24401002",
+        "24401003",
+        "24401004",
+        "24401005",
+        "24501001",
+        "24501002",
+        "24501003",
+        "24501004",
+        "24701001",
+        "24701002",
+        "24701003",
+        "24701004",
+        "24701005",
+        "24701006",
+        "24701007",
+        "24701008",
+        "24701009",
+        "24701010",
+        "24701011",
+        "24701012",
+        "24701013",
+        "24701014",
+        "24701015",
+        "24701016",
+        "24701017",
+        "24701018",
+        "24701019",
+        "24701020",
+        "24901001",
+        "24901002",
+        "24901003",
+        "25001001",
+        "25001002",
+        "25001003",
+        "25001004",
+        "25001005",
+        "25001006",
+        "25001007",
+        "25001008",
+        "25001009",
+        "25101001",
+        "25101002",
+        "25101003",
+        "25101004",
+        "26101001",
+        "26101002",
+        "26101003",
+        "26101004",
+        "26101005",
+        "26101006",
+        "26101007",
+        "26101008",
+        "26101009",
+        "26101010",
+        "26101011",
+        "26101012",
+        "26101013",
+        "26101014",
+        "26101015",
+        "26101016",
+        "26101017",
+        "26101018",
+        "26101019",
+        "26101020",
+        "26101021",
+        "26101022",
+        "26101023",
+        "26101024",
+        "26101025",
+        "26101026",
+        "26101027",
+        "26101028",
+        "26101029",
+        "26101030",
+        "26101031",
+        "26101032",
+        "26101033",
+        "26101034",
+        "26101035",
+        "26101036",
+        "26101037",
+        "26101039",
+        "26101041",
+        "26101042",
+        "26101043",
+        "26101045",
+        "26101046",
+        "26101054",
+        "26101058",
+        "26101064",
+        "26103306"
+      ]
     },
     "stages": {
       "0": {
@@ -694,7 +533,7 @@
             "area_pairs": [
               {
                 "origin": {
-                  "municipality_name": "Z\u00fcrich"
+                  "city_quartier": "Altstetten"
                 },
                 "destination": {
                   "municipality_name": "Schlieren"
@@ -703,35 +542,283 @@
             ],
             "both_directions": true,
             "effects": {
-              "speed_increase_pct": 12.5,
-              "distance_reduction_pct": 2.0
+              "speed_increase_pct": 24.14,
+              "distance_reduction_pct": 3.5
             }
           },
           {
             "area_pairs": [
               {
                 "origin": {
-                  "municipality_name": "Z\u00fcrich"
+                  "city_quartier": "H\u00f6ngg"
                 },
                 "destination": {
-                  "municipality_name": "Dietikon"
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Albisrieden"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
                 }
               }
             ],
             "both_directions": true,
             "effects": {
-              "speed_increase_pct": 5.11,
-              "distance_reduction_pct": 0.875
+              "speed_increase_pct": 20.0,
+              "distance_reduction_pct": 3.0
             }
           },
           {
             "area_pairs": [
               {
                 "origin": {
-                  "municipality_name": "Schlieren"
+                  "city_quartier": "Affoltern"
                 },
                 "destination": {
-                  "municipality_name": "Dietikon"
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Alt-Wiedikon"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "City"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Enge"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Escher Wyss"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Fluntern"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Friesenberg"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Gewerbeschule"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hard"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hirslanden"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hirzenbach"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hochschulen"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hottingen"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Langstrasse"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Leimbach"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Lindenhof"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "M\u00fchlebach"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Oberstrass"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Oerlikon"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Rathaus"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Saatlen"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Schwamendingen-Mitte"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Seebach"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Seefeld"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Sihlfeld"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Unterstrass"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Weinegg"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Werd"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Wipkingen"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Witikon"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Wollishofen"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
                 }
               }
             ],
@@ -740,9 +827,306 @@
               "speed_increase_pct": 9.09,
               "distance_reduction_pct": 1.5
             }
-          }
-        ],
-        "railway_expansions": [
+          },
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "city_quartier": "Altstetten"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "speed_increase_pct": 9.3,
+              "distance_reduction_pct": 1.531
+            }
+          },
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "city_quartier": "H\u00f6ngg"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Albisrieden"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "speed_increase_pct": 7.87,
+              "distance_reduction_pct": 1.313
+            }
+          },
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "city_quartier": "Affoltern"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Alt-Wiedikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "City"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Enge"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Escher Wyss"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Fluntern"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Friesenberg"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Gewerbeschule"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hard"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hirslanden"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hirzenbach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hochschulen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hottingen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Langstrasse"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Leimbach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Lindenhof"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "M\u00fchlebach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Oberstrass"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Oerlikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Rathaus"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Saatlen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Schwamendingen-Mitte"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Seebach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Seefeld"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Sihlfeld"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Unterstrass"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Weinegg"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Werd"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Wipkingen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Witikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Wollishofen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "speed_increase_pct": 3.78,
+              "distance_reduction_pct": 0.656
+            }
+          },
           {
             "area_pairs": [
               {
@@ -752,103 +1136,18 @@
                 "destination": {
                   "municipality_name": "Dietikon"
                 }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Unterengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Oberengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Urdorf"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Unterengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Oberengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Urdorf"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "speed_increase_pct": 10.77,
+              "distance_reduction_pct": 1.75
+            }
+          }
+        ],
+        "railway_expansions": [
+          {
+            "area_pairs": [
               {
                 "origin": {
                   "municipality_name": "Unterengstringen"
@@ -879,6 +1178,22 @@
                 },
                 "destination": {
                   "municipality_name": "Geroldswil"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Unterengstringen"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Unterengstringen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
                 }
               },
               {
@@ -918,6 +1233,22 @@
                   "municipality_name": "Oberengstringen"
                 },
                 "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Oberengstringen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Oberengstringen"
+                },
+                "destination": {
                   "municipality_name": "Z\u00fcrich"
                 }
               },
@@ -942,6 +1273,22 @@
                   "municipality_name": "Urdorf"
                 },
                 "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Urdorf"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Urdorf"
+                },
+                "destination": {
                   "municipality_name": "Z\u00fcrich"
                 }
               },
@@ -958,12 +1305,68 @@
                   "municipality_name": "Weiningen (ZH)"
                 },
                 "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Weiningen (ZH)"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Weiningen (ZH)"
+                },
+                "destination": {
                   "municipality_name": "Z\u00fcrich"
                 }
               },
               {
                 "origin": {
                   "municipality_name": "Geroldswil"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Geroldswil"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Geroldswil"
+                },
+                "destination": {
+                  "municipality_name": "Z\u00fcrich"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Schlieren"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Schlieren"
+                },
+                "destination": {
+                  "municipality_name": "Z\u00fcrich"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietikon"
                 },
                 "destination": {
                   "municipality_name": "Z\u00fcrich"
@@ -993,7 +1396,7 @@
             "area_pairs": [
               {
                 "origin": {
-                  "municipality_name": "Z\u00fcrich"
+                  "city_quartier": "Altstetten"
                 },
                 "destination": {
                   "municipality_name": "Dietikon"
@@ -1002,8 +1405,290 @@
             ],
             "both_directions": true,
             "effects": {
-              "speed_increase_pct": 6.67,
-              "distance_reduction_pct": 1.125
+              "speed_increase_pct": 12.28,
+              "distance_reduction_pct": 1.969
+            }
+          },
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "city_quartier": "H\u00f6ngg"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Albisrieden"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "speed_increase_pct": 10.34,
+              "distance_reduction_pct": 1.688
+            }
+          },
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "city_quartier": "Affoltern"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Alt-Wiedikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "City"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Enge"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Escher Wyss"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Fluntern"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Friesenberg"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Gewerbeschule"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hard"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hirslanden"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hirzenbach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hochschulen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hottingen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Langstrasse"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Leimbach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Lindenhof"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "M\u00fchlebach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Oberstrass"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Oerlikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Rathaus"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Saatlen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Schwamendingen-Mitte"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Seebach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Seefeld"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Sihlfeld"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Unterstrass"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Weinegg"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Werd"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Wipkingen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Witikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Wollishofen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "speed_increase_pct": 4.92,
+              "distance_reduction_pct": 0.844
             }
           },
           {
@@ -1019,8 +1704,8 @@
             ],
             "both_directions": true,
             "effects": {
-              "speed_increase_pct": 16.13,
-              "distance_reduction_pct": 2.5
+              "speed_increase_pct": 14.29,
+              "distance_reduction_pct": 2.25
             }
           }
         ],
@@ -1029,110 +1714,6 @@
             "area_pairs": [
               {
                 "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Unterengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Oberengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Urdorf"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Unterengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Oberengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Urdorf"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
                   "municipality_name": "Unterengstringen"
                 },
                 "destination": {
@@ -1161,6 +1742,22 @@
                 },
                 "destination": {
                   "municipality_name": "Geroldswil"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Unterengstringen"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Unterengstringen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
                 }
               },
               {
@@ -1200,6 +1797,22 @@
                   "municipality_name": "Oberengstringen"
                 },
                 "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Oberengstringen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Oberengstringen"
+                },
+                "destination": {
                   "municipality_name": "Z\u00fcrich"
                 }
               },
@@ -1224,6 +1837,22 @@
                   "municipality_name": "Urdorf"
                 },
                 "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Urdorf"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Urdorf"
+                },
+                "destination": {
                   "municipality_name": "Z\u00fcrich"
                 }
               },
@@ -1240,12 +1869,68 @@
                   "municipality_name": "Weiningen (ZH)"
                 },
                 "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Weiningen (ZH)"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Weiningen (ZH)"
+                },
+                "destination": {
                   "municipality_name": "Z\u00fcrich"
                 }
               },
               {
                 "origin": {
                   "municipality_name": "Geroldswil"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Geroldswil"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Geroldswil"
+                },
+                "destination": {
+                  "municipality_name": "Z\u00fcrich"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Schlieren"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Schlieren"
+                },
+                "destination": {
+                  "municipality_name": "Z\u00fcrich"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietikon"
                 },
                 "destination": {
                   "municipality_name": "Z\u00fcrich"
@@ -1275,7 +1960,7 @@
             "area_pairs": [
               {
                 "origin": {
-                  "municipality_name": "Z\u00fcrich"
+                  "city_quartier": "Altstetten"
                 },
                 "destination": {
                   "municipality_name": "Schlieren"
@@ -1284,35 +1969,283 @@
             ],
             "both_directions": true,
             "effects": {
-              "speed_increase_pct": 12.5,
-              "distance_reduction_pct": 2.0
+              "speed_increase_pct": 24.14,
+              "distance_reduction_pct": 3.5
             }
           },
           {
             "area_pairs": [
               {
                 "origin": {
-                  "municipality_name": "Z\u00fcrich"
+                  "city_quartier": "H\u00f6ngg"
                 },
                 "destination": {
-                  "municipality_name": "Dietikon"
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Albisrieden"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
                 }
               }
             ],
             "both_directions": true,
             "effects": {
-              "speed_increase_pct": 5.11,
-              "distance_reduction_pct": 0.875
+              "speed_increase_pct": 20.0,
+              "distance_reduction_pct": 3.0
             }
           },
           {
             "area_pairs": [
               {
                 "origin": {
-                  "municipality_name": "Schlieren"
+                  "city_quartier": "Affoltern"
                 },
                 "destination": {
-                  "municipality_name": "Dietikon"
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Alt-Wiedikon"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "City"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Enge"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Escher Wyss"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Fluntern"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Friesenberg"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Gewerbeschule"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hard"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hirslanden"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hirzenbach"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hochschulen"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hottingen"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Langstrasse"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Leimbach"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Lindenhof"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "M\u00fchlebach"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Oberstrass"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Oerlikon"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Rathaus"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Saatlen"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Schwamendingen-Mitte"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Seebach"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Seefeld"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Sihlfeld"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Unterstrass"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Weinegg"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Werd"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Wipkingen"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Witikon"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Wollishofen"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
                 }
               }
             ],
@@ -1326,7 +2259,7 @@
             "area_pairs": [
               {
                 "origin": {
-                  "municipality_name": "Z\u00fcrich"
+                  "city_quartier": "Altstetten"
                 },
                 "destination": {
                   "municipality_name": "Dietikon"
@@ -1335,8 +2268,290 @@
             ],
             "both_directions": true,
             "effects": {
-              "speed_increase_pct": 6.67,
-              "distance_reduction_pct": 1.125
+              "speed_increase_pct": 9.3,
+              "distance_reduction_pct": 1.531
+            }
+          },
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "city_quartier": "H\u00f6ngg"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Albisrieden"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "speed_increase_pct": 7.87,
+              "distance_reduction_pct": 1.313
+            }
+          },
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "city_quartier": "Affoltern"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Alt-Wiedikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "City"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Enge"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Escher Wyss"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Fluntern"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Friesenberg"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Gewerbeschule"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hard"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hirslanden"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hirzenbach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hochschulen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hottingen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Langstrasse"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Leimbach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Lindenhof"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "M\u00fchlebach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Oberstrass"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Oerlikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Rathaus"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Saatlen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Schwamendingen-Mitte"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Seebach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Seefeld"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Sihlfeld"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Unterstrass"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Weinegg"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Werd"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Wipkingen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Witikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Wollishofen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "speed_increase_pct": 3.78,
+              "distance_reduction_pct": 0.656
             }
           },
           {
@@ -1352,15 +2567,15 @@
             ],
             "both_directions": true,
             "effects": {
-              "speed_increase_pct": 16.13,
-              "distance_reduction_pct": 2.5
+              "speed_increase_pct": 10.77,
+              "distance_reduction_pct": 1.75
             }
           },
           {
             "area_pairs": [
               {
                 "origin": {
-                  "municipality_name": "Z\u00fcrich"
+                  "city_quartier": "Altstetten"
                 },
                 "destination": {
                   "municipality_name": "Dietikon"
@@ -1369,8 +2584,290 @@
             ],
             "both_directions": true,
             "effects": {
-              "speed_increase_pct": 0.34,
-              "distance_reduction_pct": 0.01
+              "speed_increase_pct": 12.28,
+              "distance_reduction_pct": 1.969
+            }
+          },
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "city_quartier": "H\u00f6ngg"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Albisrieden"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "speed_increase_pct": 10.34,
+              "distance_reduction_pct": 1.688
+            }
+          },
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "city_quartier": "Affoltern"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Alt-Wiedikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "City"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Enge"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Escher Wyss"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Fluntern"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Friesenberg"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Gewerbeschule"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hard"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hirslanden"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hirzenbach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hochschulen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hottingen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Langstrasse"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Leimbach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Lindenhof"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "M\u00fchlebach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Oberstrass"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Oerlikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Rathaus"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Saatlen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Schwamendingen-Mitte"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Seebach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Seefeld"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Sihlfeld"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Unterstrass"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Weinegg"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Werd"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Wipkingen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Witikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Wollishofen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "speed_increase_pct": 4.92,
+              "distance_reduction_pct": 0.844
             }
           },
           {
@@ -1386,8 +2883,324 @@
             ],
             "both_directions": true,
             "effects": {
-              "speed_increase_pct": 1.49,
-              "distance_reduction_pct": 0.04
+              "speed_increase_pct": 14.29,
+              "distance_reduction_pct": 2.25
+            }
+          },
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "city_quartier": "Altstetten"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "speed_increase_pct": 1.16,
+              "distance_reduction_pct": 0.031
+            }
+          },
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "city_quartier": "H\u00f6ngg"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Albisrieden"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "speed_increase_pct": 0.82,
+              "distance_reduction_pct": 0.023
+            }
+          },
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "city_quartier": "Affoltern"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Alt-Wiedikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "City"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Enge"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Escher Wyss"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Fluntern"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Friesenberg"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Gewerbeschule"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hard"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hirslanden"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hirzenbach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hochschulen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Hottingen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Langstrasse"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Leimbach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Lindenhof"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "M\u00fchlebach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Oberstrass"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Oerlikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Rathaus"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Saatlen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Schwamendingen-Mitte"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Seebach"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Seefeld"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Sihlfeld"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Unterstrass"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Weinegg"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Werd"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Wipkingen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Witikon"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "city_quartier": "Wollishofen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "speed_increase_pct": 0.19,
+              "distance_reduction_pct": 0.006
+            }
+          },
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "municipality_name": "Schlieren"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "speed_increase_pct": 1.56,
+              "distance_reduction_pct": 0.041
             }
           }
         ],
@@ -1396,110 +3209,6 @@
             "area_pairs": [
               {
                 "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Unterengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Oberengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Urdorf"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Unterengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Oberengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Urdorf"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
                   "municipality_name": "Unterengstringen"
                 },
                 "destination": {
@@ -1528,6 +3237,22 @@
                 },
                 "destination": {
                   "municipality_name": "Geroldswil"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Unterengstringen"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Unterengstringen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
                 }
               },
               {
@@ -1567,6 +3292,22 @@
                   "municipality_name": "Oberengstringen"
                 },
                 "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Oberengstringen"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Oberengstringen"
+                },
+                "destination": {
                   "municipality_name": "Z\u00fcrich"
                 }
               },
@@ -1591,6 +3332,22 @@
                   "municipality_name": "Urdorf"
                 },
                 "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Urdorf"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Urdorf"
+                },
+                "destination": {
                   "municipality_name": "Z\u00fcrich"
                 }
               },
@@ -1607,12 +3364,68 @@
                   "municipality_name": "Weiningen (ZH)"
                 },
                 "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Weiningen (ZH)"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Weiningen (ZH)"
+                },
+                "destination": {
                   "municipality_name": "Z\u00fcrich"
                 }
               },
               {
                 "origin": {
                   "municipality_name": "Geroldswil"
+                },
+                "destination": {
+                  "municipality_name": "Schlieren"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Geroldswil"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Geroldswil"
+                },
+                "destination": {
+                  "municipality_name": "Z\u00fcrich"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Schlieren"
+                },
+                "destination": {
+                  "municipality_name": "Dietikon"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Schlieren"
+                },
+                "destination": {
+                  "municipality_name": "Z\u00fcrich"
+                }
+              },
+              {
+                "origin": {
+                  "municipality_name": "Dietikon"
                 },
                 "destination": {
                   "municipality_name": "Z\u00fcrich"
@@ -1635,10 +3448,10 @@
       }
     },
     "section_signatures": {
-      "0": "abd5db9c520276a40bc85edaadb206f96f0a09844ca6eb0e85a5c31d4f10e4a1",
-      "1": "abd5db9c520276a40bc85edaadb206f96f0a09844ca6eb0e85a5c31d4f10e4a1",
-      "2": "abd5db9c520276a40bc85edaadb206f96f0a09844ca6eb0e85a5c31d4f10e4a1",
-      "3": "abd5db9c520276a40bc85edaadb206f96f0a09844ca6eb0e85a5c31d4f10e4a1"
+      "0": "3c71fe24f97a2511bd266bda4c013f235003cd712b5bd4cf4689b22219276661",
+      "1": "3c71fe24f97a2511bd266bda4c013f235003cd712b5bd4cf4689b22219276661",
+      "2": "3c71fe24f97a2511bd266bda4c013f235003cd712b5bd4cf4689b22219276661",
+      "3": "3c71fe24f97a2511bd266bda4c013f235003cd712b5bd4cf4689b22219276661"
     },
     "input_domain": {
       "PASSENGER_DEMAND_GROWTH": {
@@ -1663,7 +3476,7 @@
       },
       "ROAD_FREIGHT_GROWTH": {
         "minimum": 0.0,
-        "maximum": 0.1891,
+        "maximum": 0.1827,
         "nominal": 0.0
       }
     },
@@ -1675,7 +3488,7 @@
       "data/transport/prepared/skims.pkl.gz": "8c6e321818f13afe85cce069b7df002db2f1c74d33764fda4c175fc689b8d7bf",
       "data/transport/prepared/assignment_network.pkl": "26cbf5ab36717fedd1d071e1b0be5576415b24a5e64ff976efb959ecaef72d31",
       "data/transport/prepared/lookups.pkl.gz": "8a571b706449c87a41c58a9fd48b34e0fd6a72cf7f825c69db1eb3a8b6bcd73d",
-      "data/processed/limmattal_erweitert_detailed_network.pkl": "aa8f920559ff3e8b98c20b57844cdbab388af17830bcae5a8051704f025773b5"
+      "data/processed/limmattal_altstetten_hoengg_albisrieden_detailed_network.pkl": "637692b137c877dadd8f7334f01fa6a3d3d752c29dc598b5afbe2d49fa31f9c9"
     }
   },
   "reference_equations": {
@@ -1829,7 +3642,7 @@
   },
   "cache_contract": {
     "format_version": 3,
-    "model_fingerprint": "e0bed4dcc158771b63bb",
+    "model_fingerprint": "daa4bf034ab4f1a4925c",
     "reference_equations": "19783b770214fd1a0541",
     "solver_settings": {
       "stopping_rule": "road_relative_gap",
@@ -1852,7 +3665,7 @@
     "od_threshold": 0.0,
     "drive_occupancy": 1.14
   },
-  "source_fingerprint": "d9c0553da9de986fc6fa",
+  "source_fingerprint": "baa1f3aab8a9f500588e",
   "source_convergence_passed": true,
   "gp_diagnostics": {
     "mode": "pooled",
@@ -1867,80 +3680,79 @@
       "pooled": {
         "n_simulations": 100,
         "n_features": 9,
-        "n_outputs": 218089,
-        "n_varying_outputs": 215279,
-        "n_constant_outputs": 2810,
+        "n_outputs": 34596,
+        "n_varying_outputs": 33659,
+        "n_constant_outputs": 937,
         "output_scale_floor_minutes": 0.01,
         "standardize_outputs": true,
         "kernel_family": "matern52",
         "target_reduction": "none; exact Gram likelihood identity",
         "prediction_storage": "original training targets; exact posterior identity",
         "stored_target_dtype": "float32",
-        "kernel": "1.72**2 * Matern(length_scale=[1.46, 4.88, 3.09, 5.47, 10, 10, 10, 10, 10], nu=2.5) + WhiteKernel(noise_level=0.00491)",
+        "kernel": "1.77**2 * Matern(length_scale=[1.46, 5.24, 2.8, 5.56, 9.79, 10, 10, 10, 10], nu=2.5) + WhiteKernel(noise_level=0.00413)",
         "theta": [
-          1.0822430199967283,
-          0.3776448558856385,
-          1.5845343115655524,
-          1.129447794682903,
-          1.700113283051827,
+          1.1380607664640483,
+          0.3772046610771704,
+          1.6563320556273824,
+          1.0306738728191982,
+          1.715988003000617,
+          2.28162220165051,
           2.302585092994046,
           2.302585092994046,
           2.302585092994046,
           2.302585092994046,
-          2.302585092994046,
-          -5.316789793265405
+          -5.490119646127876
         ],
         "length_scales": [
-          1.4588447507378075,
-          4.877019677942854,
-          3.0939475340389424,
-          5.474567532318321,
-          10.000000000000002,
+          1.4582027161726803,
+          5.240055320514839,
+          2.802954032961157,
+          5.562168237408691,
+          9.792553027438455,
           10.000000000000002,
           10.000000000000002,
           10.000000000000002,
           10.000000000000002
         ],
-        "amplitude_variance": 2.951291939269685,
-        "noise_variance_normalized": 0.0049084857141569365,
-        "nll_per_varying_output": -61.27547813554442,
+        "amplitude_variance": 3.120710706618938,
+        "noise_variance_normalized": 0.004127350323227784,
+        "nll_per_varying_output": -64.21841030849735,
         "selected_optimizer_success": true,
         "optimizer_attempts": [
           {
             "success": true,
             "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
-            "iterations": 34,
-            "nll_per_output": -61.27547813554442
+            "iterations": 37,
+            "nll_per_output": -64.21841030849735
           },
           {
             "success": true,
             "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
-            "iterations": 41,
-            "nll_per_output": -43.04097476138868
+            "iterations": 36,
+            "nll_per_output": -45.070915623451825
           }
         ],
         "parameters_near_bound": [
-          5,
           6,
           7,
           8,
           9
         ],
-        "fit_seconds": 1.4789916000008816
+        "fit_seconds": 0.7722912000026554
       }
     },
-    "fit_seconds": 1.4789916000008816
+    "fit_seconds": 0.7722912000026554
   },
   "validation": {
     "od": {
       "n_cases": 20,
-      "weighted_mae_min": 0.1524408486891852,
-      "weighted_rmse_min": 0.33416191952538593,
-      "weighted_bias_min": 0.011123653219934932,
-      "maximum_case_mae_min": 0.4004824376145963,
-      "weighted_95pct_latent_coverage": 0.7403307578963031,
-      "weighted_nrmse": 0.02526559204472273,
-      "maximum_case_scaled_error": 0.04904940178130661,
+      "weighted_mae_min": 0.07534893278985864,
+      "weighted_rmse_min": 0.12638582068868595,
+      "weighted_bias_min": -0.017942897946346743,
+      "maximum_case_mae_min": 0.1506936746046427,
+      "weighted_95pct_latent_coverage": 0.850876258280812,
+      "weighted_nrmse": 0.011013809937371844,
+      "maximum_case_scaled_error": 0.016742675747217026,
       "limits": {
         "weighted_mae_min": 0.1,
         "weighted_rmse_min": 0.2
@@ -1949,300 +3761,300 @@
         {
           "id": "test_000_stage0",
           "stage": 0,
-          "weighted_mae_min": 0.3151142381646299,
-          "weighted_mse_min2": 0.31913044717168865,
-          "weighted_rmse_min": 0.5649163187337471,
-          "weighted_truth_rms_min": 14.91566341184486,
-          "scaled_error": 0.0378740323601788,
-          "weighted_bias_min": 0.3101937615625324,
-          "weighted_95pct_latent_coverage": 0.5831897853895436,
-          "negative_prediction_fraction_weighted": 7.268013030099585e-05
+          "weighted_mae_min": 0.13562893169745446,
+          "weighted_mse_min2": 0.04093862733783339,
+          "weighted_rmse_min": 0.2023329615703615,
+          "weighted_truth_rms_min": 13.993265728771828,
+          "scaled_error": 0.014459309605929997,
+          "weighted_bias_min": -0.1301297794584567,
+          "weighted_95pct_latent_coverage": 0.8401747092481848,
+          "negative_prediction_fraction_weighted": 0.0
         },
         {
           "id": "test_000_stage1",
           "stage": 1,
-          "weighted_mae_min": 0.193721831866586,
-          "weighted_mse_min2": 0.1088862341606376,
-          "weighted_rmse_min": 0.32997914200845724,
-          "weighted_truth_rms_min": 15.85155627884656,
-          "scaled_error": 0.020816829351248293,
-          "weighted_bias_min": -0.18460758055253937,
-          "weighted_95pct_latent_coverage": 0.5740968957787465,
-          "negative_prediction_fraction_weighted": 7.268013030099585e-05
+          "weighted_mae_min": 0.07226106788237292,
+          "weighted_mse_min2": 0.015938270251365266,
+          "weighted_rmse_min": 0.12624686234265495,
+          "weighted_truth_rms_min": 13.699758894459103,
+          "scaled_error": 0.009215261619948345,
+          "weighted_bias_min": 0.01670640628289017,
+          "weighted_95pct_latent_coverage": 0.8728760568756986,
+          "negative_prediction_fraction_weighted": 0.0
         },
         {
           "id": "test_000_stage2",
           "stage": 2,
-          "weighted_mae_min": 0.4004824376145963,
-          "weighted_mse_min2": 0.5379442640683254,
-          "weighted_rmse_min": 0.7334468379291885,
-          "weighted_truth_rms_min": 14.953226977147661,
-          "scaled_error": 0.04904940178130661,
-          "weighted_bias_min": 0.39349250659929547,
-          "weighted_95pct_latent_coverage": 0.6105077602735951,
-          "negative_prediction_fraction_weighted": 7.268013030099585e-05
+          "weighted_mae_min": 0.07321515678795656,
+          "weighted_mse_min2": 0.013526463859889927,
+          "weighted_rmse_min": 0.1163033269510805,
+          "weighted_truth_rms_min": 13.690290346136829,
+          "scaled_error": 0.008495314855312719,
+          "weighted_bias_min": 0.0178168591546009,
+          "weighted_95pct_latent_coverage": 0.8803341487164337,
+          "negative_prediction_fraction_weighted": 0.0
         },
         {
           "id": "test_000_stage3",
           "stage": 3,
-          "weighted_mae_min": 0.11189718591363106,
-          "weighted_mse_min2": 0.03506346919244205,
-          "weighted_rmse_min": 0.18725242105896,
-          "weighted_truth_rms_min": 15.845520904065227,
-          "scaled_error": 0.011817372378772333,
-          "weighted_bias_min": -0.09472749335390089,
-          "weighted_95pct_latent_coverage": 0.6198256943997935,
-          "negative_prediction_fraction_weighted": 7.268013030099585e-05
+          "weighted_mae_min": 0.08418769138994518,
+          "weighted_mse_min2": 0.01844006432192313,
+          "weighted_rmse_min": 0.13579419841040016,
+          "weighted_truth_rms_min": 13.706812413808683,
+          "scaled_error": 0.00990705893615329,
+          "weighted_bias_min": 0.03462597770645934,
+          "weighted_95pct_latent_coverage": 0.7277819449371665,
+          "negative_prediction_fraction_weighted": 0.0
         },
         {
           "id": "test_001_stage0",
           "stage": 0,
-          "weighted_mae_min": 0.10729800288672067,
-          "weighted_mse_min2": 0.03290699288571828,
-          "weighted_rmse_min": 0.18140284696144732,
-          "weighted_truth_rms_min": 15.343972438753081,
-          "scaled_error": 0.01182241741410407,
-          "weighted_bias_min": 0.0826899085847555,
-          "weighted_95pct_latent_coverage": 0.9240491485154043,
+          "weighted_mae_min": 0.1506936746046427,
+          "weighted_mse_min2": 0.05042315213171209,
+          "weighted_rmse_min": 0.2245510011817184,
+          "weighted_truth_rms_min": 14.098759375167578,
+          "scaled_error": 0.0159270042992027,
+          "weighted_bias_min": -0.1456529568820053,
+          "weighted_95pct_latent_coverage": 0.6827252287826646,
           "negative_prediction_fraction_weighted": 0.0
         },
         {
           "id": "test_001_stage1",
           "stage": 1,
-          "weighted_mae_min": 0.0687156135971612,
-          "weighted_mse_min2": 0.011862214908976675,
-          "weighted_rmse_min": 0.10891379576975854,
-          "weighted_truth_rms_min": 15.384206039503312,
-          "scaled_error": 0.007079585094615314,
-          "weighted_bias_min": 0.050357980222472225,
-          "weighted_95pct_latent_coverage": 0.8368940467084458,
+          "weighted_mae_min": 0.09642784903352523,
+          "weighted_mse_min2": 0.03027624003598777,
+          "weighted_rmse_min": 0.1740006897572184,
+          "weighted_truth_rms_min": 13.852821150302818,
+          "scaled_error": 0.01256066817504641,
+          "weighted_bias_min": -0.03494168836824155,
+          "weighted_95pct_latent_coverage": 0.706060111546568,
           "negative_prediction_fraction_weighted": 0.0
         },
         {
           "id": "test_001_stage2",
           "stage": 2,
-          "weighted_mae_min": 0.0842237262043523,
-          "weighted_mse_min2": 0.017824938625265928,
-          "weighted_rmse_min": 0.1335100693778036,
-          "weighted_truth_rms_min": 15.375394220790097,
-          "scaled_error": 0.008683359103552332,
-          "weighted_bias_min": 0.04894908141970786,
-          "weighted_95pct_latent_coverage": 0.8691440875949117,
+          "weighted_mae_min": 0.07329534758616561,
+          "weighted_mse_min2": 0.011385707271334517,
+          "weighted_rmse_min": 0.10670382969385174,
+          "weighted_truth_rms_min": 13.869086244038774,
+          "scaled_error": 0.0076936452637400895,
+          "weighted_bias_min": -0.024161436841658657,
+          "weighted_95pct_latent_coverage": 0.9107909850445361,
           "negative_prediction_fraction_weighted": 0.0
         },
         {
           "id": "test_001_stage3",
           "stage": 3,
-          "weighted_mae_min": 0.17283409815011766,
-          "weighted_mse_min2": 0.09559744259523192,
-          "weighted_rmse_min": 0.30918836102808256,
-          "weighted_truth_rms_min": 15.351712398579524,
-          "scaled_error": 0.02014031744476215,
-          "weighted_bias_min": 0.1652471714393748,
-          "weighted_95pct_latent_coverage": 0.5698486902885855,
+          "weighted_mae_min": 0.044540217262942855,
+          "weighted_mse_min2": 0.005771224657493392,
+          "weighted_rmse_min": 0.0759685767768055,
+          "weighted_truth_rms_min": 13.848281144270059,
+          "scaled_error": 0.005485776609051491,
+          "weighted_bias_min": 0.010220594621345565,
+          "weighted_95pct_latent_coverage": 0.8714101183918194,
           "negative_prediction_fraction_weighted": 0.0
         },
         {
           "id": "test_002_stage0",
           "stage": 0,
-          "weighted_mae_min": 0.11292582403244777,
-          "weighted_mse_min2": 0.07158105021071294,
-          "weighted_rmse_min": 0.26754635151822376,
-          "weighted_truth_rms_min": 10.215961696304287,
-          "scaled_error": 0.026189051943588528,
-          "weighted_bias_min": 0.10689630336603631,
-          "weighted_95pct_latent_coverage": 0.8514885689584271,
-          "negative_prediction_fraction_weighted": 0.0013767797180003981
+          "weighted_mae_min": 0.06979513489339544,
+          "weighted_mse_min2": 0.01259462847374574,
+          "weighted_rmse_min": 0.11222579237299125,
+          "weighted_truth_rms_min": 7.82069374755897,
+          "scaled_error": 0.014349851304178696,
+          "weighted_bias_min": 0.010498773048618595,
+          "weighted_95pct_latent_coverage": 0.916587249236548,
+          "negative_prediction_fraction_weighted": 0.0001914108021925884
         },
         {
           "id": "test_002_stage1",
           "stage": 1,
-          "weighted_mae_min": 0.04696179535519125,
-          "weighted_mse_min2": 0.010377378789063328,
-          "weighted_rmse_min": 0.10186942028431951,
-          "weighted_truth_rms_min": 10.216252112951823,
-          "scaled_error": 0.009971310335536148,
-          "weighted_bias_min": 0.03992115501641177,
-          "weighted_95pct_latent_coverage": 0.9351005690919643,
-          "negative_prediction_fraction_weighted": 0.00156591297849859
+          "weighted_mae_min": 0.08513682067656457,
+          "weighted_mse_min2": 0.01700702739023753,
+          "weighted_rmse_min": 0.13041099413100696,
+          "weighted_truth_rms_min": 7.78913693963666,
+          "scaled_error": 0.016742675747217026,
+          "weighted_bias_min": 0.05629713343611228,
+          "weighted_95pct_latent_coverage": 0.9510789187265924,
+          "negative_prediction_fraction_weighted": 0.0005734221400524583
         },
         {
           "id": "test_002_stage2",
           "stage": 2,
-          "weighted_mae_min": 0.12407593730553786,
-          "weighted_mse_min2": 0.07621757463661569,
-          "weighted_rmse_min": 0.2760753060971149,
-          "weighted_truth_rms_min": 10.215936714932987,
-          "scaled_error": 0.027023983585721133,
-          "weighted_bias_min": 0.11456720522199809,
-          "weighted_95pct_latent_coverage": 0.877294829224756,
-          "negative_prediction_fraction_weighted": 0.0008606171495710105
+          "weighted_mae_min": 0.0601607546603343,
+          "weighted_mse_min2": 0.01121297610354049,
+          "weighted_rmse_min": 0.1058913410224863,
+          "weighted_truth_rms_min": 7.806743397572241,
+          "scaled_error": 0.013564086281536632,
+          "weighted_bias_min": 0.01512919247859505,
+          "weighted_95pct_latent_coverage": 0.9291375189709625,
+          "negative_prediction_fraction_weighted": 0.0002744720547794474
         },
         {
           "id": "test_002_stage3",
           "stage": 3,
-          "weighted_mae_min": 0.07189874958366618,
-          "weighted_mse_min2": 0.03652880281578606,
-          "weighted_rmse_min": 0.1911250972943796,
-          "weighted_truth_rms_min": 10.216379588033977,
-          "scaled_error": 0.01870771300610605,
-          "weighted_bias_min": 0.05339316194359388,
-          "weighted_95pct_latent_coverage": 0.8768052608879916,
-          "negative_prediction_fraction_weighted": 0.001140382144352918
+          "weighted_mae_min": 0.07321319931019964,
+          "weighted_mse_min2": 0.01418997905729752,
+          "weighted_rmse_min": 0.11912169851583514,
+          "weighted_truth_rms_min": 7.822148982368209,
+          "scaled_error": 0.015228768818434116,
+          "weighted_bias_min": -0.04310753814132309,
+          "weighted_95pct_latent_coverage": 0.9413950853147094,
+          "negative_prediction_fraction_weighted": 0.00022171875915164824
         },
         {
           "id": "test_003_stage0",
           "stage": 0,
-          "weighted_mae_min": 0.1972057850396023,
-          "weighted_mse_min2": 0.12812482414808454,
-          "weighted_rmse_min": 0.3579452809412139,
-          "weighted_truth_rms_min": 12.795889824442526,
-          "scaled_error": 0.027973457559588546,
-          "weighted_bias_min": -0.15839240676231844,
-          "weighted_95pct_latent_coverage": 0.5688683911734774,
+          "weighted_mae_min": 0.09322854236305911,
+          "weighted_mse_min2": 0.020414529920767067,
+          "weighted_rmse_min": 0.142879424413619,
+          "weighted_truth_rms_min": 11.074583961599554,
+          "scaled_error": 0.01290156135066064,
+          "weighted_bias_min": -0.07930325597762522,
+          "weighted_95pct_latent_coverage": 0.646946183617134,
           "negative_prediction_fraction_weighted": 0.0
         },
         {
           "id": "test_003_stage1",
           "stage": 1,
-          "weighted_mae_min": 0.18298071282617456,
-          "weighted_mse_min2": 0.1095506921187757,
-          "weighted_rmse_min": 0.3309844288161842,
-          "weighted_truth_rms_min": 12.807474425632817,
-          "scaled_error": 0.025843067713159244,
-          "weighted_bias_min": -0.1518048737318525,
-          "weighted_95pct_latent_coverage": 0.5841788473442666,
-          "negative_prediction_fraction_weighted": 3.612931466630941e-05
+          "weighted_mae_min": 0.05916163796597912,
+          "weighted_mse_min2": 0.008485664183065308,
+          "weighted_rmse_min": 0.09211766488065852,
+          "weighted_truth_rms_min": 10.959201575268104,
+          "scaled_error": 0.008405508763388629,
+          "weighted_bias_min": -0.045696379518204544,
+          "weighted_95pct_latent_coverage": 0.836971583150583,
+          "negative_prediction_fraction_weighted": 0.00010415915349376742
         },
         {
           "id": "test_003_stage2",
           "stage": 2,
-          "weighted_mae_min": 0.18762530313398643,
-          "weighted_mse_min2": 0.11213314554175274,
-          "weighted_rmse_min": 0.33486287572938384,
-          "weighted_truth_rms_min": 12.791520333266563,
-          "scaled_error": 0.02617850474415578,
-          "weighted_bias_min": -0.1375940687123031,
-          "weighted_95pct_latent_coverage": 0.5854732719696305,
-          "negative_prediction_fraction_weighted": 2.1603768399052004e-05
+          "weighted_mae_min": 0.07778896402024145,
+          "weighted_mse_min2": 0.01305257816942953,
+          "weighted_rmse_min": 0.11424788037171425,
+          "weighted_truth_rms_min": 11.012158707766533,
+          "scaled_error": 0.010374703398629623,
+          "weighted_bias_min": -0.05826278318930809,
+          "weighted_95pct_latent_coverage": 0.7685373350185098,
+          "negative_prediction_fraction_weighted": 0.0
         },
         {
           "id": "test_003_stage3",
           "stage": 3,
-          "weighted_mae_min": 0.23594295467581838,
-          "weighted_mse_min2": 0.19577156696447814,
-          "weighted_rmse_min": 0.44246080839378094,
-          "weighted_truth_rms_min": 12.828181963965562,
-          "scaled_error": 0.034491310587630886,
-          "weighted_bias_min": -0.19250632713510002,
-          "weighted_95pct_latent_coverage": 0.5680723239002382,
-          "negative_prediction_fraction_weighted": 0.0005167548105887082
+          "weighted_mae_min": 0.06012762554153185,
+          "weighted_mse_min2": 0.009399338413699356,
+          "weighted_rmse_min": 0.09695018521745771,
+          "weighted_truth_rms_min": 10.913927372364284,
+          "scaled_error": 0.008883162028634189,
+          "weighted_bias_min": -0.022157658645828086,
+          "weighted_95pct_latent_coverage": 0.7957773652115149,
+          "negative_prediction_fraction_weighted": 0.0
         },
         {
           "id": "test_004_stage0",
           "stage": 0,
-          "weighted_mae_min": 0.10767371730492027,
-          "weighted_mse_min2": 0.06942291620779234,
-          "weighted_rmse_min": 0.2634822882240708,
-          "weighted_truth_rms_min": 11.532820017016743,
-          "scaled_error": 0.02284630193095021,
-          "weighted_bias_min": -0.03031103834418704,
-          "weighted_95pct_latent_coverage": 0.8504219164614476,
-          "negative_prediction_fraction_weighted": 0.00027492245520950316
+          "weighted_mae_min": 0.036580998666348334,
+          "weighted_mse_min2": 0.0041358220120457,
+          "weighted_rmse_min": 0.064310356957847,
+          "weighted_truth_rms_min": 9.659462468845335,
+          "scaled_error": 0.006657757319857828,
+          "weighted_bias_min": 0.019255255115957732,
+          "weighted_95pct_latent_coverage": 0.9328010822406363,
+          "negative_prediction_fraction_weighted": 0.0
         },
         {
           "id": "test_004_stage1",
           "stage": 1,
-          "weighted_mae_min": 0.11467259245799999,
-          "weighted_mse_min2": 0.09688495377921527,
-          "weighted_rmse_min": 0.31126347967472073,
-          "weighted_truth_rms_min": 11.53921795186358,
-          "scaled_error": 0.02697439990935016,
-          "weighted_bias_min": -0.05250995314762278,
-          "weighted_95pct_latent_coverage": 0.8083147386360143,
+          "weighted_mae_min": 0.046733906022188514,
+          "weighted_mse_min2": 0.005007289959724433,
+          "weighted_rmse_min": 0.07076220714282754,
+          "weighted_truth_rms_min": 9.658510448113521,
+          "scaled_error": 0.0073264099596898665,
+          "weighted_bias_min": 0.014719752265978126,
+          "weighted_95pct_latent_coverage": 0.9405527733767384,
           "negative_prediction_fraction_weighted": 0.0
         },
         {
           "id": "test_004_stage2",
           "stage": 2,
-          "weighted_mae_min": 0.08821191475411104,
-          "weighted_mse_min2": 0.06141797013798715,
-          "weighted_rmse_min": 0.24782649200193904,
-          "weighted_truth_rms_min": 11.541270296661127,
-          "scaled_error": 0.021473068876450705,
-          "weighted_bias_min": -0.0519969402664556,
-          "weighted_95pct_latent_coverage": 0.8707249771917056,
-          "negative_prediction_fraction_weighted": 0.00027492245520950316
+          "weighted_mae_min": 0.06700843922843847,
+          "weighted_mse_min2": 0.011510642249910708,
+          "weighted_rmse_min": 0.10728766121931593,
+          "weighted_truth_rms_min": 9.67389000977837,
+          "scaled_error": 0.011090436330252829,
+          "weighted_bias_min": 0.01889117527755359,
+          "weighted_95pct_latent_coverage": 0.9270494513219562,
+          "negative_prediction_fraction_weighted": 0.0
         },
         {
           "id": "test_004_stage3",
           "stage": 3,
-          "weighted_mae_min": 0.12435455291645278,
-          "weighted_mse_min2": 0.10605689025925928,
-          "weighted_rmse_min": 0.3256637687236013,
-          "weighted_truth_rms_min": 11.537675515987651,
-          "scaled_error": 0.028226116107385065,
-          "weighted_bias_min": -0.08878448897119995,
-          "weighted_95pct_latent_coverage": 0.842315354137115,
+          "weighted_mae_min": 0.04779269620388667,
+          "weighted_mse_min2": 0.0057572876220506105,
+          "weighted_rmse_min": 0.07587679238113991,
+          "weighted_truth_rms_min": 9.630132301621616,
+          "scaled_error": 0.007879101761495326,
+          "weighted_bias_min": 0.010394398707605135,
+          "weighted_95pct_latent_coverage": 0.9385373158872843,
           "negative_prediction_fraction_weighted": 0.0
         }
       ],
       "by_stage": {
         "0": {
           "n_cases": 5,
-          "weighted_mae_min": 0.16804351348566418,
-          "weighted_rmse_min": 0.3524673688794458,
-          "weighted_bias_min": 0.062215305681363756,
-          "maximum_case_mae_min": 0.3151142381646299,
-          "weighted_95pct_latent_coverage": 0.75560356209966
+          "weighted_mae_min": 0.09718545644498001,
+          "weighted_rmse_min": 0.16031641205821942,
+          "weighted_bias_min": -0.06506639283070219,
+          "maximum_case_mae_min": 0.1506936746046427,
+          "weighted_95pct_latent_coverage": 0.8038468906250336
         },
         "1": {
           "n_cases": 5,
-          "weighted_mae_min": 0.1214105092206226,
-          "weighted_rmse_min": 0.2598312813179616,
-          "weighted_bias_min": -0.05972865443862613,
-          "maximum_case_mae_min": 0.193721831866586,
-          "weighted_95pct_latent_coverage": 0.7477170195118874
+          "weighted_mae_min": 0.07194425631612608,
+          "weighted_rmse_min": 0.12386645374788147,
+          "weighted_bias_min": 0.0014170448197068964,
+          "maximum_case_mae_min": 0.09642784903352523,
+          "weighted_95pct_latent_coverage": 0.8615078887352361
         },
         "2": {
           "n_cases": 5,
-          "weighted_mae_min": 0.1769238638025168,
-          "weighted_rmse_min": 0.40138208555189575,
-          "weighted_bias_min": 0.07348355685244856,
-          "maximum_case_mae_min": 0.4004824376145963,
-          "weighted_95pct_latent_coverage": 0.7626289852509197
+          "weighted_mae_min": 0.07029373245662728,
+          "weighted_rmse_min": 0.11017111023685398,
+          "weighted_bias_min": -0.0061173986240434415,
+          "maximum_case_mae_min": 0.07778896402024145,
+          "weighted_95pct_latent_coverage": 0.8831698878144797
         },
         "3": {
           "n_cases": 5,
-          "weighted_mae_min": 0.14338550824793722,
-          "weighted_rmse_min": 0.3062737898767041,
-          "weighted_bias_min": -0.031475595215446434,
-          "maximum_case_mae_min": 0.23594295467581838,
-          "weighted_95pct_latent_coverage": 0.6953734647227447
+          "weighted_mae_min": 0.06197228594170123,
+          "weighted_rmse_min": 0.10349675750714513,
+          "weighted_bias_min": -0.002004845150348228,
+          "maximum_case_mae_min": 0.08418769138994518,
+          "weighted_95pct_latent_coverage": 0.854980365948499
         }
       },
       "weighting": "fixed nominal all-passenger OD collapsed to corridor, reachable off-diagonal",
       "uncertainty_note": "Latent GP marginal intervals; OD cells are not independent validation samples.",
       "normalization": "NRMSE is divided by holdout weighted truth RMS; maximum scaled error is the worst case RMSE divided by that case's truth RMS (both use a 0.05-minute floor).",
-      "passed": false
+      "passed": true
     },
     "paired_appraisal": {
-      "passed": false,
+      "passed": true,
       "checks": {
         "total_benefit_mae": {
-          "value": 3351517.378471883,
+          "value": 821556.3131221612,
           "limit": 1000000.0,
-          "passed": false
+          "passed": true
         },
         "total_benefit_p95_error": {
-          "value": 17277277.135211367,
+          "value": 2060827.3070178982,
           "limit": 5000000.0,
-          "passed": false
+          "passed": true
         },
         "material_total_sign_errors": {
-          "value": 2,
+          "value": 0,
           "limit": 0,
-          "passed": false
+          "passed": true
         },
         "material_component_failures": {
           "value": 0,
@@ -2250,22 +4062,22 @@
           "passed": true
         },
         "maximum_mode_share_error_pp": {
-          "value": 0.3312265889470978,
+          "value": 0.19496009330736697,
           "limit": 1.0,
           "passed": true
         },
         "median_mode_share_error_pp": {
-          "value": 0.029874953832767503,
+          "value": 0.015644980198722958,
           "limit": 0.25,
           "passed": true
         },
         "maximum_section_load_relative_error": {
-          "value": 0.026813514791766215,
+          "value": 0.0,
           "limit": 0.03,
           "passed": true
         },
         "median_section_load_relative_error": {
-          "value": 0.00606930290213306,
+          "value": 0.0,
           "limit": 0.01,
           "passed": true
         }
@@ -2286,79 +4098,79 @@
         },
         "bike_time": {
           "n": 15,
-          "mean_reference": 5268362.294215886,
-          "mean_absolute_error": 849.303548614184,
-          "rmse": 1227.320442045613,
-          "nrmse": 0.0001272602159721943,
-          "median_absolute_relative_error": 0.00010228483865036476,
-          "max_absolute_relative_error": 0.0004659526789824337,
+          "mean_reference": 5656379.651920799,
+          "mean_absolute_error": 3597.2973350048064,
+          "rmse": 4606.072805806354,
+          "nrmse": 0.00044820876858050703,
+          "median_absolute_relative_error": 0.0006392092167968374,
+          "max_absolute_relative_error": 0.0015053145619232408,
           "material": true,
-          "mean_absolute_reference": 5268362.294215886,
+          "mean_absolute_reference": 5656379.651920799,
           "error_limit_chf_per_year": 1000000.0,
           "passed": true
         },
         "car_acc": {
           "n": 15,
-          "mean_reference": 546768.4856255273,
-          "mean_absolute_error": 374617.3746027976,
-          "rmse": 705284.7334128014,
-          "nrmse": 0.27891113123269234,
+          "mean_reference": 64845.86787848473,
+          "mean_absolute_error": 125754.21207478245,
+          "rmse": 172421.05835422353,
+          "nrmse": 0.2868849294512593,
           "median_absolute_relative_error": null,
           "max_absolute_relative_error": null,
           "material": false,
-          "mean_absolute_reference": 546768.4856255273,
+          "mean_absolute_reference": 173608.56245935758,
           "error_limit_chf_per_year": 1000000.0,
           "passed": null
         },
         "car_air": {
           "n": 15,
-          "mean_reference": 120611.64793682322,
-          "mean_absolute_error": 82636.83823130006,
-          "rmse": 155578.7434681449,
-          "nrmse": 0.27891113123268746,
+          "mean_reference": 14304.348535687725,
+          "mean_absolute_error": 27740.11881095171,
+          "rmse": 38034.35738130163,
+          "nrmse": 0.2868849294512612,
           "median_absolute_relative_error": null,
           "max_absolute_relative_error": null,
           "material": false,
-          "mean_absolute_reference": 120611.64793682322,
+          "mean_absolute_reference": 38296.30888512333,
           "error_limit_chf_per_year": 1000000.0,
           "passed": null
         },
         "car_co2": {
           "n": 15,
-          "mean_reference": 486291.096375831,
-          "mean_absolute_error": 333181.40786518157,
-          "rmse": 627274.0570921439,
-          "nrmse": 0.2789111312327002,
+          "mean_reference": 57673.34624269009,
+          "mean_absolute_error": 111844.6934514905,
+          "rmse": 153349.77730003992,
+          "nrmse": 0.2868849294512597,
           "median_absolute_relative_error": null,
           "max_absolute_relative_error": null,
           "material": false,
-          "mean_absolute_reference": 486291.096375831,
+          "mean_absolute_reference": 154405.9330376506,
           "error_limit_chf_per_year": 1000000.0,
           "passed": null
         },
         "car_noise": {
           "n": 15,
-          "mean_reference": 96515.22847790792,
-          "mean_absolute_error": 66127.22285963346,
-          "rmse": 124496.4166313308,
-          "nrmse": 0.27891113123269085,
+          "mean_reference": 11446.551728343218,
+          "mean_absolute_error": 22198.054257958134,
+          "rmse": 30435.656551095417,
+          "nrmse": 0.2868849294512563,
           "median_absolute_relative_error": null,
           "max_absolute_relative_error": null,
           "material": false,
-          "mean_absolute_reference": 96515.22847790792,
+          "mean_absolute_reference": 30645.274027300875,
           "error_limit_chf_per_year": 1000000.0,
           "passed": null
         },
         "car_time": {
           "n": 15,
-          "mean_reference": -1207624.5232610384,
-          "mean_absolute_error": 2225575.8583342233,
-          "rmse": 4162252.9175934144,
-          "nrmse": 0.3099321528243132,
+          "mean_reference": 1822333.7443701387,
+          "mean_absolute_error": 1105417.153996865,
+          "rmse": 1513193.080986411,
+          "nrmse": 0.3554976659162351,
           "median_absolute_relative_error": null,
           "max_absolute_relative_error": null,
           "material": false,
-          "mean_absolute_reference": 2044864.206641674,
+          "mean_absolute_reference": 1831973.1489451209,
           "error_limit_chf_per_year": 1000000.0,
           "passed": null
         },
@@ -2377,14 +4189,14 @@
         },
         "external_crowding": {
           "n": 15,
-          "mean_reference": -786030.8704650354,
-          "mean_absolute_error": 849805.916529427,
-          "rmse": 1823315.6962623966,
-          "nrmse": 0.3080265597951214,
+          "mean_reference": 0.0,
+          "mean_absolute_error": 0.0,
+          "rmse": 0.0,
+          "nrmse": 0.0,
           "median_absolute_relative_error": null,
           "max_absolute_relative_error": null,
           "material": false,
-          "mean_absolute_reference": 806989.930010321,
+          "mean_absolute_reference": 0.0,
           "error_limit_chf_per_year": 1000000.0,
           "passed": null
         },
@@ -2494,14 +4306,14 @@
         },
         "pt_crowding": {
           "n": 15,
-          "mean_reference": -1059648.9111530231,
-          "mean_absolute_error": 1133825.3577447056,
-          "rmse": 2457376.194085933,
-          "nrmse": 0.30771047536127927,
+          "mean_reference": 0.0,
+          "mean_absolute_error": 0.0,
+          "rmse": 0.0,
+          "nrmse": 0.0,
           "median_absolute_relative_error": null,
           "max_absolute_relative_error": null,
           "material": false,
-          "mean_absolute_reference": 1086183.5736979204,
+          "mean_absolute_reference": 0.0,
           "error_limit_chf_per_year": 1000000.0,
           "passed": null
         },
@@ -2585,14 +4397,14 @@
         },
         "total": {
           "n": 15,
-          "mean_reference": 3014621.194419543,
-          "mean_absolute_error": 3351517.378471883,
-          "rmse": 6804826.8312563915,
-          "nrmse": 0.24268555144670165,
-          "median_absolute_relative_error": 0.17756280336156932,
-          "max_absolute_relative_error": 1.6853217361511061,
+          "mean_reference": 7176360.257342975,
+          "mean_absolute_error": 821556.3131221612,
+          "rmse": 1123882.952874289,
+          "nrmse": 0.09154614038839202,
+          "median_absolute_relative_error": 0.08311003502111644,
+          "max_absolute_relative_error": 0.31337174382548316,
           "material": false,
-          "mean_absolute_reference": 6741651.77078495,
+          "mean_absolute_reference": 7176360.257342975,
           "error_limit_chf_per_year": 1000000.0,
           "passed": null
         },
@@ -2640,297 +4452,297 @@
         "0": {
           "avg_tt_min": {
             "n": 5,
-            "mean_reference": 13.781225302061253,
-            "mean_absolute_error": 0.010402873321883277,
-            "rmse": 0.01216711531998129,
-            "nrmse": 0.009768447178377587,
-            "median_absolute_relative_error": 0.00092204579988212,
-            "max_absolute_relative_error": 0.0013682313709467736
+            "mean_reference": 14.401473864251269,
+            "mean_absolute_error": 0.015330797752582725,
+            "rmse": 0.01758897217075517,
+            "nrmse": 0.011813840294743094,
+            "median_absolute_relative_error": 0.0010788323527205481,
+            "max_absolute_relative_error": 0.0019304564638933908
           },
           "bike_share": {
             "n": 5,
-            "mean_reference": 0.13407791690628285,
-            "mean_absolute_error": 0.00017617124703575847,
-            "rmse": 0.0002097059742809775,
-            "nrmse": 0.0036500409107666316,
-            "median_absolute_relative_error": 0.0009517468431192002,
-            "max_absolute_relative_error": 0.002909076497246094
+            "mean_reference": 0.16140659229873783,
+            "mean_absolute_error": 0.00018798573900549175,
+            "rmse": 0.00022492278513307906,
+            "nrmse": 0.0035622025691044988,
+            "median_absolute_relative_error": 0.0010595309549127762,
+            "max_absolute_relative_error": 0.0023225442319246854
           },
           "car_share": {
             "n": 5,
-            "mean_reference": 0.4455762540528122,
-            "mean_absolute_error": 0.00146491274350129,
-            "rmse": 0.0016891921668781998,
-            "nrmse": 0.047259714647397415,
-            "median_absolute_relative_error": 0.002652799780249923,
-            "max_absolute_relative_error": 0.006139049253988825
+            "mean_reference": 0.46240707117108126,
+            "mean_absolute_error": 0.00105683990667772,
+            "rmse": 0.001281343064812873,
+            "nrmse": 0.03249642323795468,
+            "median_absolute_relative_error": 0.0022671936113999665,
+            "max_absolute_relative_error": 0.00414223152492886
           },
           "co2_tonnes": {
             "n": 5,
-            "mean_reference": 281474.26610655355,
-            "mean_absolute_error": 887.3445725718979,
-            "rmse": 1069.6042279050398,
-            "nrmse": 0.00794207927430025,
-            "median_absolute_relative_error": 0.002576557485353128,
-            "max_absolute_relative_error": 0.00596771112621774
+            "mean_reference": 100270.71478034425,
+            "mean_absolute_error": 247.13865121094858,
+            "rmse": 311.11427381809494,
+            "nrmse": 0.0070992455669004195,
+            "median_absolute_relative_error": 0.0021780420020493852,
+            "max_absolute_relative_error": 0.003985686678301226
           },
           "pt_share": {
             "n": 5,
-            "mean_reference": 0.38205658398356224,
-            "mean_absolute_error": 0.0012788406896228066,
-            "rmse": 0.001473497851109666,
-            "nrmse": 0.03396851538949845,
-            "median_absolute_relative_error": 0.0028960450269612252,
-            "max_absolute_relative_error": 0.005670103261189335
+            "mean_reference": 0.34235131547624365,
+            "mean_absolute_error": 0.0008624966789952282,
+            "rmse": 0.0010494077665628451,
+            "nrmse": 0.016772782548595926,
+            "median_absolute_relative_error": 0.0024244101015824956,
+            "max_absolute_relative_error": 0.004574219682845137
           },
           "section_modeled_peak": {
             "n": 5,
-            "mean_reference": 8065.223847512898,
-            "mean_absolute_error": 79.70815140445302,
-            "rmse": 104.91047058048318,
-            "nrmse": 0.01872403085361856,
-            "median_absolute_relative_error": 0.006144529922809125,
-            "max_absolute_relative_error": 0.01879171494010873
+            "mean_reference": 0.0,
+            "mean_absolute_error": 0.0,
+            "rmse": 0.0,
+            "nrmse": 0.0,
+            "median_absolute_relative_error": 0.0,
+            "max_absolute_relative_error": 0.0
           },
           "total_cost": {
             "n": 5,
-            "mean_reference": 8207361406.445294,
-            "mean_absolute_error": 9806461.716110611,
-            "rmse": 13127649.16703495,
-            "nrmse": 0.002797512577270412,
-            "median_absolute_relative_error": 0.0008531642618061482,
-            "max_absolute_relative_error": 0.002564431790546492
+            "mean_reference": 2687932523.1840887,
+            "mean_absolute_error": 1445697.3592275619,
+            "rmse": 1779014.2902607718,
+            "nrmse": 0.0012054555429801199,
+            "median_absolute_relative_error": 0.00047242074837293196,
+            "max_absolute_relative_error": 0.0009317874279765826
           },
           "walk_share": {
             "n": 5,
-            "mean_reference": 0.038289245057342665,
-            "mean_absolute_error": 1.1784008847499916e-05,
-            "rmse": 1.496086790131887e-05,
-            "nrmse": 0.0017772752221134596,
-            "median_absolute_relative_error": 0.0001598848831979277,
-            "max_absolute_relative_error": 0.000695588487696308
+            "mean_reference": 0.033835021053937334,
+            "mean_absolute_error": 6.3574886769876545e-06,
+            "rmse": 8.222953979925116e-06,
+            "nrmse": 0.0010455222752189775,
+            "median_absolute_relative_error": 0.00014731498744777137,
+            "max_absolute_relative_error": 0.0004051468299362293
           }
         },
         "1": {
           "avg_tt_min": {
             "n": 5,
-            "mean_reference": 13.784441734026768,
-            "mean_absolute_error": 0.006878655868174021,
-            "rmse": 0.008154315618148552,
-            "nrmse": 0.006542533751301753,
-            "median_absolute_relative_error": 0.0006132250175323761,
-            "max_absolute_relative_error": 0.0009270805403582071
+            "mean_reference": 14.378462150534196,
+            "mean_absolute_error": 0.009642007897124216,
+            "rmse": 0.010703382129774126,
+            "nrmse": 0.007319456731833559,
+            "median_absolute_relative_error": 0.0005429893255579782,
+            "max_absolute_relative_error": 0.0013330463690426639
           },
           "bike_share": {
             "n": 5,
-            "mean_reference": 0.13549486404036254,
-            "mean_absolute_error": 0.00012404884224232192,
-            "rmse": 0.000139398521822967,
-            "nrmse": 0.0024093074864379735,
-            "median_absolute_relative_error": 0.0008603343391042866,
-            "max_absolute_relative_error": 0.0018791096646266143
+            "mean_reference": 0.16491896905237471,
+            "mean_absolute_error": 0.00010968694922477428,
+            "rmse": 0.00012673455370692892,
+            "nrmse": 0.0019757857867178036,
+            "median_absolute_relative_error": 0.0006918032887963686,
+            "max_absolute_relative_error": 0.0011700155224074911
           },
           "car_share": {
             "n": 5,
-            "mean_reference": 0.44388623139231437,
-            "mean_absolute_error": 0.00110779537131942,
-            "rmse": 0.001209859368883704,
-            "nrmse": 0.033566012752666775,
-            "median_absolute_relative_error": 0.0020102367924922262,
-            "max_absolute_relative_error": 0.00432398762464411
+            "mean_reference": 0.4618042323707094,
+            "mean_absolute_error": 0.0005783590107129033,
+            "rmse": 0.0006620481238435873,
+            "nrmse": 0.017010310535595017,
+            "median_absolute_relative_error": 0.0015607406292273266,
+            "max_absolute_relative_error": 0.0021077207929606732
           },
           "co2_tonnes": {
             "n": 5,
-            "mean_reference": 280311.28533904057,
-            "mean_absolute_error": 691.0667277699511,
-            "rmse": 790.6924044179189,
-            "nrmse": 0.005877193292748064,
-            "median_absolute_relative_error": 0.0019563952381688467,
-            "max_absolute_relative_error": 0.00419911818104947
+            "mean_reference": 100188.6770594215,
+            "mean_absolute_error": 113.19700710882607,
+            "rmse": 127.45029290065936,
+            "nrmse": 0.002869866830936392,
+            "median_absolute_relative_error": 0.0014934388575195212,
+            "max_absolute_relative_error": 0.0019995203449555358
           },
           "pt_share": {
             "n": 5,
-            "mean_reference": 0.3823487614594707,
-            "mean_absolute_error": 0.0009761936390921377,
-            "rmse": 0.0010727147333965989,
-            "nrmse": 0.0225589134218697,
-            "median_absolute_relative_error": 0.002094237293957231,
-            "max_absolute_relative_error": 0.00394192653664523
+            "mean_reference": 0.3395860029489426,
+            "mean_absolute_error": 0.0004662808825320219,
+            "rmse": 0.0005339710319956363,
+            "nrmse": 0.00882666332825603,
+            "median_absolute_relative_error": 0.0017436688636917517,
+            "max_absolute_relative_error": 0.00258785576501297
           },
           "section_modeled_peak": {
             "n": 5,
-            "mean_reference": 8142.156223928896,
-            "mean_absolute_error": 59.63996741096271,
-            "rmse": 78.37176291124837,
-            "nrmse": 0.013109469860122477,
-            "median_absolute_relative_error": 0.004892817025571628,
-            "max_absolute_relative_error": 0.012639024367173766
+            "mean_reference": 0.0,
+            "mean_absolute_error": 0.0,
+            "rmse": 0.0,
+            "nrmse": 0.0,
+            "median_absolute_relative_error": 0.0,
+            "max_absolute_relative_error": 0.0
           },
           "total_cost": {
             "n": 5,
-            "mean_reference": 8210995549.570455,
-            "mean_absolute_error": 7243773.479013061,
-            "rmse": 9331363.7736019,
-            "nrmse": 0.0019697158548101935,
-            "median_absolute_relative_error": 0.00047558664758008847,
-            "max_absolute_relative_error": 0.0017038933010184445
+            "mean_reference": 2678937420.3442335,
+            "mean_absolute_error": 742654.3851932049,
+            "rmse": 782678.0271440338,
+            "nrmse": 0.0005328601895608224,
+            "median_absolute_relative_error": 0.0002750174245136098,
+            "max_absolute_relative_error": 0.0005253229740268568
           },
           "walk_share": {
             "n": 5,
-            "mean_reference": 0.03827014310785225,
-            "mean_absolute_error": 9.48166804907169e-06,
-            "rmse": 1.1368866962574227e-05,
-            "nrmse": 0.0013406914009411646,
-            "median_absolute_relative_error": 0.00014668608280386108,
-            "max_absolute_relative_error": 0.0004981445532753623
+            "mean_reference": 0.03369079562797336,
+            "mean_absolute_error": 2.3911789561237295e-06,
+            "rmse": 2.7816179618426424e-06,
+            "nrmse": 0.0003527261339504741,
+            "median_absolute_relative_error": 6.0922072308965846e-05,
+            "max_absolute_relative_error": 0.00012441972579736604
           }
         },
         "2": {
           "avg_tt_min": {
             "n": 5,
-            "mean_reference": 13.78026969505532,
-            "mean_absolute_error": 0.009636450533874807,
-            "rmse": 0.012854016968577483,
-            "nrmse": 0.010310151020709098,
-            "median_absolute_relative_error": 0.0006764717535029756,
-            "max_absolute_relative_error": 0.0017063903558669118
+            "mean_reference": 14.388433698201727,
+            "mean_absolute_error": 0.007499379982204601,
+            "rmse": 0.008457914095043503,
+            "nrmse": 0.0057984177313499695,
+            "median_absolute_relative_error": 0.0004051776503238386,
+            "max_absolute_relative_error": 0.0010022153196090574
           },
           "bike_share": {
             "n": 5,
-            "mean_reference": 0.13461896592288608,
-            "mean_absolute_error": 0.00018332002855584728,
-            "rmse": 0.0002303706962759424,
-            "nrmse": 0.003993047714019554,
-            "median_absolute_relative_error": 0.0007614170193797905,
-            "max_absolute_relative_error": 0.0035887552952852423
+            "mean_reference": 0.16285769961567403,
+            "mean_absolute_error": 8.939281381467601e-05,
+            "rmse": 0.00010412873776027929,
+            "nrmse": 0.0016269014212878994,
+            "median_absolute_relative_error": 0.0004923850711071629,
+            "max_absolute_relative_error": 0.0008881290908470731
           },
           "car_share": {
             "n": 5,
-            "mean_reference": 0.4452855891986884,
-            "mean_absolute_error": 0.0015396916487403823,
-            "rmse": 0.0018867405190179044,
-            "nrmse": 0.0524927217311489,
-            "median_absolute_relative_error": 0.003097926009583593,
-            "max_absolute_relative_error": 0.00761698003815631
+            "mean_reference": 0.46246297709788664,
+            "mean_absolute_error": 0.0004848204771046971,
+            "rmse": 0.0005419733345314914,
+            "nrmse": 0.013811632835856012,
+            "median_absolute_relative_error": 0.0009453115649760763,
+            "max_absolute_relative_error": 0.0018727607443909575
           },
           "co2_tonnes": {
             "n": 5,
-            "mean_reference": 281302.3754910527,
-            "mean_absolute_error": 946.3408523363935,
-            "rmse": 1245.5631531219879,
-            "nrmse": 0.009248932086743352,
-            "median_absolute_relative_error": 0.00301080068559459,
-            "max_absolute_relative_error": 0.007402309421832145
+            "mean_reference": 100324.37230338676,
+            "mean_absolute_error": 101.15717677790963,
+            "rmse": 117.12412894078427,
+            "nrmse": 0.0026356307716899415,
+            "median_absolute_relative_error": 0.0008912472094983731,
+            "max_absolute_relative_error": 0.0017954921095741955
           },
           "pt_share": {
             "n": 5,
-            "mean_reference": 0.38181786071779733,
-            "mean_absolute_error": 0.0013439543312402714,
-            "rmse": 0.001645151906804988,
-            "nrmse": 0.037967688267336756,
-            "median_absolute_relative_error": 0.0033074907126184067,
-            "max_absolute_relative_error": 0.007030752254818725
+            "mean_reference": 0.34088090745935845,
+            "mean_absolute_error": 0.00039325914503690607,
+            "rmse": 0.0004372253617593368,
+            "nrmse": 0.007233025987322193,
+            "median_absolute_relative_error": 0.0011821069930552852,
+            "max_absolute_relative_error": 0.001991505604819194
           },
           "section_modeled_peak": {
             "n": 5,
-            "mean_reference": 8063.8845678444895,
-            "mean_absolute_error": 94.03823303875706,
-            "rmse": 136.6168748860958,
-            "nrmse": 0.024391529996843367,
-            "median_absolute_relative_error": 0.005994075881456993,
-            "max_absolute_relative_error": 0.026813514791766215
+            "mean_reference": 0.0,
+            "mean_absolute_error": 0.0,
+            "rmse": 0.0,
+            "nrmse": 0.0,
+            "median_absolute_relative_error": 0.0,
+            "max_absolute_relative_error": 0.0
           },
           "total_cost": {
             "n": 5,
-            "mean_reference": 8205779810.238787,
-            "mean_absolute_error": 11403197.360066224,
-            "rmse": 16688166.137280036,
-            "nrmse": 0.0035571645781706865,
-            "median_absolute_relative_error": 0.0007724988419334772,
-            "max_absolute_relative_error": 0.003477322094093835
+            "mean_reference": 2685006449.4785066,
+            "mean_absolute_error": 609040.5861338138,
+            "rmse": 703868.0372901926,
+            "nrmse": 0.0004783232366448997,
+            "median_absolute_relative_error": 0.00017496939759463882,
+            "max_absolute_relative_error": 0.00040897474593448746
           },
           "walk_share": {
             "n": 5,
-            "mean_reference": 0.03827758416062823,
-            "mean_absolute_error": 1.2417288944305272e-05,
-            "rmse": 1.89582285994461e-05,
-            "nrmse": 0.0022508600651959514,
-            "median_absolute_relative_error": 0.0001521411259316584,
-            "max_absolute_relative_error": 0.0009471255080928534
+            "mean_reference": 0.0337984158270809,
+            "mean_absolute_error": 2.1685182531289147e-06,
+            "rmse": 2.576044310242363e-06,
+            "nrmse": 0.0003274302464574857,
+            "median_absolute_relative_error": 6.587397412305346e-05,
+            "max_absolute_relative_error": 0.00012214824389008912
           }
         },
         "3": {
           "avg_tt_min": {
             "n": 5,
-            "mean_reference": 13.783419377884638,
-            "mean_absolute_error": 0.005560931019026327,
-            "rmse": 0.007773363541834185,
-            "nrmse": 0.006246124030582126,
-            "median_absolute_relative_error": 0.00016635948053082887,
-            "max_absolute_relative_error": 0.0009890142174728608
+            "mean_reference": 14.377703646723699,
+            "mean_absolute_error": 0.0058177567550611545,
+            "rmse": 0.00707238924496668,
+            "nrmse": 0.004868258517843972,
+            "median_absolute_relative_error": 0.00044138961599685496,
+            "max_absolute_relative_error": 0.0007558105178732473
           },
           "bike_share": {
             "n": 5,
-            "mean_reference": 0.13610906537162765,
-            "mean_absolute_error": 0.0001303011679501781,
-            "rmse": 0.00013203095170764506,
-            "nrmse": 0.002273622648502931,
-            "median_absolute_relative_error": 0.000887767300127164,
-            "max_absolute_relative_error": 0.0013479094679338585
+            "mean_reference": 0.16672385904878176,
+            "mean_absolute_error": 6.62403922687349e-05,
+            "rmse": 7.912539893330608e-05,
+            "nrmse": 0.0012235162545929687,
+            "median_absolute_relative_error": 0.00035483562463971675,
+            "max_absolute_relative_error": 0.0007133156934937244
           },
           "car_share": {
             "n": 5,
-            "mean_reference": 0.4435517160203979,
-            "mean_absolute_error": 0.0012192055071334694,
-            "rmse": 0.0012678903517578074,
-            "nrmse": 0.03530874826860387,
-            "median_absolute_relative_error": 0.0027775372612148363,
-            "max_absolute_relative_error": 0.003967006920774866
+            "mean_reference": 0.4607552433026264,
+            "mean_absolute_error": 0.0003340815332476876,
+            "rmse": 0.0003826854001976428,
+            "nrmse": 0.009987750987294078,
+            "median_absolute_relative_error": 0.0005904440931162337,
+            "max_absolute_relative_error": 0.0012568881505609253
           },
           "co2_tonnes": {
             "n": 5,
-            "mean_reference": 280108.00659860845,
-            "mean_absolute_error": 731.5413200384879,
-            "rmse": 756.9324316866915,
-            "nrmse": 0.005628855640888298,
-            "median_absolute_relative_error": 0.0026915587870224556,
-            "max_absolute_relative_error": 0.0038543306398324886
+            "mean_reference": 99978.74517482053,
+            "mean_absolute_error": 68.04865878044511,
+            "rmse": 79.83171001294012,
+            "nrmse": 0.0017972944006652643,
+            "median_absolute_relative_error": 0.0005694419662944367,
+            "max_absolute_relative_error": 0.00120434592725759
           },
           "pt_share": {
             "n": 5,
-            "mean_reference": 0.38208107436184935,
-            "mean_absolute_error": 0.0010812749566167402,
-            "rmse": 0.0011385251524267269,
-            "nrmse": 0.023924155513761303,
-            "median_absolute_relative_error": 0.0030757999859487273,
-            "max_absolute_relative_error": 0.004263731434837081
+            "mean_reference": 0.33886156861322797,
+            "mean_absolute_error": 0.0002663450509205023,
+            "rmse": 0.0003029637212311441,
+            "nrmse": 0.00503899720641905,
+            "median_absolute_relative_error": 0.0005759454052492399,
+            "max_absolute_relative_error": 0.0013772580729470465
           },
           "section_modeled_peak": {
             "n": 5,
-            "mean_reference": 8140.163083146942,
-            "mean_absolute_error": 65.35142380114466,
-            "rmse": 77.93621833960096,
-            "nrmse": 0.013045844184831608,
-            "median_absolute_relative_error": 0.007462667696830171,
-            "max_absolute_relative_error": 0.013412334765780123
+            "mean_reference": 0.0,
+            "mean_absolute_error": 0.0,
+            "rmse": 0.0,
+            "nrmse": 0.0,
+            "median_absolute_relative_error": 0.0,
+            "max_absolute_relative_error": 0.0
           },
           "total_cost": {
             "n": 5,
-            "mean_reference": 8208812771.044896,
-            "mean_absolute_error": 7865123.923220253,
-            "rmse": 8858655.482769769,
-            "nrmse": 0.0018704639926626666,
-            "median_absolute_relative_error": 0.0008793467487980244,
-            "max_absolute_relative_error": 0.0013239749630965978
+            "mean_reference": 2676870544.457877,
+            "mean_absolute_error": 431801.90806732175,
+            "rmse": 537418.8534991728,
+            "nrmse": 0.00036616664226242116,
+            "median_absolute_relative_error": 0.00015945873616415559,
+            "max_absolute_relative_error": 0.0002947218548807101
           },
           "walk_share": {
             "n": 5,
-            "mean_reference": 0.03825814424612521,
-            "mean_absolute_error": 7.923110619538488e-06,
-            "rmse": 1.0352270202382004e-05,
-            "nrmse": 0.0012201079154974912,
-            "median_absolute_relative_error": 0.00021416138212028643,
-            "max_absolute_relative_error": 0.00040377874181079994
+            "mean_reference": 0.03365932903536384,
+            "mean_absolute_error": 2.512441080616129e-06,
+            "rmse": 3.1268698659943433e-06,
+            "nrmse": 0.000395798568440162,
+            "median_absolute_relative_error": 6.0634509990999066e-05,
+            "max_absolute_relative_error": 0.0001653666674809708
           }
         }
       },
@@ -2939,14 +4751,14 @@
       "scope": "Paired annual baseline/project matched benefits and physical indicators, not full-future NPV.",
       "n_holdouts_per_stage": 5,
       "n_independent_physical_futures": 5,
-      "surrogate_fingerprint": "e0bed4dcc158771b63bb",
+      "surrogate_fingerprint": "daa4bf034ab4f1a4925c",
       "component_rule": "Material mean benefit >= CHF5m/year: MAE <= max(10%, CHF1m/year).",
       "current_parameters": {
         "N_YEARS": 40,
         "APPRAISAL_START_YEAR": 2026,
         "DISCOUNT_RATE": 0.02,
         "PASSENGER_DEMAND_GROWTH": 0.0,
-        "PASSENGER_DEMAND_GROWTH_Y40": 0.11,
+        "PASSENGER_DEMAND_GROWTH_Y40": 0.1833,
         "PT_ASC_SHIFT": 0.0,
         "PT_ASC_SHIFT_Y40": 0.1,
         "BIKE_ASC_SHIFT": 0.0,
@@ -2955,7 +4767,7 @@
         "EBIKE_SHARE_Y40": 0.5,
         "EBIKE_SPEED_MULTIPLIER": 1.5,
         "ROAD_FREIGHT_GROWTH": 0.0,
-        "ROAD_FREIGHT_GROWTH_Y40": 0.1891,
+        "ROAD_FREIGHT_GROWTH_Y40": 0.1827,
         "PT_PEAK_SHARE": 0.0946,
         "CAR_PEAK_SHARE": 0.1049,
         "BIKE_PEAK_SHARE": 0.15,
@@ -3007,19 +4819,19 @@
         "CAPACITY_INCREASE_COMBINED": 0.0
       }
     },
-    "passed": false
+    "passed": true
   },
-  "artifact_sha256": "ceedb30933dca96930937ff91b24650d9b573d5fe9b71e29e75dafed2236007c",
-  "validation_data_sha256": "7361ee000bcaa8f2b0d3a518a66742043e533d0db918e11ea5456de3f84eb6cb",
-  "validation_passed": false,
-  "validation_status": "failed",
-  "runtime_seconds": 18587.0019837,
+  "artifact_sha256": "ef86a076049c860ec25fb2a11260c7c45bdf3a678d47099de133b396f4973640",
+  "validation_data_sha256": "3bc5351e9fe1c2209270d98a8fdc8a7a71876502cdfcf6a3296ad1dddd91b9e5",
+  "validation_passed": true,
+  "validation_status": "passed",
+  "runtime_seconds": 3859.3611798000056,
   "response_table": {
     "file": "response_table.npz",
     "schema": "transport_response_v1",
-    "fingerprint": "35de1b6151f45485fef8",
-    "sha256": "55d09ea464017abdf2cff4d52e25a72ccf5f658163ce504470a1a377f660217d",
+    "fingerprint": "2cd20479a801afcb0856",
+    "sha256": "c64cb67b1dced79153a0c99ed2ec5464ec6e3458350eacab79a358af23c56f9c",
     "n_conditions": 576,
-    "preparation_seconds": 2841.7199392999973
+    "preparation_seconds": 418.545326499996
   }
 }
