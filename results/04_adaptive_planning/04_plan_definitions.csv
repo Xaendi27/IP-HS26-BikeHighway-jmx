@@ -1,0 +1,7 @@
+﻿plan,name,description,initial state,Station package,Tunnel package
+baseline,Baseline (no bike highway) — Baseline throughout the 40-year horizon,Baseline throughout the 40-year horizon,Stage 0 – Baseline Network,no later addition,no later addition
+static1,Static 1 (east section only) — East section only from Year 1,East section only from Year 1,"Stage 1 – Bike highway east: Altstetten–Schlieren (3.5 km, 3 underpasses)",no later addition,no later addition
+static2,Static 2 (full bike highway) — Full bike highway from Year 1,Full bike highway from Year 1,Both stages – Full bike highway Altstetten–Dietikon,no later addition,no later addition
+staged1,"Staged 1 — Stations in Year 8, Tunnel in Year 11","Stations in Year 8, Tunnel in Year 11",Stage 0 – Baseline Network,fixed,fixed
+staged2,"Staged 2 — Stations in Year 6, Tunnel in Year 15","Stations in Year 6, Tunnel in Year 15",Stage 0 – Baseline Network,fixed,fixed
+adaptive,"Adaptive — Stations via Trigger 1, Tunnel via Trigger 2","Stations via Trigger 1, Tunnel via Trigger 2",Stage 0 – Baseline Network,"When Peak-hour bike demand exceeds 10,000 trips/peak hour for 2 consecutive years, decide to build; open after a 3-year lead time.","When Peak-hour bike demand exceeds 12,000 trips/peak hour for 2 consecutive years, decide to build; open after a 4-year lead time."

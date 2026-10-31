@@ -1,0 +1,30 @@
+﻿,label,unit,format,direction,definition,monitoring_indicator,display_unit,scale,requirement,available
+pt_share,PT share (strategic PKM),share (0–1),percent,higher,Common-distance-weighted PT share for reporting-area modeled trips at or above MIN_STRATEGIC_PKM_DISTANCE.,True,%,100.0,,True
+car_share,Car share (strategic PKM),share (0–1),percent,lower,Common-distance-weighted car share for the same strategic trip population.,True,%,100.0,,True
+bike_share,Cycling share (strategic PKM),share (0–1),percent,higher,Common-distance-weighted cycling share for the same strategic trip population.,True,%,100.0,,True
+walk_share,Walking share (strategic PKM),share (0–1),percent,higher,Common-distance-weighted walking share for the same strategic trip population.,True,%,100.0,,True
+pt_share_trips,PT trip share,share (0–1),percent,higher,"Share of reporting-area modeled peak person-trips, including short trips.",True,%,100.0,,True
+car_share_trips,Car trip share,share (0–1),percent,lower,"Share of reporting-area modeled peak person-trips, including short trips.",True,%,100.0,,True
+bike_share_trips,Cycling trip share,share (0–1),percent,higher,"Share of reporting-area modeled peak person-trips, including short trips.",True,%,100.0,,True
+walk_share_trips,Walking trip share,share (0–1),percent,higher,"Share of reporting-area modeled peak person-trips, including short trips.",True,%,100.0,,True
+pt_journey_time_min,Average PT journey time,min/trip,,lower,In-vehicle + waiting + access + egress + transfer-walking time per reporting-area modeled PT passenger. Excludes crowding and supplementary passengers; passenger composition can change across plans.,False,,,,True
+congestion_delay_hours,Road delay,person-hours/year,,lower,"Modeled passenger-car delay, converted using the configured peak hours and equivalent days.",True,,,,True
+total_peak_trips,Total modeled peak demand,person-trips/peak hour,,context,All modes combined; infrastructure changes redistribute this OD demand across modes.,False,,,,True
+total_demand,Annual trip equivalents,person-trips/year,,context,"Sum of mode-specific annual trip equivalents. Changes can reflect modal conversion factors, not induced demand.",True,,,,True
+section_reference_minutes,Section reference journey,min,,lower,Fixed-reference journey time for the selected mode (PT in-vehicle time for this rail section); not a passenger-wide mean.,True,,,section,False
+section_modeled_daily,Modeled section flow,person-trips/day,,context,"Modeled journeys covered by the section recipe, using its mode's peak-to-daily conversion.",True,,,section,False
+section_external_daily,Supplementary section flow,person-trips/day,,context,Configured external cohort with its specified growth; zero when external flows are disabled.,True,,,section,False
+section_combined_daily,Combined section flow,person-trips/day,,context,Modeled plus supplementary journeys covered by the counting section.,True,,,section,False
+section_load_ratio,Peak section load/capacity,ratio,,lower,Combined peak passengers divided by the stage's comfort threshold; not measured seating capacity.,True,,,crowding,False
+section_crowding_penalty_min,Peak crowding penalty,equivalent min,,lower,"(Crowding multiplier - 1) times section reference minutes; discomfort, not extra physical journey time.",False,,,crowding,False
+avg_tt_min,Average car/PT in-vehicle time + road delay,min/trip,,lower,"Combined car/PT peak average, excluding PT waiting/walking.",True,,,,True
+operating_co2_tonnes,Operating CO2 (car + rail),tonnes/year,,lower,Passenger-car and supplied rail-service operating emissions; excludes construction emissions.,False,,,,True
+co2_tonnes,Operating + construction CO2,tonnes/year,,lower,Operating emissions plus construction booked in the row; pre-horizon construction is booked in the first row.,True,,,,True
+total_travel_time_hours,Total modeled travel time,person-hours/year,,context,All modeled modes and PT journey components; excludes external passengers. Depends on demand and trip composition.,True,,,,True
+construction_co2_tonnes,Construction CO2,tonnes,,lower,"Construction emissions booked in the row, including pre-horizon emissions in the first row.",True,,,,True
+car_trips,Car passengers,person-trips/peak hour,,context,Modeled peak-hour person-trips; excludes supplementary passengers.,True,,,,True
+pt_trips,PT passengers,person-trips/peak hour,,context,Modeled peak-hour person-trips; excludes supplementary passengers.,True,,,,True
+bike_trips,Cycling passengers,person-trips/peak hour,,context,Modeled peak-hour person-trips; excludes supplementary passengers.,True,,,,True
+walk_trips,Walking passengers,person-trips/peak hour,,context,Modeled peak-hour person-trips; excludes supplementary passengers.,True,,,,True
+annual_car_trips,Annual CAR passengers,person-trips/year,,context,Modeled peak trips converted using the mode-specific annual factor.,True,,,,True
+annual_pt_trips,Annual PT passengers,person-trips/year,,context,Modeled peak trips converted using the mode-specific annual factor.,True,,,,True

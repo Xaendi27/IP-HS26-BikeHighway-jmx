@@ -405,7 +405,7 @@ STRUCTURAL_UNCERTAINTIES = {  # Distributions for selected general parameters; n
         "minimum": 0.35,
         "maximum": 0.80,
     },
-    #Habe ich uncommented, da ich die Unsicherheit nicht in der Analyse berücksichtigen möchte
+    #Habe ich uncommented, da  die Unsicherheit nicht in der Analyse berücksichtigt werden soll.
     #"ROAD_FREIGHT_GROWTH": {  # Final prepared-background growth; sigma is in growth-fraction units.
         #"category": "transport_modelling",
         #"use": "scenarios",
