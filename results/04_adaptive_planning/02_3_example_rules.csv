@@ -1,0 +1,3 @@
+﻿package,monitoring_indicator,threshold_exceeded,threshold_unit,consecutive_observations,construction_years
+1,bike_trips,21500.0,person-trips/peak hour,2,3
+2,bike_trips,22500.0,person-trips/peak hour,2,4

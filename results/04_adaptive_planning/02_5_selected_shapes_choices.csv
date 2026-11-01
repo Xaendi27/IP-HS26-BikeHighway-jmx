@@ -1,0 +1,8 @@
+﻿parameter,shape
+PASSENGER_DEMAND_GROWTH,random_walk
+PT_ASC_SHIFT,logistic
+BIKE_ASC_SHIFT,logistic
+EBIKE_SHARE,logistic
+CAR_CO2_KG_PER_VEHICLE_KM,linear
+ACCIDENT_COST_MULTIPLIER,linear
+LOCAL_AIR_COST_MULTIPLIER,linear

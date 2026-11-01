@@ -1,0 +1,7 @@
+﻿plan,final_pt_share,pct_acceptable_years,years_in_failure,total_cost,total_construction_co2_tonnes
+baseline,0.345,86.2,5.52,0.0,0.0
+static1,0.343,88.525,4.59,22437969.053,0.0
+static2,0.342,89.55,4.18,51622437.019,0.0
+staged1,0.342,89.55,4.18,41059556.41,0.0
+staged2,0.342,89.55,4.18,39718885.787,0.0
+adaptive,0.342,87.838,4.865,123681456.767,0.0
