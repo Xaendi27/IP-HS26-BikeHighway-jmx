@@ -71,13 +71,13 @@ SIGNPOSTS = {
 DEFAULT_TRIGGERS = {
     "trigger1": {
         "signpost": "bike_trips",
-        "threshold": 10000,  # vorläufig, noch zu kalibrieren
+        "threshold": 21500,  # vorläufig, noch zu kalibrieren
         "persistence": 2,
         "lead_time": 3,
     },
     "trigger2": {
         "signpost": "bike_trips",
-        "threshold": 12000,  # vorläufig, noch zu kalibrieren
+        "threshold": 22500,  # vorläufig, noch zu kalibrieren
         "persistence": 2,
         "lead_time": 4,
     },

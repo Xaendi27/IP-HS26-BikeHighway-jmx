@@ -1,0 +1,2 @@
+﻿requirement,first_failure_year,failure_years,assessment_start,assessment_end
+1: bike_share >= 0.135,20,3,20,40
