@@ -1,0 +1,7 @@
+﻿,minimum,maximum,favourable_direction,bottom_value,top_value
+pct_acceptable_years,47.5,100.0,higher,47.5,100.0
+delta_final_bike_share_pp,0.0,0.6831601293559586,higher,0.0,0.6831601293559586
+final_bike_share_trips,0.1459809371182044,0.34059689049655323,higher,0.1459809371182044,0.34059689049655323
+delta_cumulative_road_delay_hours,-1634981.0468949974,0.0,lower,0.0,-1634981.0468949974
+delta_cumulative_operating_co2_tonnes,-14843.167555203661,0.0,lower,0.0,-14843.167555203661
+total_cost,0.0,64298923.413010836,lower,64298923.413010836,0.0

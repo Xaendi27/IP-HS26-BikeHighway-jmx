@@ -1,0 +1,5 @@
+﻿transition,scenarios_with_window,with_window_percent,reachable_window_percent,mean_restorable_years,median_last_restoration_decision
+"Stage 0 – Baseline Network → Stage 1 – Bike highway east: Altstetten–Schlieren (3.5 km, 3 underpasses)",67,33.5,33.5,0.93,20.0
+"Stage 0 – Baseline Network → Stage 2 – Bike highway west: Schlieren–Dietikon (4.5 km, 5 underpasses)",48,24.0,24.0,0.38,20.0
+"Stage 1 – Bike highway east: Altstetten–Schlieren (3.5 km, 3 underpasses) → Both stages – Full bike highway Altstetten–Dietikon",45,22.5,22.5,0.41,19.0
+"Stage 2 – Bike highway west: Schlieren–Dietikon (4.5 km, 5 underpasses) → Both stages – Full bike highway Altstetten–Dietikon",62,31.0,31.0,0.96,20.0

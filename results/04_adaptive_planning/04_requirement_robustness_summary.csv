@@ -1,0 +1,7 @@
+﻿plan,requirement,failure_percent,mean_failure_years
+adaptive,1: bike_share >= 0.135,45.0,4.865
+baseline,1: bike_share >= 0.135,50.0,5.52
+staged1,1: bike_share >= 0.135,37.0,4.18
+staged2,1: bike_share >= 0.135,37.0,4.18
+static1,1: bike_share >= 0.135,40.5,4.59
+static2,1: bike_share >= 0.135,37.0,4.18
