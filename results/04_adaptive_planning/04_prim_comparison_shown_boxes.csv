@@ -1,0 +1,3 @@
+﻿requirement,plan,box_source,density_in_plan,coverage_in_plan
+1: bike_share >= 0.135,baseline,baseline,1.0,0.75
+1: bike_share >= 0.135,adaptive,adaptive,1.0,0.6

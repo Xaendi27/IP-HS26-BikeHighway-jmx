@@ -1,0 +1,401 @@
+﻿scenario,package,package_label,decision_year,scheduled_opening_year,opening_year,status
+0,1,Stage 1,18.0,21.0,21.0,Open within horizon
+0,2,Stage 2,23.0,27.0,27.0,Open within horizon
+1,1,Stage 1,12.0,15.0,15.0,Open within horizon
+1,2,Stage 2,15.0,19.0,19.0,Open within horizon
+2,1,Stage 1,17.0,20.0,20.0,Open within horizon
+2,2,Stage 2,20.0,24.0,24.0,Open within horizon
+3,1,Stage 1,18.0,21.0,21.0,Open within horizon
+3,2,Stage 2,22.0,26.0,26.0,Open within horizon
+4,1,Stage 1,20.0,23.0,23.0,Open within horizon
+4,2,Stage 2,22.0,26.0,26.0,Open within horizon
+5,1,Stage 1,21.0,24.0,24.0,Open within horizon
+5,2,Stage 2,25.0,29.0,29.0,Open within horizon
+6,1,Stage 1,15.0,18.0,18.0,Open within horizon
+6,2,Stage 2,18.0,22.0,22.0,Open within horizon
+7,1,Stage 1,12.0,15.0,15.0,Open within horizon
+7,2,Stage 2,15.0,19.0,19.0,Open within horizon
+8,1,Stage 1,17.0,20.0,20.0,Open within horizon
+8,2,Stage 2,22.0,26.0,26.0,Open within horizon
+9,1,Stage 1,,,,No decision
+9,2,Stage 2,,,,No decision
+10,1,Stage 1,11.0,14.0,14.0,Open within horizon
+10,2,Stage 2,14.0,18.0,18.0,Open within horizon
+11,1,Stage 1,18.0,21.0,21.0,Open within horizon
+11,2,Stage 2,20.0,24.0,24.0,Open within horizon
+12,1,Stage 1,20.0,23.0,23.0,Open within horizon
+12,2,Stage 2,22.0,26.0,26.0,Open within horizon
+13,1,Stage 1,19.0,22.0,22.0,Open within horizon
+13,2,Stage 2,21.0,25.0,25.0,Open within horizon
+14,1,Stage 1,17.0,20.0,20.0,Open within horizon
+14,2,Stage 2,19.0,23.0,23.0,Open within horizon
+15,1,Stage 1,16.0,19.0,19.0,Open within horizon
+15,2,Stage 2,18.0,22.0,22.0,Open within horizon
+16,1,Stage 1,20.0,23.0,23.0,Open within horizon
+16,2,Stage 2,24.0,28.0,28.0,Open within horizon
+17,1,Stage 1,24.0,27.0,27.0,Open within horizon
+17,2,Stage 2,29.0,33.0,33.0,Open within horizon
+18,1,Stage 1,17.0,20.0,20.0,Open within horizon
+18,2,Stage 2,20.0,24.0,24.0,Open within horizon
+19,1,Stage 1,26.0,29.0,29.0,Open within horizon
+19,2,Stage 2,36.0,40.0,40.0,Open within horizon
+20,1,Stage 1,18.0,21.0,21.0,Open within horizon
+20,2,Stage 2,19.0,23.0,23.0,Open within horizon
+21,1,Stage 1,20.0,23.0,23.0,Open within horizon
+21,2,Stage 2,23.0,27.0,27.0,Open within horizon
+22,1,Stage 1,,,,No decision
+22,2,Stage 2,,,,No decision
+23,1,Stage 1,18.0,21.0,21.0,Open within horizon
+23,2,Stage 2,20.0,24.0,24.0,Open within horizon
+24,1,Stage 1,18.0,21.0,21.0,Open within horizon
+24,2,Stage 2,21.0,25.0,25.0,Open within horizon
+25,1,Stage 1,15.0,18.0,18.0,Open within horizon
+25,2,Stage 2,18.0,22.0,22.0,Open within horizon
+26,1,Stage 1,23.0,26.0,26.0,Open within horizon
+26,2,Stage 2,26.0,30.0,30.0,Open within horizon
+27,1,Stage 1,19.0,22.0,22.0,Open within horizon
+27,2,Stage 2,23.0,27.0,27.0,Open within horizon
+28,1,Stage 1,25.0,28.0,28.0,Open within horizon
+28,2,Stage 2,30.0,34.0,34.0,Open within horizon
+29,1,Stage 1,11.0,14.0,14.0,Open within horizon
+29,2,Stage 2,23.0,27.0,27.0,Open within horizon
+30,1,Stage 1,17.0,20.0,20.0,Open within horizon
+30,2,Stage 2,19.0,23.0,23.0,Open within horizon
+31,1,Stage 1,21.0,24.0,24.0,Open within horizon
+31,2,Stage 2,25.0,29.0,29.0,Open within horizon
+32,1,Stage 1,17.0,20.0,20.0,Open within horizon
+32,2,Stage 2,19.0,23.0,23.0,Open within horizon
+33,1,Stage 1,15.0,18.0,18.0,Open within horizon
+33,2,Stage 2,18.0,22.0,22.0,Open within horizon
+34,1,Stage 1,13.0,16.0,16.0,Open within horizon
+34,2,Stage 2,18.0,22.0,22.0,Open within horizon
+35,1,Stage 1,8.0,11.0,11.0,Open within horizon
+35,2,Stage 2,14.0,18.0,18.0,Open within horizon
+36,1,Stage 1,,,,No decision
+36,2,Stage 2,,,,No decision
+37,1,Stage 1,21.0,24.0,24.0,Open within horizon
+37,2,Stage 2,24.0,28.0,28.0,Open within horizon
+38,1,Stage 1,15.0,18.0,18.0,Open within horizon
+38,2,Stage 2,18.0,22.0,22.0,Open within horizon
+39,1,Stage 1,15.0,18.0,18.0,Open within horizon
+39,2,Stage 2,17.0,21.0,21.0,Open within horizon
+40,1,Stage 1,24.0,27.0,27.0,Open within horizon
+40,2,Stage 2,29.0,33.0,33.0,Open within horizon
+41,1,Stage 1,,,,No decision
+41,2,Stage 2,,,,No decision
+42,1,Stage 1,,,,No decision
+42,2,Stage 2,,,,No decision
+43,1,Stage 1,16.0,19.0,19.0,Open within horizon
+43,2,Stage 2,18.0,22.0,22.0,Open within horizon
+44,1,Stage 1,16.0,19.0,19.0,Open within horizon
+44,2,Stage 2,18.0,22.0,22.0,Open within horizon
+45,1,Stage 1,17.0,20.0,20.0,Open within horizon
+45,2,Stage 2,19.0,23.0,23.0,Open within horizon
+46,1,Stage 1,15.0,18.0,18.0,Open within horizon
+46,2,Stage 2,17.0,21.0,21.0,Open within horizon
+47,1,Stage 1,,,,No decision
+47,2,Stage 2,,,,No decision
+48,1,Stage 1,12.0,15.0,15.0,Open within horizon
+48,2,Stage 2,14.0,18.0,18.0,Open within horizon
+49,1,Stage 1,24.0,27.0,27.0,Open within horizon
+49,2,Stage 2,29.0,33.0,33.0,Open within horizon
+50,1,Stage 1,29.0,32.0,32.0,Open within horizon
+50,2,Stage 2,35.0,39.0,39.0,Open within horizon
+51,1,Stage 1,16.0,19.0,19.0,Open within horizon
+51,2,Stage 2,18.0,22.0,22.0,Open within horizon
+52,1,Stage 1,13.0,16.0,16.0,Open within horizon
+52,2,Stage 2,16.0,20.0,20.0,Open within horizon
+53,1,Stage 1,,,,No decision
+53,2,Stage 2,,,,No decision
+54,1,Stage 1,11.0,14.0,14.0,Open within horizon
+54,2,Stage 2,14.0,18.0,18.0,Open within horizon
+55,1,Stage 1,26.0,29.0,29.0,Open within horizon
+55,2,Stage 2,31.0,35.0,35.0,Open within horizon
+56,1,Stage 1,17.0,20.0,20.0,Open within horizon
+56,2,Stage 2,20.0,24.0,24.0,Open within horizon
+57,1,Stage 1,,,,No decision
+57,2,Stage 2,,,,No decision
+58,1,Stage 1,,,,No decision
+58,2,Stage 2,,,,No decision
+59,1,Stage 1,18.0,21.0,21.0,Open within horizon
+59,2,Stage 2,20.0,24.0,24.0,Open within horizon
+60,1,Stage 1,,,,No decision
+60,2,Stage 2,,,,No decision
+61,1,Stage 1,26.0,29.0,29.0,Open within horizon
+61,2,Stage 2,37.0,41.0,,Committed; opening after horizon
+62,1,Stage 1,15.0,18.0,18.0,Open within horizon
+62,2,Stage 2,,,,No decision
+63,1,Stage 1,,,,No decision
+63,2,Stage 2,,,,No decision
+64,1,Stage 1,22.0,25.0,25.0,Open within horizon
+64,2,Stage 2,26.0,30.0,30.0,Open within horizon
+65,1,Stage 1,27.0,30.0,30.0,Open within horizon
+65,2,Stage 2,37.0,41.0,,Committed; opening after horizon
+66,1,Stage 1,22.0,25.0,25.0,Open within horizon
+66,2,Stage 2,30.0,34.0,34.0,Open within horizon
+67,1,Stage 1,18.0,21.0,21.0,Open within horizon
+67,2,Stage 2,20.0,24.0,24.0,Open within horizon
+68,1,Stage 1,13.0,16.0,16.0,Open within horizon
+68,2,Stage 2,15.0,19.0,19.0,Open within horizon
+69,1,Stage 1,15.0,18.0,18.0,Open within horizon
+69,2,Stage 2,18.0,22.0,22.0,Open within horizon
+70,1,Stage 1,19.0,22.0,22.0,Open within horizon
+70,2,Stage 2,20.0,24.0,24.0,Open within horizon
+71,1,Stage 1,12.0,15.0,15.0,Open within horizon
+71,2,Stage 2,17.0,21.0,21.0,Open within horizon
+72,1,Stage 1,12.0,15.0,15.0,Open within horizon
+72,2,Stage 2,14.0,18.0,18.0,Open within horizon
+73,1,Stage 1,16.0,19.0,19.0,Open within horizon
+73,2,Stage 2,17.0,21.0,21.0,Open within horizon
+74,1,Stage 1,14.0,17.0,17.0,Open within horizon
+74,2,Stage 2,16.0,20.0,20.0,Open within horizon
+75,1,Stage 1,13.0,16.0,16.0,Open within horizon
+75,2,Stage 2,15.0,19.0,19.0,Open within horizon
+76,1,Stage 1,24.0,27.0,27.0,Open within horizon
+76,2,Stage 2,29.0,33.0,33.0,Open within horizon
+77,1,Stage 1,17.0,20.0,20.0,Open within horizon
+77,2,Stage 2,19.0,23.0,23.0,Open within horizon
+78,1,Stage 1,19.0,22.0,22.0,Open within horizon
+78,2,Stage 2,21.0,25.0,25.0,Open within horizon
+79,1,Stage 1,21.0,24.0,24.0,Open within horizon
+79,2,Stage 2,23.0,27.0,27.0,Open within horizon
+80,1,Stage 1,34.0,37.0,37.0,Open within horizon
+80,2,Stage 2,,,,No decision
+81,1,Stage 1,29.0,32.0,32.0,Open within horizon
+81,2,Stage 2,38.0,42.0,,Committed; opening after horizon
+82,1,Stage 1,,,,No decision
+82,2,Stage 2,,,,No decision
+83,1,Stage 1,11.0,14.0,14.0,Open within horizon
+83,2,Stage 2,13.0,17.0,17.0,Open within horizon
+84,1,Stage 1,17.0,20.0,20.0,Open within horizon
+84,2,Stage 2,19.0,23.0,23.0,Open within horizon
+85,1,Stage 1,27.0,30.0,30.0,Open within horizon
+85,2,Stage 2,33.0,37.0,37.0,Open within horizon
+86,1,Stage 1,18.0,21.0,21.0,Open within horizon
+86,2,Stage 2,20.0,24.0,24.0,Open within horizon
+87,1,Stage 1,17.0,20.0,20.0,Open within horizon
+87,2,Stage 2,19.0,23.0,23.0,Open within horizon
+88,1,Stage 1,,,,No decision
+88,2,Stage 2,,,,No decision
+89,1,Stage 1,13.0,16.0,16.0,Open within horizon
+89,2,Stage 2,15.0,19.0,19.0,Open within horizon
+90,1,Stage 1,17.0,20.0,20.0,Open within horizon
+90,2,Stage 2,20.0,24.0,24.0,Open within horizon
+91,1,Stage 1,17.0,20.0,20.0,Open within horizon
+91,2,Stage 2,19.0,23.0,23.0,Open within horizon
+92,1,Stage 1,17.0,20.0,20.0,Open within horizon
+92,2,Stage 2,20.0,24.0,24.0,Open within horizon
+93,1,Stage 1,19.0,22.0,22.0,Open within horizon
+93,2,Stage 2,21.0,25.0,25.0,Open within horizon
+94,1,Stage 1,,,,No decision
+94,2,Stage 2,,,,No decision
+95,1,Stage 1,19.0,22.0,22.0,Open within horizon
+95,2,Stage 2,21.0,25.0,25.0,Open within horizon
+96,1,Stage 1,18.0,21.0,21.0,Open within horizon
+96,2,Stage 2,20.0,24.0,24.0,Open within horizon
+97,1,Stage 1,17.0,20.0,20.0,Open within horizon
+97,2,Stage 2,20.0,24.0,24.0,Open within horizon
+98,1,Stage 1,16.0,19.0,19.0,Open within horizon
+98,2,Stage 2,18.0,22.0,22.0,Open within horizon
+99,1,Stage 1,38.0,41.0,,Committed; opening after horizon
+99,2,Stage 2,,,,No decision
+100,1,Stage 1,13.0,16.0,16.0,Open within horizon
+100,2,Stage 2,15.0,19.0,19.0,Open within horizon
+101,1,Stage 1,18.0,21.0,21.0,Open within horizon
+101,2,Stage 2,28.0,32.0,32.0,Open within horizon
+102,1,Stage 1,25.0,28.0,28.0,Open within horizon
+102,2,Stage 2,29.0,33.0,33.0,Open within horizon
+103,1,Stage 1,19.0,22.0,22.0,Open within horizon
+103,2,Stage 2,21.0,25.0,25.0,Open within horizon
+104,1,Stage 1,17.0,20.0,20.0,Open within horizon
+104,2,Stage 2,21.0,25.0,25.0,Open within horizon
+105,1,Stage 1,19.0,22.0,22.0,Open within horizon
+105,2,Stage 2,22.0,26.0,26.0,Open within horizon
+106,1,Stage 1,,,,No decision
+106,2,Stage 2,,,,No decision
+107,1,Stage 1,16.0,19.0,19.0,Open within horizon
+107,2,Stage 2,20.0,24.0,24.0,Open within horizon
+108,1,Stage 1,17.0,20.0,20.0,Open within horizon
+108,2,Stage 2,20.0,24.0,24.0,Open within horizon
+109,1,Stage 1,20.0,23.0,23.0,Open within horizon
+109,2,Stage 2,22.0,26.0,26.0,Open within horizon
+110,1,Stage 1,17.0,20.0,20.0,Open within horizon
+110,2,Stage 2,20.0,24.0,24.0,Open within horizon
+111,1,Stage 1,20.0,23.0,23.0,Open within horizon
+111,2,Stage 2,22.0,26.0,26.0,Open within horizon
+112,1,Stage 1,15.0,18.0,18.0,Open within horizon
+112,2,Stage 2,18.0,22.0,22.0,Open within horizon
+113,1,Stage 1,13.0,16.0,16.0,Open within horizon
+113,2,Stage 2,16.0,20.0,20.0,Open within horizon
+114,1,Stage 1,,,,No decision
+114,2,Stage 2,,,,No decision
+115,1,Stage 1,20.0,23.0,23.0,Open within horizon
+115,2,Stage 2,23.0,27.0,27.0,Open within horizon
+116,1,Stage 1,20.0,23.0,23.0,Open within horizon
+116,2,Stage 2,22.0,26.0,26.0,Open within horizon
+117,1,Stage 1,12.0,15.0,15.0,Open within horizon
+117,2,Stage 2,14.0,18.0,18.0,Open within horizon
+118,1,Stage 1,13.0,16.0,16.0,Open within horizon
+118,2,Stage 2,16.0,20.0,20.0,Open within horizon
+119,1,Stage 1,12.0,15.0,15.0,Open within horizon
+119,2,Stage 2,14.0,18.0,18.0,Open within horizon
+120,1,Stage 1,23.0,26.0,26.0,Open within horizon
+120,2,Stage 2,26.0,30.0,30.0,Open within horizon
+121,1,Stage 1,14.0,17.0,17.0,Open within horizon
+121,2,Stage 2,16.0,20.0,20.0,Open within horizon
+122,1,Stage 1,14.0,17.0,17.0,Open within horizon
+122,2,Stage 2,16.0,20.0,20.0,Open within horizon
+123,1,Stage 1,21.0,24.0,24.0,Open within horizon
+123,2,Stage 2,25.0,29.0,29.0,Open within horizon
+124,1,Stage 1,14.0,17.0,17.0,Open within horizon
+124,2,Stage 2,15.0,19.0,19.0,Open within horizon
+125,1,Stage 1,16.0,19.0,19.0,Open within horizon
+125,2,Stage 2,19.0,23.0,23.0,Open within horizon
+126,1,Stage 1,25.0,28.0,28.0,Open within horizon
+126,2,Stage 2,32.0,36.0,36.0,Open within horizon
+127,1,Stage 1,14.0,17.0,17.0,Open within horizon
+127,2,Stage 2,19.0,23.0,23.0,Open within horizon
+128,1,Stage 1,27.0,30.0,30.0,Open within horizon
+128,2,Stage 2,36.0,40.0,40.0,Open within horizon
+129,1,Stage 1,30.0,33.0,33.0,Open within horizon
+129,2,Stage 2,,,,No decision
+130,1,Stage 1,16.0,19.0,19.0,Open within horizon
+130,2,Stage 2,19.0,23.0,23.0,Open within horizon
+131,1,Stage 1,23.0,26.0,26.0,Open within horizon
+131,2,Stage 2,27.0,31.0,31.0,Open within horizon
+132,1,Stage 1,17.0,20.0,20.0,Open within horizon
+132,2,Stage 2,19.0,23.0,23.0,Open within horizon
+133,1,Stage 1,23.0,26.0,26.0,Open within horizon
+133,2,Stage 2,27.0,31.0,31.0,Open within horizon
+134,1,Stage 1,15.0,18.0,18.0,Open within horizon
+134,2,Stage 2,17.0,21.0,21.0,Open within horizon
+135,1,Stage 1,22.0,25.0,25.0,Open within horizon
+135,2,Stage 2,25.0,29.0,29.0,Open within horizon
+136,1,Stage 1,14.0,17.0,17.0,Open within horizon
+136,2,Stage 2,18.0,22.0,22.0,Open within horizon
+137,1,Stage 1,26.0,29.0,29.0,Open within horizon
+137,2,Stage 2,,,,No decision
+138,1,Stage 1,23.0,26.0,26.0,Open within horizon
+138,2,Stage 2,28.0,32.0,32.0,Open within horizon
+139,1,Stage 1,19.0,22.0,22.0,Open within horizon
+139,2,Stage 2,21.0,25.0,25.0,Open within horizon
+140,1,Stage 1,21.0,24.0,24.0,Open within horizon
+140,2,Stage 2,24.0,28.0,28.0,Open within horizon
+141,1,Stage 1,28.0,31.0,31.0,Open within horizon
+141,2,Stage 2,33.0,37.0,37.0,Open within horizon
+142,1,Stage 1,,,,No decision
+142,2,Stage 2,,,,No decision
+143,1,Stage 1,16.0,19.0,19.0,Open within horizon
+143,2,Stage 2,19.0,23.0,23.0,Open within horizon
+144,1,Stage 1,11.0,14.0,14.0,Open within horizon
+144,2,Stage 2,14.0,18.0,18.0,Open within horizon
+145,1,Stage 1,29.0,32.0,32.0,Open within horizon
+145,2,Stage 2,36.0,40.0,40.0,Open within horizon
+146,1,Stage 1,24.0,27.0,27.0,Open within horizon
+146,2,Stage 2,28.0,32.0,32.0,Open within horizon
+147,1,Stage 1,21.0,24.0,24.0,Open within horizon
+147,2,Stage 2,24.0,28.0,28.0,Open within horizon
+148,1,Stage 1,17.0,20.0,20.0,Open within horizon
+148,2,Stage 2,21.0,25.0,25.0,Open within horizon
+149,1,Stage 1,14.0,17.0,17.0,Open within horizon
+149,2,Stage 2,16.0,20.0,20.0,Open within horizon
+150,1,Stage 1,19.0,22.0,22.0,Open within horizon
+150,2,Stage 2,21.0,25.0,25.0,Open within horizon
+151,1,Stage 1,,,,No decision
+151,2,Stage 2,,,,No decision
+152,1,Stage 1,15.0,18.0,18.0,Open within horizon
+152,2,Stage 2,16.0,20.0,20.0,Open within horizon
+153,1,Stage 1,17.0,20.0,20.0,Open within horizon
+153,2,Stage 2,20.0,24.0,24.0,Open within horizon
+154,1,Stage 1,20.0,23.0,23.0,Open within horizon
+154,2,Stage 2,23.0,27.0,27.0,Open within horizon
+155,1,Stage 1,10.0,13.0,13.0,Open within horizon
+155,2,Stage 2,12.0,16.0,16.0,Open within horizon
+156,1,Stage 1,18.0,21.0,21.0,Open within horizon
+156,2,Stage 2,20.0,24.0,24.0,Open within horizon
+157,1,Stage 1,24.0,27.0,27.0,Open within horizon
+157,2,Stage 2,28.0,32.0,32.0,Open within horizon
+158,1,Stage 1,15.0,18.0,18.0,Open within horizon
+158,2,Stage 2,17.0,21.0,21.0,Open within horizon
+159,1,Stage 1,12.0,15.0,15.0,Open within horizon
+159,2,Stage 2,15.0,19.0,19.0,Open within horizon
+160,1,Stage 1,16.0,19.0,19.0,Open within horizon
+160,2,Stage 2,19.0,23.0,23.0,Open within horizon
+161,1,Stage 1,13.0,16.0,16.0,Open within horizon
+161,2,Stage 2,16.0,20.0,20.0,Open within horizon
+162,1,Stage 1,,,,No decision
+162,2,Stage 2,,,,No decision
+163,1,Stage 1,22.0,25.0,25.0,Open within horizon
+163,2,Stage 2,25.0,29.0,29.0,Open within horizon
+164,1,Stage 1,16.0,19.0,19.0,Open within horizon
+164,2,Stage 2,18.0,22.0,22.0,Open within horizon
+165,1,Stage 1,,,,No decision
+165,2,Stage 2,,,,No decision
+166,1,Stage 1,17.0,20.0,20.0,Open within horizon
+166,2,Stage 2,20.0,24.0,24.0,Open within horizon
+167,1,Stage 1,24.0,27.0,27.0,Open within horizon
+167,2,Stage 2,30.0,34.0,34.0,Open within horizon
+168,1,Stage 1,25.0,28.0,28.0,Open within horizon
+168,2,Stage 2,30.0,34.0,34.0,Open within horizon
+169,1,Stage 1,15.0,18.0,18.0,Open within horizon
+169,2,Stage 2,18.0,22.0,22.0,Open within horizon
+170,1,Stage 1,16.0,19.0,19.0,Open within horizon
+170,2,Stage 2,19.0,23.0,23.0,Open within horizon
+171,1,Stage 1,18.0,21.0,21.0,Open within horizon
+171,2,Stage 2,25.0,29.0,29.0,Open within horizon
+172,1,Stage 1,,,,No decision
+172,2,Stage 2,,,,No decision
+173,1,Stage 1,18.0,21.0,21.0,Open within horizon
+173,2,Stage 2,22.0,26.0,26.0,Open within horizon
+174,1,Stage 1,17.0,20.0,20.0,Open within horizon
+174,2,Stage 2,20.0,24.0,24.0,Open within horizon
+175,1,Stage 1,13.0,16.0,16.0,Open within horizon
+175,2,Stage 2,17.0,21.0,21.0,Open within horizon
+176,1,Stage 1,18.0,21.0,21.0,Open within horizon
+176,2,Stage 2,20.0,24.0,24.0,Open within horizon
+177,1,Stage 1,16.0,19.0,19.0,Open within horizon
+177,2,Stage 2,20.0,24.0,24.0,Open within horizon
+178,1,Stage 1,18.0,21.0,21.0,Open within horizon
+178,2,Stage 2,20.0,24.0,24.0,Open within horizon
+179,1,Stage 1,,,,No decision
+179,2,Stage 2,,,,No decision
+180,1,Stage 1,,,,No decision
+180,2,Stage 2,,,,No decision
+181,1,Stage 1,18.0,21.0,21.0,Open within horizon
+181,2,Stage 2,20.0,24.0,24.0,Open within horizon
+182,1,Stage 1,17.0,20.0,20.0,Open within horizon
+182,2,Stage 2,19.0,23.0,23.0,Open within horizon
+183,1,Stage 1,15.0,18.0,18.0,Open within horizon
+183,2,Stage 2,18.0,22.0,22.0,Open within horizon
+184,1,Stage 1,17.0,20.0,20.0,Open within horizon
+184,2,Stage 2,22.0,26.0,26.0,Open within horizon
+185,1,Stage 1,14.0,17.0,17.0,Open within horizon
+185,2,Stage 2,18.0,22.0,22.0,Open within horizon
+186,1,Stage 1,13.0,16.0,16.0,Open within horizon
+186,2,Stage 2,16.0,20.0,20.0,Open within horizon
+187,1,Stage 1,20.0,23.0,23.0,Open within horizon
+187,2,Stage 2,22.0,26.0,26.0,Open within horizon
+188,1,Stage 1,18.0,21.0,21.0,Open within horizon
+188,2,Stage 2,20.0,24.0,24.0,Open within horizon
+189,1,Stage 1,17.0,20.0,20.0,Open within horizon
+189,2,Stage 2,20.0,24.0,24.0,Open within horizon
+190,1,Stage 1,21.0,24.0,24.0,Open within horizon
+190,2,Stage 2,24.0,28.0,28.0,Open within horizon
+191,1,Stage 1,10.0,13.0,13.0,Open within horizon
+191,2,Stage 2,13.0,17.0,17.0,Open within horizon
+192,1,Stage 1,18.0,21.0,21.0,Open within horizon
+192,2,Stage 2,20.0,24.0,24.0,Open within horizon
+193,1,Stage 1,,,,No decision
+193,2,Stage 2,,,,No decision
+194,1,Stage 1,16.0,19.0,19.0,Open within horizon
+194,2,Stage 2,19.0,23.0,23.0,Open within horizon
+195,1,Stage 1,,,,No decision
+195,2,Stage 2,,,,No decision
+196,1,Stage 1,15.0,18.0,18.0,Open within horizon
+196,2,Stage 2,20.0,24.0,24.0,Open within horizon
+197,1,Stage 1,,,,No decision
+197,2,Stage 2,,,,No decision
+198,1,Stage 1,20.0,23.0,23.0,Open within horizon
+198,2,Stage 2,22.0,26.0,26.0,Open within horizon
+199,1,Stage 1,,,,No decision
+199,2,Stage 2,,,,No decision
