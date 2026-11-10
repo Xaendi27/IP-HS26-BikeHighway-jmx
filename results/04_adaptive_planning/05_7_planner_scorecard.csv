@@ -1,0 +1,8 @@
+﻿,years_compared,final_state,infrastructure_expenditure_PV_MCHF,construction_CO2_tonnes,years_in_failure,acceptable_years_percent,final_bike_share,final_car_share,final_congestion_delay_hours,additional_PV_expenditure_vs_lowest_spending_benchmark_MCHF
+PLANNER PLAN,1,Stage 0 – Baseline Network,2.1445714530973765,0.0,0,100.0,0.11357752197805394,0.5114146575289173,2933521.3635342014,2.145
+baseline,1,Stage 0 – Baseline Network,0.0,0.0,0,100.0,0.11357752197805394,0.5114146575289173,2933521.3635342014,0.0
+static1,1,"Stage 1 – Bike highway east: Altstetten–Schlieren (3.5 km, 3 underpasses)",15.81144809304845,0.0,0,100.0,0.11660631995875045,0.5101614418659519,2913336.6385272145,15.811
+static2,1,Both stages – Full bike highway Altstetten–Dietikon,36.3769769636877,0.0,0,100.0,0.11797549738841233,0.5092742654770752,2907614.0182919446,36.377
+staged1,1,Stage 0 – Baseline Network,0.0,0.0,0,100.0,0.11357752197805394,0.5114146575289173,2933521.3635342014,0.0
+staged2,1,Stage 0 – Baseline Network,0.0,0.0,0,100.0,0.11357752197805394,0.5114146575289173,2933521.3635342014,0.0
+adaptive,1,Stage 0 – Baseline Network,2.1445714530973765,0.0,0,100.0,0.11357752197805394,0.5114146575289173,2933521.3635342014,2.145
