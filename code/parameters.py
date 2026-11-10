@@ -183,18 +183,19 @@ globals().update(NOMINAL_PARAMS)
 # CORRIDOR_ZONE_IDS. This list is kept as a helper for municipality-level
 # displays (NB02 1.4 desire lines, 2.2/2.3 playground) and stage service pairs.
 # -----------------------------------------------------------------------------
-CORRIDOR_REGIONS = { # Named municipality groups (helper only in "zones" mode)
-    "restliches Limmattal": [
-        "Unterengstringen",
-        "Oberengstringen",
-        "Urdorf",
-        "Weiningen (ZH)",
-        "Geroldswil"
-    ] ,
-    "Schlieren" : ["Schlieren"],
-    "Dietikon" : ["Dietikon"],
-    "Zürich" : ["Zürich"]   # Whole city only for municipality-level displays
-}
+CORRIDOR_REGIONS = {}
+#CORRIDOR_REGIONS = { # Named municipality groups (helper only in "zones" mode)
+ #   "restliches Limmattal": [
+  #      "Unterengstringen",
+   #     "Oberengstringen",
+    #    "Urdorf",
+     #   "Weiningen (ZH)",
+      #  "Geroldswil"
+    #] ,
+    #"Schlieren" : ["Schlieren"],
+    #"Dietikon" : ["Dietikon"],
+    #"Zürich" : ["Zürich"]   # Whole city only for municipality-level displays
+#}
 
 # Flat list of all corridor municipalities
 CORRIDOR_MUNICIPALITIES = [  # Derived flat list used by corridor selection and stage definitions.
@@ -205,7 +206,7 @@ CORRIDOR_MUNICIPALITIES = [  # Derived flat list used by corridor selection and 
 # Notebook 02 prepares a missing cache; later notebooks require it to exist.
 # None uses the existing default cache. For a new project, select a new filename.
 #DETAILED_NETWORK_FILE = "data/processed/limmattal_erweitert_detailed_network.pkl"
-DETAILED_NETWORK_FILE = "data/processed/limmattal_altstetten_hoengg_albisrieden_detailed_network.pkl"
+DETAILED_NETWORK_FILE = "data/processed/limmattal_altstetten_hoengg_albisrieden__detailed_network.pkl"
 
 # -----------------------------------------------------------------------------
 # OPTION B: Define by Explicit Zone IDs

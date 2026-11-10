@@ -371,7 +371,7 @@
     "test_004_stage2",
     "test_004_stage3"
   ],
-  "design_sha256": "1fd81d2c5c9366db71269514359aec845b35f5648843db74a31d0ddf201aeba7",
+  "design_sha256": "b635b9da2eddd2ad1eda72c83183458c7c4abb89bed2c51c949727dfb3f478da",
   "training_counts_by_stage": {
     "0": 25,
     "1": 25,
@@ -380,22 +380,13 @@
   },
   "seed": 42,
   "design": "continuous LHS with balanced stage labels; independent paired-stage LHS holdout",
-  "model_fingerprint": "daa4bf034ab4f1a4925c",
-  "cache_namespace": "b227ca8b4879c68f4a8f",
+  "model_fingerprint": "d3559514d38bf012cc3b",
+  "cache_namespace": "4443605c3f18b88c412b",
   "portable_model_inputs": {
     "identity_version": 3,
     "corridor": {
       "mode": "zones",
-      "municipalities": [
-        "Dietikon",
-        "Geroldswil",
-        "Oberengstringen",
-        "Schlieren",
-        "Unterengstringen",
-        "Urdorf",
-        "Weiningen (ZH)",
-        "Z\u00fcrich"
-      ],
+      "municipalities": [],
       "zone_ids": [
         "24301001",
         "24301002",
@@ -1147,232 +1138,7 @@
         ],
         "railway_expansions": [
           {
-            "area_pairs": [
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Oberengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Urdorf"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Urdorf"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Urdorf"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Urdorf"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Urdorf"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Urdorf"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Urdorf"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Weiningen (ZH)"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Weiningen (ZH)"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Weiningen (ZH)"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Weiningen (ZH)"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Geroldswil"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Geroldswil"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Geroldswil"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              }
-            ],
+            "area_pairs": [],
             "both_directions": true,
             "effects": {
               "travel_time_reduction_pct": 0.0,
@@ -1711,232 +1477,7 @@
         ],
         "railway_expansions": [
           {
-            "area_pairs": [
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Oberengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Urdorf"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Urdorf"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Urdorf"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Urdorf"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Urdorf"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Urdorf"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Urdorf"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Weiningen (ZH)"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Weiningen (ZH)"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Weiningen (ZH)"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Weiningen (ZH)"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Geroldswil"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Geroldswil"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Geroldswil"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              }
-            ],
+            "area_pairs": [],
             "both_directions": true,
             "effects": {
               "travel_time_reduction_pct": 0.0,
@@ -3206,232 +2747,7 @@
         ],
         "railway_expansions": [
           {
-            "area_pairs": [
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Oberengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Urdorf"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Urdorf"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Oberengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Urdorf"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Urdorf"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Urdorf"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Urdorf"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Urdorf"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Weiningen (ZH)"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Weiningen (ZH)"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Weiningen (ZH)"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Weiningen (ZH)"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Geroldswil"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Geroldswil"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Geroldswil"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              }
-            ],
+            "area_pairs": [],
             "both_directions": true,
             "effects": {
               "travel_time_reduction_pct": 0.0,
@@ -3488,7 +2804,7 @@
       "data/transport/prepared/skims.pkl.gz": "8c6e321818f13afe85cce069b7df002db2f1c74d33764fda4c175fc689b8d7bf",
       "data/transport/prepared/assignment_network.pkl": "26cbf5ab36717fedd1d071e1b0be5576415b24a5e64ff976efb959ecaef72d31",
       "data/transport/prepared/lookups.pkl.gz": "8a571b706449c87a41c58a9fd48b34e0fd6a72cf7f825c69db1eb3a8b6bcd73d",
-      "data/processed/limmattal_altstetten_hoengg_albisrieden_detailed_network.pkl": "637692b137c877dadd8f7334f01fa6a3d3d752c29dc598b5afbe2d49fa31f9c9"
+      "data/processed/limmattal_altstetten_hoengg_albisrieden__detailed_network.pkl": "7e6dd724098e324940eef70d7becba54553e23cfd22ef43b2a5a690dcccd18fc"
     }
   },
   "reference_equations": {
@@ -3642,7 +2958,7 @@
   },
   "cache_contract": {
     "format_version": 3,
-    "model_fingerprint": "daa4bf034ab4f1a4925c",
+    "model_fingerprint": "d3559514d38bf012cc3b",
     "reference_equations": "19783b770214fd1a0541",
     "solver_settings": {
       "stopping_rule": "road_relative_gap",
@@ -3665,7 +2981,7 @@
     "od_threshold": 0.0,
     "drive_occupancy": 1.14
   },
-  "source_fingerprint": "baa1f3aab8a9f500588e",
+  "source_fingerprint": "7c886cd152e3d338f2a1",
   "source_convergence_passed": true,
   "gp_diagnostics": {
     "mode": "pooled",
@@ -3738,10 +3054,10 @@
           8,
           9
         ],
-        "fit_seconds": 0.7722912000026554
+        "fit_seconds": 0.7263126000761986
       }
     },
-    "fit_seconds": 0.7722912000026554
+    "fit_seconds": 0.7263126000761986
   },
   "validation": {
     "od": {
@@ -4751,7 +4067,7 @@
       "scope": "Paired annual baseline/project matched benefits and physical indicators, not full-future NPV.",
       "n_holdouts_per_stage": 5,
       "n_independent_physical_futures": 5,
-      "surrogate_fingerprint": "daa4bf034ab4f1a4925c",
+      "surrogate_fingerprint": "d3559514d38bf012cc3b",
       "component_rule": "Material mean benefit >= CHF5m/year: MAE <= max(10%, CHF1m/year).",
       "current_parameters": {
         "N_YEARS": 40,
@@ -4808,9 +4124,10 @@
         "OPEX_RATE": 0.02,
         "OPEX_MULTIPLIER": 1.0,
         "CAPEX_MULTIPLIER": 1.0,
-        "C_FLEX": 50000000,
+        "C_FLEX": 1000000,
         "MAX_AVG_TT": 15.0,
         "PT_SHARE_TARGET": 0.35,
+        "BIKE_SHARE_TARGET": 0.18,
         "MIN_STRATEGIC_PKM_DISTANCE": 2.0,
         "C_INV_STAGE1": 14689936,
         "CAPACITY_INCREASE_STAGE1": 0.0,
@@ -4821,17 +4138,17 @@
     },
     "passed": true
   },
-  "artifact_sha256": "ef86a076049c860ec25fb2a11260c7c45bdf3a678d47099de133b396f4973640",
+  "artifact_sha256": "4b0ca22ef82c116747ba5d45b83ef35ad6d2b3e1b469467cca8243f8aa67f033",
   "validation_data_sha256": "3bc5351e9fe1c2209270d98a8fdc8a7a71876502cdfcf6a3296ad1dddd91b9e5",
   "validation_passed": true,
   "validation_status": "passed",
-  "runtime_seconds": 3859.3611798000056,
+  "runtime_seconds": 3748.3359754000558,
   "response_table": {
     "file": "response_table.npz",
     "schema": "transport_response_v1",
-    "fingerprint": "2cd20479a801afcb0856",
-    "sha256": "c64cb67b1dced79153a0c99ed2ec5464ec6e3458350eacab79a358af23c56f9c",
+    "fingerprint": "f1e2e01295d913350118",
+    "sha256": "2c3f903b462f6cb1ff29532636d7db4adae7f8fc2c5641fbde7b61acdef7d70c",
     "n_conditions": 576,
-    "preparation_seconds": 418.545326499996
+    "preparation_seconds": 401.58273460005876
   }
 }
