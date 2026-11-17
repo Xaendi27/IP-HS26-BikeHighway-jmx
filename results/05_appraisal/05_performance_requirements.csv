@@ -1,0 +1,2 @@
+﻿indicator,operator,threshold,start_year,id,end_year,label
+bike_share,>=,0.135,20,requirement_1,40,"bike_share >= 0.135, Years 20–40"
