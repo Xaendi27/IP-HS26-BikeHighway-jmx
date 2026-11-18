@@ -1,0 +1,23 @@
+﻿indicator,label_and_unit,favourable_direction
+NPV_MCHF,NPV versus baseline (CHF million),higher
+pct_acceptable_years,Years meeting all requirements (%),higher
+failure_years,Years failing any requirement,lower
+delta_final_pt_share_pp,Final PT-share change (percentage points),higher
+avoided_co2_tonnes,Avoided life-cycle CO2 (tonnes),higher
+additional_expenditure_MCHF,"Additional CAPEX + OPEX (CHF million, discounted)",lower
+final_pt_trips,Final PT trips (trips/peak hour),higher
+final_bike_trips,Final Cycling trips (trips/peak hour),higher
+final_walk_trips,Final Walking trips (trips/peak hour),higher
+final_car_trips,Final Car trips (trips/peak hour),lower
+final_pt_share_trips,Final PT trip share (fraction),higher
+final_bike_share_trips,Final Cycling trip share (fraction),higher
+final_walk_share_trips,Final Walking trip share (fraction),higher
+final_car_share_trips,Final Car trip share (fraction),lower
+final_pt_share,Final PT passenger-km share (fraction),higher
+final_bike_share,Final Cycling passenger-km share (fraction),higher
+final_walk_share,Final Walking passenger-km share (fraction),higher
+final_car_share,Final Car passenger-km share (fraction),lower
+final_pt_journey_time_min,Final Average PT journey time (minutes),lower
+final_avg_tt_min,Final Average journey time (minutes),lower
+final_congestion_delay_hours,Final Annual road delay (person-hours/year),lower
+final_operating_co2_tonnes,Final Annual operating CO2 (tonnes/year),lower

@@ -1,0 +1,9 @@
+﻿index,value,limit,passed
+total_benefit_mae,821556.3131221612,1000000.0,True
+total_benefit_p95_error,2060827.3070178982,5000000.0,True
+material_total_sign_errors,0.0,0.0,True
+material_component_failures,0.0,0.0,True
+maximum_mode_share_error_pp,0.19496009330736697,1.0,True
+median_mode_share_error_pp,0.015644980198722958,0.25,True
+maximum_section_load_relative_error,0.0,0.03,True
+median_section_load_relative_error,0.0,0.01,True
