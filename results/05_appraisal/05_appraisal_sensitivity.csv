@@ -1,0 +1,51 @@
+﻿uncertainty,case,input_start,input_end,units,input_basis,plan,NPV_MCHF,change_from_nominal_MCHF
+C_TT_PT,P10,21.216,21.216,CHF/person-hour,Configured parameter input,static1,143.632028207845,-7.275957614183426e-12
+C_TT_PT,P10,21.216,21.216,CHF/person-hour,Configured parameter input,static2,174.24999384057446,-7.275957614183426e-12
+C_TT_PT,P10,21.216,21.216,CHF/person-hour,Configured parameter input,staged1,137.40688061965193,-7.275957614183426e-12
+C_TT_PT,P10,21.216,21.216,CHF/person-hour,Configured parameter input,staged2,142.48006849909143,0.0
+C_TT_PT,P10,21.216,21.216,CHF/person-hour,Configured parameter input,flexible,76.13374316186673,2.1827872842550278e-11
+C_TT_PT,P90,31.823999999999998,31.823999999999998,CHF/person-hour,Configured parameter input,static1,143.63202820785227,0.0
+C_TT_PT,P90,31.823999999999998,31.823999999999998,CHF/person-hour,Configured parameter input,static2,174.24999384058174,0.0
+C_TT_PT,P90,31.823999999999998,31.823999999999998,CHF/person-hour,Configured parameter input,staged1,137.4068806196592,0.0
+C_TT_PT,P90,31.823999999999998,31.823999999999998,CHF/person-hour,Configured parameter input,staged2,142.48006849909143,0.0
+C_TT_PT,P90,31.823999999999998,31.823999999999998,CHF/person-hour,Configured parameter input,flexible,76.1337431618449,0.0
+C_TT_CAR,P10,34.037,34.037,CHF/person-hour,Configured parameter input,static1,139.27049882496067,-4.361529382891604
+C_TT_CAR,P10,34.037,34.037,CHF/person-hour,Configured parameter input,static2,169.1878870529399,-5.062106787641824
+C_TT_CAR,P10,34.037,34.037,CHF/person-hour,Configured parameter input,staged1,133.30830822748248,-4.09857239217672
+C_TT_CAR,P10,34.037,34.037,CHF/person-hour,Configured parameter input,staged2,138.1843323213834,-4.295736177708022
+C_TT_CAR,P10,34.037,34.037,CHF/person-hour,Configured parameter input,flexible,73.69289974987623,-2.4408434119686717
+C_TT_CAR,P90,51.053,51.053,CHF/person-hour,Configured parameter input,static1,147.9986869913846,4.36665878353233
+C_TT_CAR,P90,51.053,51.053,CHF/person-hour,Configured parameter input,static2,179.31805394680123,5.068060106219491
+C_TT_CAR,P90,51.053,51.053,CHF/person-hour,Configured parameter input,staged1,141.51027316048567,4.103392540826462
+C_TT_CAR,P90,51.053,51.053,CHF/person-hour,Configured parameter input,staged2,146.78085670099244,4.300788201901014
+C_TT_CAR,P90,51.053,51.053,CHF/person-hour,Configured parameter input,flexible,78.57745714117482,2.443713979329914
+C_TT_BIKE,P10,28.0,28.0,CHF/person-hour,Configured parameter input,static1,116.01085377029085,-27.62117443756142
+C_TT_BIKE,P10,28.0,28.0,CHF/person-hour,Configured parameter input,static2,136.3658258044161,-37.88416803616565
+C_TT_BIKE,P10,28.0,28.0,CHF/person-hour,Configured parameter input,staged1,108.04949621563719,-29.357384404022014
+C_TT_BIKE,P10,28.0,28.0,CHF/person-hour,Configured parameter input,staged2,112.63692956882005,-29.84313893027138
+C_TT_BIKE,P10,28.0,28.0,CHF/person-hour,Configured parameter input,flexible,59.76588740898296,-16.367855752861942
+C_TT_BIKE,P90,42.0,42.0,CHF/person-hour,Configured parameter input,static1,171.25320264542825,27.621174437575974
+C_TT_BIKE,P90,42.0,42.0,CHF/person-hour,Configured parameter input,static2,212.13416187674738,37.88416803616565
+C_TT_BIKE,P90,42.0,42.0,CHF/person-hour,Configured parameter input,staged1,166.76426502369577,29.357384404036566
+C_TT_BIKE,P90,42.0,42.0,CHF/person-hour,Configured parameter input,staged2,172.3232074293628,29.84313893027138
+C_TT_BIKE,P90,42.0,42.0,CHF/person-hour,Configured parameter input,flexible,92.50159891470685,16.367855752861942
+CO2_VALUE_CHF_PER_TONNE,P10,97.96497809761345,97.96497809761345,CHF/tonne CO2,Reference-year value (2015); calendar escalation applied,static1,143.3810809902643,-0.2509472175879637
+CO2_VALUE_CHF_PER_TONNE,P10,97.96497809761345,97.96497809761345,CHF/tonne CO2,Reference-year value (2015); calendar escalation applied,static2,173.79461647033168,-0.4553773702500621
+CO2_VALUE_CHF_PER_TONNE,P10,97.96497809761345,97.96497809761345,CHF/tonne CO2,Reference-year value (2015); calendar escalation applied,staged1,137.0602088595915,-0.34667176006769296
+CO2_VALUE_CHF_PER_TONNE,P10,97.96497809761345,97.96497809761345,CHF/tonne CO2,Reference-year value (2015); calendar escalation applied,staged2,142.1413529264828,-0.33871557260863483
+CO2_VALUE_CHF_PER_TONNE,P10,97.96497809761345,97.96497809761345,CHF/tonne CO2,Reference-year value (2015); calendar escalation applied,flexible,75.95331607095432,-0.18042709089058917
+CO2_VALUE_CHF_PER_TONNE,P90,179.86699581235047,179.86699581235047,CHF/tonne CO2,Reference-year value (2015); calendar escalation applied,static1,144.19554762874031,0.5635194208880421
+CO2_VALUE_CHF_PER_TONNE,P90,179.86699581235047,179.86699581235047,CHF/tonne CO2,Reference-year value (2015); calendar escalation applied,static2,175.27257537959667,1.0225815390149364
+CO2_VALUE_CHF_PER_TONNE,P90,179.86699581235047,179.86699581235047,CHF/tonne CO2,Reference-year value (2015); calendar escalation applied,staged1,138.18535615468863,0.778475535029429
+CO2_VALUE_CHF_PER_TONNE,P90,179.86699581235047,179.86699581235047,CHF/tonne CO2,Reference-year value (2015); calendar escalation applied,staged2,143.240677862108,0.760609363016556
+CO2_VALUE_CHF_PER_TONNE,P90,179.86699581235047,179.86699581235047,CHF/tonne CO2,Reference-year value (2015); calendar escalation applied,flexible,76.53890473629872,0.40516157445381396
+NUMBER_OF_PEAK_HOURS,P10,3.0,3.0,hours/day,Configured parameter input,static1,138.1769106038264,-5.455117604025872
+NUMBER_OF_PEAK_HOURS,P10,3.0,3.0,hours/day,Configured parameter input,static2,167.91863953191205,-6.331354308669688
+NUMBER_OF_PEAK_HOURS,P10,3.0,3.0,hours/day,Configured parameter input,staged1,132.2806525365304,-5.126228083128808
+NUMBER_OF_PEAK_HOURS,P10,3.0,3.0,hours/day,Configured parameter input,staged2,137.10724076183396,-5.372827737257467
+NUMBER_OF_PEAK_HOURS,P10,3.0,3.0,hours/day,Configured parameter input,flexible,73.08089479229238,-3.052848369552521
+NUMBER_OF_PEAK_HOURS,P90,5.0,5.0,hours/day,Configured parameter input,static1,149.08714581187814,5.455117604025872
+NUMBER_OF_PEAK_HOURS,P90,5.0,5.0,hours/day,Configured parameter input,static2,180.58134814925143,6.331354308669688
+NUMBER_OF_PEAK_HOURS,P90,5.0,5.0,hours/day,Configured parameter input,staged1,142.53310870280256,5.12622808314336
+NUMBER_OF_PEAK_HOURS,P90,5.0,5.0,hours/day,Configured parameter input,staged2,147.8528962363489,5.372827737257467
+NUMBER_OF_PEAK_HOURS,P90,5.0,5.0,hours/day,Configured parameter input,flexible,79.18659153142653,3.052848369581625

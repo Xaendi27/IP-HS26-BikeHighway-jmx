@@ -1,0 +1,3 @@
+﻿package,monitoring_indicator,current_threshold,search_minimum,search_maximum,observed_P05,observed_P95
+1,bike_trips,21500.0,18275.0,24725.0,19217.248885157755,34079.31222060075
+2,bike_trips,22500.0,19125.0,25875.0,19217.248885157755,34079.31222060075

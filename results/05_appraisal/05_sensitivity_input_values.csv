@@ -1,0 +1,11 @@
+﻿,uncertainty,case,input_start,input_end,units,input_basis
+0,C_TT_PT,P10,21.216,21.216,CHF/person-hour,Configured parameter input
+5,C_TT_PT,P90,31.823999999999998,31.823999999999998,CHF/person-hour,Configured parameter input
+10,C_TT_CAR,P10,34.037,34.037,CHF/person-hour,Configured parameter input
+15,C_TT_CAR,P90,51.053,51.053,CHF/person-hour,Configured parameter input
+20,C_TT_BIKE,P10,28.0,28.0,CHF/person-hour,Configured parameter input
+25,C_TT_BIKE,P90,42.0,42.0,CHF/person-hour,Configured parameter input
+30,CO2_VALUE_CHF_PER_TONNE,P10,97.96497809761345,97.96497809761345,CHF/tonne CO2,Reference-year value (2015); calendar escalation applied
+35,CO2_VALUE_CHF_PER_TONNE,P90,179.86699581235047,179.86699581235047,CHF/tonne CO2,Reference-year value (2015); calendar escalation applied
+40,NUMBER_OF_PEAK_HOURS,P10,3.0,3.0,hours/day,Configured parameter input
+45,NUMBER_OF_PEAK_HOURS,P90,5.0,5.0,hours/day,Configured parameter input

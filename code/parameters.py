@@ -430,6 +430,14 @@ STRUCTURAL_UNCERTAINTIES = {  # Distributions for selected general parameters; n
         "minimum": 31.91,
         "maximum": 53.18,
     },
+    "C_TT_BIKE": {  # Bike value-of-time sensitivity, including congestion time.
+            "category": "post_modelling",
+            "use": "sensitivity",
+            "transient": False,
+            "distribution": "uniform",
+            "minimum": 26.25,
+            "maximum": 43.75,
+        },
     "CO2_VALUE_CHF_PER_TONNE": {  # Draw the reference-year value once (constant 2019 CHF/tonne CO2).
         # Triangular mode is the general reference value; the engine applies
         # CO2_VALUE_ANNUAL_GROWTH from CO2_REFERENCE_YEAR to each appraisal year.
